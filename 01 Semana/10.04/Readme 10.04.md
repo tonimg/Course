@@ -147,9 +147,9 @@ to read about a specific subcommand or concept.
 
 Para sincronizar con el local GitHub
 
-Usaremos el comando ```git remote add```
+Usaremos el comando ``git remote add``
 
-```git push origin master``` para poner todos los cambios en el repositorio remoto```
+``git push origin master``` para poner todos los cambios en el repositorio remoto``
 
 #11/04
 

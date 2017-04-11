@@ -1,7 +1,7 @@
 
 #11/04
 
-###Acabando con Git & Git
+###Acabando con Git & GitHub
 
 
 ***Notes***:
