@@ -1,3 +1,4 @@
+
 Today 10.04
 
 know Sublime, open, new file, close, save and packs
@@ -147,9 +148,15 @@ to read about a specific subcommand or concept.
 
 Para sincronizar con el local GitHub
 
+<<<<<<< HEAD
 Usaremos el comando ``git remote add``
 
 ``git push origin master``` para poner todos los cambios en el repositorio remoto``
+=======
+Usaremos el comando ```git remote add```
+
+```git push origin master``` para poner todos los cambios en el repositorio remoto```
+>>>>>>> 18c0e1515c9d505bb259e7c57a86106a3d0781f5
 
 #11/04
 
