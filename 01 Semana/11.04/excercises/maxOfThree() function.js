@@ -33,5 +33,16 @@ if (a>=b && a>=c){
 	}
 maxOfThree(35,10,55)
 
+// 3 manera
+
+function maxOfThree(a,b,c){
+	if (a>=b && a>=c) return a
+		if (b>=a && b>=c) return b
+			return c
+		maxOfThree(35,10,55)
 
 
+// 4 manera
+function maxOfThree(a,b,c){
+	return Math.max(a,b,c)
+}
