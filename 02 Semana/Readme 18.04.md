@@ -57,12 +57,12 @@ The first is in cascade, after the ID, class and tag.
 ##CSS3 Properties & Values
 
 [CSS3 Properties & Values](https://skylabcoders.github.io/bootcamp-abril2017/?full#83):
--   Fonts:
-    +   Working with Typography   
-    +   Font Family:(``font-family:``)
-    +   Color text:(``color:``)
-    +   Font Weight
-    +   ...
+
+-   Fonts: 
+    * Working width typography
+    * Font Family (``font-family:``)
+    * Color text: (``color:``)
+    * Font weight
 
 ##CSS3 Positioning
 [link to slide](https://skylabcoders.github.io/bootcamp-abril2017/?full#85)
@@ -83,9 +83,19 @@ Display hibryd for modifed things. ``display: inline-block`` coloca cada bloque 
 
 Después tenemos otro importante que es el ``float`` hacemos que el texto flote alrededor. Sirve para posicionar cajas en el layout.
 
-[Exercises](https://skylabcoders.github.io/bootcamp-abril2017/?full#95)
+#Esquema del HTML5+CSS3
 
-[Solutions](HTML5+CSS3 Challenges/2-selectors/material)
+-   Section:
+    *   Used for grouping together thematically-related content. Sounds like a div element, but its not. The div has no semantic meaning. Before replacing all your div’s with section elements, always ask yourself, “Is all of the content related?”
+
+-   Aside:
+    *   Used for tangentially related content. Just because some content appears to the left or right of the main content isn’t enough reason to use the aside element. Ask yourself if the content within the aside can be removed without reducing the meaning of the main content. Pullquotes are an example of tangentially related content.
+-   Header:
+    *   There is a crucial difference between the header element and the general accepted usage of header (or masthead). There’s usually only one header or ‘masthead’ in a page. In HTML5 you can have as many as you want. The spec defines it as “a group of introductory or navigational aids”. You can use a header in any section on your site. In fact, you probably should use a header within most of your sections. The spec describes the section element as “a thematic grouping of content, typically with a heading.”
+-   Nav:
+    *   Intended for major navigation information. A group of links grouped together isn’t enough reason to use the nav element. Site-wide navigation, on the other hand belongs in a nav element.
+-   Footer:
+    *   Sounds like its a description of the position, but its not. Footer elements contain information about it’s containing element: who wrote it, copyright, links to related content, etc. Whereas we usually have one footer for an entire document, HTML5 allows us to also have footer within sections.
 
 ##Float
 
@@ -116,6 +126,15 @@ footer {
   margin-bottom: 0;
 }
 ```
+
+---
+
+
+[Exercises](https://skylabcoders.github.io/bootcamp-abril2017/?full#95)
+
+[Solution Selector](HTML5+CSS3 Challenges/2-selectors/materials/exercise1.html)
+[Solution Float](HTML5+CSS3 Challenges/3-floats/index.html)
+[Solution Layout](HTML5+CSS3 Challenges/4-layout/index.html)
 
 
 

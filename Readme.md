@@ -23,7 +23,8 @@ Progression resume:
         *   Layouts
     +   [CSS3](file:///C:/Users/tonim/appdata/local/temp/36.html#today-1804)
         *   [CSS3 Basics & Selectors](file:///C:/Users/tonim/appdata/local/temp/36.html#css3-basics-selectors)
-        *   [CSS3 Properties & Values](file:///C:/Users/tonim/appdata/local/temp/36.html#css3-properties-values)
         *   [Specificity](file:///C:/Users/tonim/appdata/local/temp/36.html#specificity-preferences-into-css3)
         *   [Complex Selectors](file:///C:/Users/tonim/appdata/local/temp/36.html#complex-selectors)
-        *   [Float](file:///C:/Users/tonim/appdata/local/temp/16.html#float)
+        *   [CSS3 Properties & Values](file:///C:/Users/tonim/appdata/local/temp/36.html#css3-properties-values)
+        *   [Esquema del HTML5+CSS3](file:///C:/Users/tonim/appdata/local/temp/16.html#esquema-del-html5css3)
+        *   [Float](file:///C:/Users/tonim/appdata/local/temp/16.html#float)   
