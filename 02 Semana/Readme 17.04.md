@@ -18,7 +18,7 @@ myRegExp.test ('javascript') // true
 myRegExp.test('JavaScript') // false (es case sensitive)
 ```
 
-### otra manera es con la expresion literal
+### Otra manera es con la expresion literal
 ```javascript
 var myRegExp = /.*t/
 // o este ejmplo entre corchetes que cumpla criterios de busqueda.
@@ -42,7 +42,7 @@ The 3 first properties represent the modificators of the regular expression:
 var re = new RegExp('j.*t', 'gmi');
 ```
 
-##Methods of the RegExp Objects
+## Methods of the RegExp Objects
 
 *   *test()*: Returns true if it finds something and false if it doesn't
 *   *exec()*: Return an array of string that match the pattern
@@ -57,19 +57,20 @@ s.match(/a/);//output ["a"]
 s.match(/a/g);// output ["a", "a"]
 ```
 
-**[search()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search)**:
+-   [search()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search)**:
 
 ```javascript
 s.search(/j.*a/i);// output 5
 ```
 
-**[split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)** (puede serparar cumpliendo un patrón una expresion regular :
+-   [split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)** (puede serparar cumpliendo un patrón una expresion regular :
+
 ```javascript
 >>> csv.split(','); // Output ["one", " two", "three ", "four"]
 >>> csv.split(/\s*,\s*/)// Output["one", "two", "three", "four"]
 ```
 
-**[replace()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace)**:
+** [replace()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace)**:
 
 ```javascript
 'HelloJavaScriptWorld'.replace(/A-Z/, '') // output: "elloJavaScriptWorld"
@@ -77,11 +78,11 @@ s.search(/j.*a/i);// output 5
 
 ```
 
-###[Sintasix expresiones regulares](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#regular-expression-syntax)
+### [Sintasix expresiones regulares](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#regular-expression-syntax)
 
 ### Carácteres de escape que podemos usar: [link](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#)
 
-'\' - '\n' - '\r' - '\f' - '\t' - '\v' - '\s' - '\S' - '\w' - ' \W' - '\d' - '\D' - '\b' - '\B'
+``'\' - '\n' - '\r' - '\f' - '\t' - '\v' - '\s' - '\S' - '\w' - ' \W' - '\d' - '\D' - '\b' - '\B'``
 
 
 ### Página donde podemos probar las expresiones regulares [http://regexr.com/](http://regexr.com/)
