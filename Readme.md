@@ -2,8 +2,9 @@
 
 
 
-#My experience at Bootcamp **SkyLabCoders**
-<center>*17/04/2017*</center>
+#My experience at Bootcamp SkyLabCoders
+
+## Start at 10/04/2017 and finished 16/06/2017
 
 ![Bootcamp_logo.png](img/Bootcamp_logo.png)
 
