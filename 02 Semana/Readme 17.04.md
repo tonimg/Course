@@ -49,7 +49,9 @@ var re = new RegExp('j.*t', 'gmi');
 
 Podemos utilizar algunos **[metodos de string para las expresiones regulares](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#string-methods-that-accept-regular-expressions)**:
 ejempo:
-**[match()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/match)**:
+
+-   [match()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/match):
+
 ```javascript
 var s = "HelloJavaScriptWorld"
 undefined
@@ -57,7 +59,7 @@ s.match(/a/);//output ["a"]
 s.match(/a/g);// output ["a", "a"]
 ```
 
--   [search()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search)**:
+-   [search()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search):
 
 ```javascript
 s.search(/j.*a/i);// output 5
@@ -70,7 +72,7 @@ s.search(/j.*a/i);// output 5
 >>> csv.split(/\s*,\s*/)// Output["one", "two", "three", "four"]
 ```
 
-** [replace()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace)**:
+-   [replace()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace):
 
 ```javascript
 'HelloJavaScriptWorld'.replace(/A-Z/, '') // output: "elloJavaScriptWorld"
@@ -94,7 +96,7 @@ s.search(/j.*a/i);// output 5
 # HTML
 Es un lenguaje de marcados. Es la capa que se encarga de darle contenido a una página web.
 
-##*txt vs HTML*:
+## *txt vs HTML*:
 
 En **HTML** puedes indicar y darle significado semantico al texto.
 **H**yper **T**ext **M**ark **L**anguage
@@ -125,7 +127,7 @@ HTML5 Element FlowChart
 
 ![http://html5doctor.com/downloads/h5d-sectioning-flowchart.png](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
 
-##Creación formularios:
+## Creación formularios:
 
 ```
 <!DOCTYPE html>
