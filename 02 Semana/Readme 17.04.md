@@ -118,7 +118,7 @@ Ejemplo estructura básica:
 </html>
 ```
 
-Diferentes tags de un HTML 5:
+### Diferentes tags de un HTML 5:
 
 ![https://line25.com/wp-content/uploads/2011/typo-code/html5-layout.jpg](https://line25.com/wp-content/uploads/2011/typo-code/html5-layout.jpg)
 
@@ -127,7 +127,7 @@ HTML5 Element FlowChart
 
 ![http://html5doctor.com/downloads/h5d-sectioning-flowchart.png](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
 
-## Creación formularios:
+### Creación formularios:
 
 ```
 <!DOCTYPE html>

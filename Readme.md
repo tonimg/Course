@@ -18,7 +18,7 @@ Progression resume:
 -   Resume [first week and exercices](01 Semana).10/04/2017.
     +   JavaScript Power
 -   Resume [second weed and exercices](02 Semana)17/04/2017.
-    +   HTML
+    +   [HTML](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#html)
         *   Bacis tags
         *   Forms
         *   Layouts
