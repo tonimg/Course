@@ -162,7 +162,7 @@ Hay que hacer esto: (ya que estamos en un editor que se maneja con linea de coma
 `Esc + :
 q!` --> A veces con dar solo a la 'q' ya es válido.
 
-Para volver a un estado anterior se usa el comando `git checkout +` el hash
+Para volver a un estado anterior se usa el comando `git checkout` el hash
 y para volver al archivo inicial es `git checkout master`
 Para renombrar ficheros usamos el comando `mv` :
 

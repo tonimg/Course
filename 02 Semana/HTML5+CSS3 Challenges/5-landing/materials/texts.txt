@@ -1,0 +1,234 @@
+----------------------------------------------------
+FOOTER
+----------------------------------------------------
+
+About Us
+About MailChimp
+Jobs
+Customer Stories
+Press Resources
+Press Releases
+Integration Fund
+Brand Assets
+
+Connect With Us
+Integrations & Plugins
+MailChimp API
+MailChimp Labs
+
+Contact Us
+Contact MailChimp
+Partner With Us
+Abuse Desk
+MailChimp Status
+
+Legal Info
+Terms of Use
+Privacy Policy
+Copyright Policy
+
+
+© 2001-2011 All Rights Reserved. MailChimp® is a registered trademark of The Rocket Science Group
+
+----------------------------------------------------
+LOGO AND NAV
+----------------------------------------------------
+
+Mailchimp
+
+Sign Up Free
+
+Pricing
+Features
+Resour es
+Support
+Blog
+Search
+
+
+----------------------------------------------------
+HOME
+----------------------------------------------------
+
+home text
+-------------
+
+
+[logo and nav]
+
+
+Easy Email Newsletters
+
+MailChimp helps you design email newsletters, share them on social networks, integrate with services you already use, and track your results. It's like your own personal publishing platform.
+
+Sign Up Free
+
+
+What's New
+
+New Feature: 
+More Templates!
+We just added a boatload of beautiful templates to MailChimp, and they're free for everyone.
+Learn More
+
+Customer Story: 
+Raleigh Denim
+Learn More
+
+What's so special about handcrafted blue jeans? We visited the Raleigh Denim workshop to find out.
+App Spotlight: 
+Unfurlr
+Unfurlr shows you the destination of shortened URLs before you click, so you can avoid phishing attacks and other nefarious links.
+Learn More
+
+App Spotlight: 
+Golden Monkeys
+Every mailing list has some VIPs. Golden Monkeys helps you keep track of them on your iPhone and Android devices.
+
+
+[footer]
+
+
+----------------------------------------------------
+RESOURCES
+----------------------------------------------------
+
+resources text
+-------------
+
+[logo and nav]
+
+Resources
+
+HTML Email Templates
+MailChimp API
+MailChimp Research
+Academy Videos
+Experts
+
+
+MailChimp Guides
+
+
+Email Marketing Field Guide
+Getting Started With MailChimp
+MailChimp Mobile
+How to Manage Your List
+How To Select An Email Marketing Agency
+Spam Lawsuits
+Understanding Reports
+Email Security
+
+
+
+[footer]
+
+
+----------------------------------------------------
+SUPPORT
+----------------------------------------------------
+
+support text
+-------------
+
+
+[logo and nav]
+
+Support
+
+Online Training
+Customer Forum
+
+
+Have a question?
+
+Search the Knowledge Base 24/7
+
+Live Support Available Monday - Friday, 9aAM - 5PM EST
+
+
+Online Training
+Join us for a webinar for new users and learn how to get started with MailChimp, or try one of our advanced topical sessions.
+Learn Online
+
+Customer Forum
+Make suggestions about how we can improve MailChimp, talk with other customers, and have your questions answered.
+Interact in the Forum
+
+Integrations
+More than 100,000 people access MailChimp via third party integrations. Find out how you can get connected.
+Learn More
+
+Partnerships
+Join our affiliate program, get a creative agency discount, or apply to become a MailChimp expert.
+Partner With Us
+
+
+
+Frequently Asked Questions
+
+Getting Started
+Where should I start?
+Do you offer online training?
+
+Troubleshooting
+I can't log in.
+I can't connect to Facebook.
+I want to send to just part of my list.
+
+Billing and Pricing
+Does the free plan ever expire?
+Monthy pricing versus pay-as-you-go-which is better?
+What's your refund policy?
+How do pay-as-you-go credits work?
+Why did my monthly billing change?
+Do you offer nonprofit discounts?
+
+Templates
+What kind of templates does MailChimp offer?
+Can I use my own template instead?
+How do I create a template?
+How do I edit a template?
+How do I import a template?
+Can I export templates?
+
+
+
+
+
+Explore the Knowledge Base
+
+Browse by Topic
+Account Settings and Info
+API
+Autoresponders
+Custom Templates & Language
+Billing and Pricing
+Campaigns
+Deliverability
+General Questions
+MailChimp Mobile Apps
+Integrations
+Lists
+Merge Tags
+Reports and Tracking
+Rules, Terms and Policies
+Social Media
+Security
+
+
+Popular Support Articles
+Email Campaign Testing Tips
+What's the difference between hard and soft bounces?
+Why can't I import a role based address into my list?
+What's the best way to get started with MailChimp?
+How do I add a MailChimp signup form to my Facebook Page?
+How do you determine the ratings for my member activity?
+Having problems uploading or importing your list?
+How do I create and import my list?
+How to disable pop-up blockers in your browser.
+How To Code HTML Emails
+
+
+
+[footer]

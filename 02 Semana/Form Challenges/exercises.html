@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>A Simple Form</h1>
+  <h2>Form Fundamentals</h2>
+  <form action="#">
+    <fieldset>
+      <legend>Customer Info</legend>
+      <div>
+        <label for="user_name">Name: </label>
+        <input id="user_name" type="text" name="firstname" autofocus placeholder="enter your name" required size="20" autocomplete="off">
+      </div>
+      <div>
+        <label for="telephone">Telephone: </label>
+        <input id="telephone" type="text" name="telephone" placeholder="Pattern 1-234-567-8910" pattern="\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{4}" required autocomplete="off">
+      </div>
+      <div>
+        <label for="email"> Email address: </label>
+        <input id="email" type="email" name="email" placeholder="Enter your email addres" required autocomplete="off">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Books</legend>
+      <div>
+      <input type="text" name="books" list="books">
+        <datalist id="books">
+          <option>Harry Potter and the Order of the Phoenix</option>
+          <option>The Hunger Games</option>
+          <option>To Kill a Mockingbird</option>
+          <option>Le Petit Prince (The Little Prince)</option>
+          <option>Harry Potter and the Philosopher's Stone </option>
+          <option>The Hobbit</option>
+          <option>Pride and Prejudice</option>
+        </datalist>
+        <label for="quantity">Quantity (Maximum 5): </label>
+        <input id="quantity" type="number" name="quantity" min="1" max="5">
+      </div>
+    </fieldset>
+    <button>Submit</button>
+  </form>
+<footer>© 2011 Acme United. All rights reserved.</footer>
+</body>
+</html>

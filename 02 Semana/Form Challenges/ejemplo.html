@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>A Simple Form</h1>
+  <h2>Form Fundamentals</h2>
+  <form action="#">
+    <fieldset>
+      <legend>Customer Info</legend>
+      <div>
+        <label for="user_name">Name: </label>
+        <input id="user_name" type="text" name="user_name" placeholder="Enter your name" autofocus required>
+      </div>
+      <div>
+        <label for="telephone">Telephone: </label>
+        <input id="telephone" type="text" name="telephone" placeholder="Pattern: 1-234-567-8910" required pattern="\d{1}-\d{3}-\d{3}-\d{4}">
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Books</legend>
+      <div>
+        <input type="text" name="books" list="books">
+        <datalist id="books">
+          <option>Don Quixote</option>
+          <option>A Tale of Two Cities</option>
+          <option>O Alquimista (The Alchemist)</option>
+          <option>Le Petit Prince (The Little Prince)</option>
+          <option>Harry Potter and the Philosopher's Stone </option>
+          <option>The Hobbit</option>
+          <option>And Then There Were None </option>
+        </datalist>
+        <label for="quantity">Quantity (Maximum: 5)</label>
+        <input id="quantity" type="number" name="quantity" min=1 max=5>
+      </div>
+    </fieldset>
+    <button>Submit</button>
+  </form>
+</body>
+</html>
