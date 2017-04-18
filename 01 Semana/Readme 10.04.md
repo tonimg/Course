@@ -29,7 +29,9 @@ know Sublime, open, new file, close, save and packs
 
 para realizar el enlace de una imagen es lo mismo que el link, pero poniendo el simbolo de admiración al principio.
 
-Esto es un ejemplo de una foto del curso: ![imagen](img/img1.png)
+Esto es un ejemplo de una foto del curso:
+
+ ![imagen](img/img1.png)
 
 Crear una lista desordenada:
 
