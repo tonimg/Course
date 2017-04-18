@@ -29,7 +29,7 @@ know Sublime, open, new file, close, save and packs
 
 para realizar el enlace de una imagen es lo mismo que el link, pero poniendo el simbolo de admiración al principio.
 
-Esto es un ejemplo de una foto del curso: ![imagen](https://files.slack.com/files-tmb/T0SJKHBFZ-F4WULA9N0-81fdb66499/img_20170410_125430_720.jpg)
+Esto es un ejemplo de una foto del curso: ![imagen](img/img1.jpg)
 
 Crear una lista desordenada:
 
@@ -66,9 +66,6 @@ Hay tres estados.
 *	Stage area (direcctorio previo commint)
 *	Repo "*git commit -m "mensaje descriptivo*" (Para añadir al repositorio)
 
-(https://cl.ly/0L2e3e1O2b0H)
-
-
 ![imagen](https://d3dr1ze7164817.cloudfront.net/items/1v3R441S3n2N2C351K2V/Image%202017-04-10%20at%204.25.33%20PM.png)
 
 Crear cuenta para git.
@@ -90,7 +87,7 @@ Después de generar el directorio y archivo a trabajar:
 
 Al inicializar repositorio con el comando  ```git init``` este genera una carpeta git oculta. Nunca borrarla!.
 
-#Comandos utilies Git.
+# Comandos utilies Git.
 
 ```
  git
@@ -138,7 +135,7 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ```
 
-#Repositorio remoto, GitHub (en la nube)
+# Repositorio remoto, GitHub (en la nube)
 
 Para sincronizar con el local GitHub
 
@@ -150,9 +147,9 @@ Usaremos el comando ```git remote add```
 
 Para poner todos los cambios en el repositorio remoto ```git push origin master```
 
-#11/04
+# 11/04
 
-###Acabando con Git & GitHub
+### Acabando con Git & GitHub
 
 
 ***Notes***:
@@ -172,7 +169,7 @@ Para renombrar ficheros usamos el comando `mv` :
 
 `git commit -m "file name change"`
 
-#Para subirlo online:
+# Para subirlo online:
 
 Creamos el repositorio en github.com
 Después en linea de comandos:
