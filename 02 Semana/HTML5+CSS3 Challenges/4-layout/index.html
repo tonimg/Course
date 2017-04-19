@@ -4,123 +4,127 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style type="text/css">
-    header{
-     background-color: #003a92;
-     color: white;
-     height: 35px;
-   }
-   section, nav aside{
-    float: left;
-   }
-   section nav{
-     background-color: #cbd086;
-     padding: 3px;
-   }
-   section aside {
-     width: 139px;
-     background-color: #56faff;
-     padding: 3px;
-   }
-   section article{
-    padding-left: 5px;
-     float: left;
-     width: 555px;
-   }
-   section article img{
-     padding: 8px;
-     float: left;
-     width: 275px;
-     height: 200px;
-   }
-    img:last-of-type{
-     padding: 8px;
-     float: right;
-     width: 275px;
-     height: 200px;
-   }
-   footer {
-     clear: both;
-     margin-bottom: 0;
-     background-color: #004095;
-   }
-	</style>
+header{
+ background-color: #003a92;
+ color: white;
+ height: 35px;
+ }
+section, nav aside{
+  float: left;
+}
+section nav{
+ background-color: #cbd086;
+ padding: 3px;
+ }
+ ul li {
+  border: 1px solid black;
+  margin-left: -41px;
+}
+section aside {
+ width: 139px;
+ background-color: #56faff;
+ padding: 3px;
+}
+section article{
+  padding-left: 5px;
+  float: left;
+  width: 555px;
+}
+section article img{
+ padding: 8px;
+ float: left;
+ width: 275px;
+ height: 200px;
+}
+img:last-of-type{
+ padding: 8px;
+ float: right;
+ width: 275px;
+ height: 200px;
+}
+footer {
+  margin-right: 605px;
+  margin-left: 20px;
+  clear: both;
+  margin-bottom: 0;
+  background-color: #004095;
+  color:white;
+}
+</style>
 </head>
 <body>
-<header>
-<h1>Exercise 5 - CSS Layout</h1>
-</header>
-<section>
-<nav>
-	<ul>
-		<li><a href="<http://www.devillecoffee.ca/>">DeVille Coffee</a></li>
-		<li><a href="#">Link two</a></li>
-		<li><a href="#">Link three</a></li>
-		<li><a href="#">Link four</a></li>
-	</ul>
-</nav>
-<aside>The above links demonstrate a basic navigational structure using an
-unordered list styled with CSS. Use this as a starting point and modify
-the properties to produce your own unique look. If you require flyout
-menus, create your own using a Spry menu, a menu widget from Adobe's
-Exchange or a variety of other javascript or CSS solutions.
+  <header>
+    <h1>Exercise 5 - CSS Layout</h1>
+  </header>
+  <section>
+    <nav>
+     <ul>
+      <li><a href="<http://www.devillecoffee.ca/>">DeVille Coffee</a></li>
+      <li><a href="#">Link two</a></li>
+      <li><a href="#">Link three</a></li>
+      <li><a href="#">Link four</a></li>
+    </ul>
+  </nav>
+  <aside>The above links demonstrate a basic navigational structure using an
+    unordered list styled with CSS. Use this as a starting point and modify
+    the properties to produce your own unique look. If you require flyout
+    menus, create your own using a Spry menu, a menu widget from Adobe's
+    Exchange or a variety of other javascript or CSS solutions.
 
-If you would like the navigation along the top, simply move the ul.nav
-to the top of the page and recreate the styling.</aside>
-</section>
+    If you would like the navigation along the top, simply move the ul.nav
+    to the top of the page and recreate the styling.</aside>
+  </section>
 
-<section>
-<article>
-	<img src="http://diariodesign.com/wp-content/uploads/2014/04/Desayunos-de-Innovaci%C3%B3n-Roca-Barcelona-Gallery.jpg"><h2>Instructions</h2>
-	<p>Be aware that the CSS for these layouts is heavily commented. If you do
-most of your work in Design view, have a peek at the code to get tips on
-working with the CSS for the fixed layouts. You can remove these
-comments before you launch your site. To learn more about the techniques
-used in these CSS Layouts, read this article at Adobe's Developer Center
-- <a href="http://www.adobe.com/go/adc_css_layouts"></a>http://www.adobe.com/go/adc_css_layouts.</p>
-<h2>Clearing Method</h2>
-<img src="http://diariodesign.com/wp-content/uploads/2014/04/Desayunos-de-Innovaci%C3%B3n-Roca-Barcelona-Gallery.jpg">
-<p>Because all the columns are floated, this layout uses a clear:both
-declaration in the .footer rule. This clearing technique forces the
-.container to understand where the columns end in order to show any
-borders or background colors you place on the nutellabun.container. If
-your design requires you to remove the .footer from the .container,
-you'll need to use a different clearing method. The most reliable will
-be to add a <br class="clearfloat" /> or <div class="clearfloat"></div>
-after your final floated column (but before the .container closes). This
-will have the same clearing effect.</p>
-<h2>Logo Replacement</h2>
-<p>An image placeholder was used in this layout in the .header where you'll
-likely want to place a logo. It is recommended that you remove the
-placeholder and replace it with your own linked logo.
+  <section>
+    <article>
+     <img src="http://diariodesign.com/wp-content/uploads/2014/04/Desayunos-de-Innovaci%C3%B3n-Roca-Barcelona-Gallery.jpg"><h2>Instructions</h2>
+     <p>Be aware that the CSS for these layouts is heavily commented. If you do
+      most of your work in Design view, have a peek at the code to get tips on
+      working with the CSS for the fixed layouts. You can remove these
+      comments before you launch your site. To learn more about the techniques
+      used in these CSS Layouts, read this article at Adobe's Developer Center
+      - <a href="http://www.adobe.com/go/adc_css_layouts"></a>http://www.adobe.com/go/adc_css_layouts.</p>
+      <h2>Clearing Method</h2>
+      <img src="http://diariodesign.com/wp-content/uploads/2014/04/Desayunos-de-Innovaci%C3%B3n-Roca-Barcelona-Gallery.jpg">
+      <p>Because all the columns are floated, this layout uses a clear:both
+        declaration in the .footer rule. This clearing technique forces the
+        .container to understand where the columns end in order to show any
+        borders or background colors you place on the nutellabun.container. If
+        your design requires you to remove the .footer from the .container,
+        you'll need to use a different clearing method. The most reliable will
+        be to add a <br class="clearfloat" /> or <div class="clearfloat"></div>
+        after your final floated column (but before the .container closes). This
+        will have the same clearing effect.</p>
+        <h2>Logo Replacement</h2>
+        <p>An image placeholder was used in this layout in the .header where you'll
+          likely want to place a logo. It is recommended that you remove the
+          placeholder and replace it with your own linked logo.
 
-Be aware that if you use the Property inspector to navigate to your logo
-image using the SRC field (instead of removing and replacing the
-placeholder), you should remove the inline background and display
-properties. These inline styles are only used to make the logo
-placeholder show up in browsers for demonstration purposes.
+          Be aware that if you use the Property inspector to navigate to your logo
+          image using the SRC field (instead of removing and replacing the
+          placeholder), you should remove the inline background and display
+          properties. These inline styles are only used to make the logo
+          placeholder show up in browsers for demonstration purposes.
 
-To remove the inline styles, make sure your CSS Styles panel is set to
-Current. Select the image, and in the Properties pane of the CSS Styles
-panel, right click and delete the display and background properties. (Of
-course, you can always go directly into the code and delete the inline
-styles from the image or placeholder there.)</p>
-<h2>Backgrounds</h2>
-<p>By nature, the background color on any div will only show for the length
-of the content. This means if you're using a background color or border
-to create the look of a side column, it won't extend all the way to the
-footer but will stop when the content ends. If the .content div will
-always contain more content, you can place a border on the .content div
-to divide it from the column.
-
-This .footer contains the declaration position:relative; to give
-Internet Explorer 6 hasLayout for the .footer and cause it to clear
-correctly. If you're not required to support IE6, you may remove it.</p>
-</article>
-</section>
-<footer></footer>
-	
-</body>
-</html>
+          To remove the inline styles, make sure your CSS Styles panel is set to
+          Current. Select the image, and in the Properties pane of the CSS Styles
+          panel, right click and delete the display and background properties. (Of
+          course, you can always go directly into the code and delete the inline
+          styles from the image or placeholder there.)</p>
+          <h2>Backgrounds</h2>
+          <p>By nature, the background color on any div will only show for the length
+            of the content. This means if you're using a background color or border
+            to create the look of a side column, it won't extend all the way to the
+            footer but will stop when the content ends. If the .content div will
+            always contain more content, you can place a border on the .content div
+            to divide it from the column.</p>
+          </article>
+        </section>
+        <footer>This .footer contains the declaration position:relative; to give
+          Internet Explorer 6 hasLayout for the .footer and cause it to clear
+          correctly. If you're not required to support IE6, you may remove it.</footer>
+        </body>
+        </html>
 
 
 
