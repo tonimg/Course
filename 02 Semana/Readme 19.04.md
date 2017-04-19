@@ -47,23 +47,16 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 ### Flex property:
 
 *   Propiedades padre:
+    -   [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)|row|row-reverse|column|column-reverse|initial|inherit|
+    -   [flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)|nowrap|wrap|wrap-reverse|initial|inherit|
+    -   [justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.asp)|flex-start|flex-end|center|space-between|space-around|initial|inherit|
+    -   [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)|stretch|center|flex-start|flex-end|baseline|initial|inherit|
+    -   [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)|stretch|center|flex-start|flex-end|space-between|space-aroundinitial|inherit|
 
-|property|value|value|value|value|value|value|value|
-|---|---|---|---|---|---|---|---|---|
-|[flex-direction]|row|row-reverse|column|column-reverse|initial|inherit|   |   |
-|[flex-wrap]|nowrap|wrap|wrap-reverse|initial|inherit|   |   |   |
-|[justify-content]|flex-start|flex-end|center|space-between|space-around|initial|inherit|   |
-|[align-items]|stretch|center|flex-start|flex-end|baseline|initial|inherit|   |
-|[align-content]|stretch|center|flex-start|flex-end|space-between|space-aroundinitial|inherit|
-
-
- 
- 
 *   Propiedades hijos:
+    -   [order](https://www.w3schools.com/cssref/css3_pr_order.asp)  |number   | initial  | inherit
+    -   [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) |auto|stretch|center|flex-start|flex-end|baseline|initial|inherit
 
-|  Property | Value|Value|Value|Value|value
-| [order](https://www.w3schools.com/cssref/css3_pr_order.asp)  |number   | initial  | inherit  
-|  [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) |auto|stretch|center|flex-start|flex-end|baseline|initial|inherit
 
 ### Exercises [CSS3 Challenges](https://skylabcoders.github.io/bootcamp-abril2017/?full#96)
 
