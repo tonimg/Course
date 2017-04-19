@@ -57,18 +57,6 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 |[align-content]|stretch|center|flex-start|flex-end|space-between|space-aroundinitial|inherit|
 
 
-
- 
- |[flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)|row|row-reverse|column|column-reverse|initial|inherit
-  
-  |[flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)|nowrap|wrap|wrap-reverse|initial|inherit
-  
-  |[justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.asp)|flex-start|flex-end|center|space-between|space-around|initial|inherit
- 
-   |[align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)|stretch|center|flex-start|flex-end|baseline|initial|inherit
-  
-   |[align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)|stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit
-
 *   Propiedades hijos:
 
 |  Property | Value|Value|Value|Value|value
