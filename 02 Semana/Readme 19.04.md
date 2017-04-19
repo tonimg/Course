@@ -59,9 +59,8 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 *   Propiedades hijos:
 
       |  Property | Value|Value|Value|Value|value
-       |---|---|---|---|---|
-       | [order](https://www.w3schools.com/cssref/css3_pr_order.asp)  |number   | initial  | inherit  |
-       |  [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) |auto|stretch|center|flex-start|flex-end|baseline|initial|inherit|
+      | [order](https://www.w3schools.com/cssref/css3_pr_order.asp)  |number   | initial  | inherit  
+      |  [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) |auto|stretch|center|flex-start|flex-end|baseline|initial|inherit
 
 ### Exercises [CSS3 Challenges](https://skylabcoders.github.io/bootcamp-abril2017/?full#96)
 
@@ -90,9 +89,11 @@ Aquí se activará cuando el máximo de la pantalla sea 600px. Tambien se puede 
 Aquí se activará dentro de ese rango.
 Si añadimos la propiedad flex se adaptará todo el contenido al cumplir la condición.
 
-```css
+```
 @media (min-width: 600px)
   .facet_sidebar {
     display: flex;
   }
-}```
+}
+```
+
