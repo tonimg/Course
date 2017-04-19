@@ -4,7 +4,7 @@
 
 **Resumen dia de antes**
 
-### Diferencias between Block Elements and Inline Elements
+### Block Elements and Inline Elements
 
 -   Block elements (we can't change the dimensions, salto linea):
     +   Section
@@ -44,27 +44,19 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 
 ![Esquema](img/flex_layout.png)
 
-Flex propierty:
+Flex property:
 ---------------
 
-Propiedades Flex:
-    + Propiedades flex padre:
-        * fkhgjdhjfghfd
-        * fgksjdgkdfsgfd
-        * dfljgkldsjgj
+Propiedades padre:
 
+*   [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp):row|row-reverse|column|column-reverse|initial|inherit;
+*   [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp): row|row-reverse|column|column-reverse|initial|inherit;
+*   [flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp), nowrap|wrap|wrap-reverse|initial|inherit;
+*   [justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.asp):flex-start|flex-end|center|space-between|space-around|initial|inherit;
+*   [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp):stretch|center|flex-start|flex-end|baseline|initial|inherit;
+*   [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp): stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
 
+Propiedades hijos:
 
-
-
-
-
-        * [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp):row|row-reverse|column|column-reverse|initial|inherit;
-        * Column, column reverse
-        * [flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp), nowrap|wrap|wrap-reverse|initial|inherit;
-        * [justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.asp):flex-start|flex-end|center|space-between|space-around|initial|inherit;
-        * [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp):stretch|center|flex-start|flex-end|baseline|initial|inherit;
-        * [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp): stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
-    + Propiedades hijos:
-        * align-self
-        * order
+*   [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp): auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
+*   [order](https://www.w3schools.com/cssref/css3_pr_order.asp): number|initial|inherit;

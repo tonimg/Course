@@ -31,4 +31,6 @@ Progression resume:
         *   [CSS3 Properties & Values](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#css3-properties--values)
         *   [Positioning CSS3](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#css3-positioning)
         *   [Esquema del HTML5+CSS3](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#esquema-del-html5css3)
-        *   [Float](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#float)   
+        *   [Float](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#float)
+        *   Flex Box
+        *   Flex Properties  
