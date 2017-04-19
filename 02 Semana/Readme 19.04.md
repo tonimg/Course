@@ -42,7 +42,7 @@ And the last property is the position `fix` elements will always be present in t
 Display Flex al padre y los hijos dejan de comportarse como bloques y pasan a adaparse al espacio disponible.
 Un contenedor flex los expande para que ocupen el espacio disponible o los encoge.
 
-<center>![Esquema](img/flex_layout.png)</center>
+![Esquema](img/flex_layout.png)
 
 Flex propierty:
 ---------------
