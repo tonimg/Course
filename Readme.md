@@ -34,4 +34,5 @@ Progression resume:
         *   [Float](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#float)
         *   [Block elements & Inline elements](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#block-elements-and-inline-elements)
         *   [Flex Box](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#flex-box)
-        *   [Flex Properties](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#flex-property) 
+        *   [Flex Properties](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#flex-property)
+        *   [Media Query](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#css3-mediaquery)
