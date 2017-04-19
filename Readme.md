@@ -32,5 +32,6 @@ Progression resume:
         *   [Positioning CSS3](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#css3-positioning)
         *   [Esquema del HTML5+CSS3](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#esquema-del-html5css3)
         *   [Float](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#float)
+        *   Block elements & Inline elements
         *   Flex Box
-        *   Flex Properties  
+        *   Flex Properties 
