@@ -50,7 +50,7 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 
 |       |       |       |       |       |       |       |       |       |
 |---    |---    |---    |---    |---    |---    |---    |---    |       |
-|[flex-direction]|row|row-reverse|column|column-reverse|initial|inherit|        |      |
+|[flex-direction]|row|row-reverse|column|column-reverse|initial|inherit||      |
 |       |       |       |       |       |       |       |       |       |
 |       |       |       |       |       |       |       |       |       |
 |       |       |       |       |       |       |       |       |       |
