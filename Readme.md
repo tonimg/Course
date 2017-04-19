@@ -17,6 +17,8 @@ Progression resume:
 -   [Tips](Tips) resume folder.
 -   Resume [first week and exercices](01 Semana).10/04/2017.
     +   JavaScript Power
+        *   [Methods of regulars expresions objets](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#methods-of-the-regexp-objects)
+        *   [Syntax regular expressions](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#Syntax-expresiones-regulares)
 -   Resume [second weed and exercices](02 Semana)17/04/2017.
     +   [HTML](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#html)
         *   [Bacis tags](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)

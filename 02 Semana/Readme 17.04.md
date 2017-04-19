@@ -80,7 +80,7 @@ s.search(/j.*a/i);// output 5
 
 ```
 
-### [Sintasix expresiones regulares](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#regular-expression-syntax)
+### [Syntax regular expression](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#regular-expression-syntax)
 
 ### Carácteres de escape que podemos usar: [link](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions#)
 
