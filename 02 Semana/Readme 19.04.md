@@ -36,3 +36,35 @@ Continue with CSS3 [positioning property](https://skylabcoders.github.io/bootcam
 When I put the **position** at `relative`, we have available more possibilities, for example move where you want and the rest of elements mantein your original position.
 Position `absolute`, the point of the reference put the diferents objects follow the father with relative position property, if no there, the position will by reference with the body. 
 And the last property is the position `fix` elements will always be present in the viewport and it does not scroll with the page.
+
+## [Flex Box](https://skylabcoders.github.io/bootcamp-abril2017/?full#87)
+
+Display Flex al padre y los hijos dejan de comportarse como bloques y pasan a adaparse al espacio disponible.
+Un contenedor flex los expande para que ocupen el espacio disponible o los encoge.
+
+<center>![Esquema](img/flex_layout.png)</center>
+
+Flex propierty:
+---------------
+
+Propiedades Flex:
+    + Propiedades flex padre:
+        * fkhgjdhjfghfd
+        * fgksjdgkdfsgfd
+        * dfljgkldsjgj
+
+
+
+
+
+
+
+        * [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp):row|row-reverse|column|column-reverse|initial|inherit;
+        * Column, column reverse
+        * [flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp), nowrap|wrap|wrap-reverse|initial|inherit;
+        * [justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.asp):flex-start|flex-end|center|space-between|space-around|initial|inherit;
+        * [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp):stretch|center|flex-start|flex-end|baseline|initial|inherit;
+        * [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp): stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
+    + Propiedades hijos:
+        * align-self
+        * order
