@@ -97,7 +97,7 @@ Después tenemos otro importante que es el ``float`` hacemos que el texto flote 
 -   Footer:
     *   Sounds like its a description of the position, but its not. Footer elements contain information about it’s containing element: who wrote it, copyright, links to related content, etc. Whereas we usually have one footer for an entire document, HTML5 allows us to also have footer within sections.
 
-## Float
+##  Float
 
 [Ejemplos](http://learn.shayhowe.com/html-css/positioning-content/) float:
 
