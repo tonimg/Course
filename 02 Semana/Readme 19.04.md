@@ -55,6 +55,9 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 |[justify-content]|flex-start|flex-end|center|space-between|space-around|initial|inherit|   |
 |[align-items]|stretch|center|flex-start|flex-end|baseline|initial|inherit|   |
 |[align-content]|stretch|center|flex-start|flex-end|space-between|space-aroundinitial|inherit|
+
+
+ 
  
 *   Propiedades hijos:
 
