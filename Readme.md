@@ -19,10 +19,10 @@ Progression resume:
     +   JavaScript Power
 -   Resume [second weed and exercices](02 Semana)17/04/2017.
     +   [HTML](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#html)
-        *   Bacis [tags](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)
+        *   [Bacis tags](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)
         *   [Forms](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#creación-formularios)
         *   Layouts
-    +   [CSS3](file:///C:/Users/tonim/appdata/local/temp/36.html#today-1804)
+    +   [CSS3](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2018.04.md#css3)
         *   [CSS3 Basics & Selectors](file:///C:/Users/tonim/appdata/local/temp/36.html#css3-basics-selectors)
         *   [Specificity](file:///C:/Users/tonim/appdata/local/temp/36.html#specificity-preferences-into-css3)
         *   [Complex Selectors](file:///C:/Users/tonim/appdata/local/temp/36.html#complex-selectors)

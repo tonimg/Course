@@ -1,7 +1,7 @@
-#Today 18.04
+# Today 18.04
 
 # [CSS3](https://skylabcoders.github.io/bootcamp-abril2017/?full#css3)
-##CSS3 Basics & Selectors
+## CSS3 Basics & Selectors
 
 Is the layer of the presentation and design.
 
@@ -32,7 +32,7 @@ un selector y una serie de pares (propiedad y valor).
 -   The id should be unique. Only one description for once.
 -   The class are share.
 
-##Specificity 
+## Specificity 
 *(preferences into CSS3)*
 The first is in cascade, after the ID, class and tag.
 
@@ -41,7 +41,7 @@ The first is in cascade, after the ID, class and tag.
 ![Specificity Calculator](img/specificityCalculator.png
 )
 
-#Complex Selectors
+# Complex Selectors
 
 [Common Selector overview](http://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 
@@ -54,7 +54,7 @@ The first is in cascade, after the ID, class and tag.
 **Sibling Selectors Overview**
 ![siblingSelectors](img/siblingSelectors.png)
 
-##CSS3 Properties & Values
+## CSS3 Properties & Values
 
 [CSS3 Properties & Values](https://skylabcoders.github.io/bootcamp-abril2017/?full#83):
 
@@ -64,7 +64,7 @@ The first is in cascade, after the ID, class and tag.
     * Color text: (``color:``)
     * Font weight
 
-##CSS3 Positioning
+## CSS3 Positioning
 [link to slide](https://skylabcoders.github.io/bootcamp-abril2017/?full#85)
 
 **The Box Model** is the sum of width, height, padding, margin, border.
@@ -83,7 +83,7 @@ Display hibryd for modifed things. ``display: inline-block`` coloca cada bloque 
 
 Después tenemos otro importante que es el ``float`` hacemos que el texto flote alrededor. Sirve para posicionar cajas en el layout.
 
-#Esquema del HTML5+CSS3
+# Esquema del HTML5+CSS3
 
 -   Section:
     *   Used for grouping together thematically-related content. Sounds like a div element, but its not. The div has no semantic meaning. Before replacing all your div’s with section elements, always ask yourself, “Is all of the content related?”
@@ -97,7 +97,7 @@ Después tenemos otro importante que es el ``float`` hacemos que el texto flote 
 -   Footer:
     *   Sounds like its a description of the position, but its not. Footer elements contain information about it’s containing element: who wrote it, copyright, links to related content, etc. Whereas we usually have one footer for an entire document, HTML5 allows us to also have footer within sections.
 
-##Float
+## Float
 
 [Ejemplos](http://learn.shayhowe.com/html-css/positioning-content/) float:
 
