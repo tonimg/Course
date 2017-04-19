@@ -47,6 +47,19 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 ### Flex property:
 
 *   Propiedades padre:
+
+|       |       |       |       |       |       |       |
+|---    |---    |---    |---    |---    |---    |---    |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+|       |       |       |       |       |       |       |
+
+
     -   |[flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)| row|row-reverse|column|column-reverse|initial|inherit
     |[flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)|row|row-reverse|column|column-reverse|initial|inherit
     |[flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)|nowrap|wrap|wrap-reverse|initial|inherit
