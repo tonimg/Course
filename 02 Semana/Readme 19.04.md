@@ -48,16 +48,13 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 
 *   Propiedades padre:
 
-|       |       |       |       |       |       |       |       |       |
-|---    |---    |---    |---    |---    |---    |---    |---    |       |
-|[flex-direction]|row|row-reverse|column|column-reverse|initial|inherit||      |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
-|       |       |       |       |       |       |       |       |       |
+|property|value|value|value|value|value|value|value|value|
+|---|---|---|---|---|---|---|---|---|
+|[flex-direction]|row|row-reverse|column|column-reverse|initial|inherit|   |   |
+|[flex-wrap]|nowrap|wrap|wrap-reverse|initial|inherit|   |   |   |
+|[justify-content]|flex-start|flex-end|center|space-between|space-around|initial|inherit|   |
+|[align-items]|stretch|center|flex-start|flex-end|baseline|initial|inherit|   |
+|[align-content]|stretch|center|flex-start|flex-end|space-between|space-aroundinitial|inherit|
 
 
 
