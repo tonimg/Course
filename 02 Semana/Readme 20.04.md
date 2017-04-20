@@ -92,3 +92,9 @@ Se ha de cargar la libreria de **bootstrap** y la libreria de **jquery**
 Resources into the course [slide](https://skylabcoders.github.io/bootcamp-abril2017/?full#100)
 
 [Bootstrap Site Exercise](https://github.com/juanmaguitar/bootstrap-exercises)
+
+Bootstrap examples:
+
+[Demo-bootstrap from Juanma](examples/demo-bootstrap.html)
+[Demo Example Media Query from Juanma](examples/example_media-query.html)
+[Demo Responsive Design Header from Juanma](examples/responsive-design-header.html)

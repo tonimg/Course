@@ -32,6 +32,10 @@
 
 ---
 
+- Herramienta recomendable para poder ver los cambios en el navegador es **LiveReload** la descargamos en el Sublime Text3: [https://packagecontrol.io/packages/LiveReload](https://packagecontrol.io/packages/LiveReload), lo activamos con Sublime ``Plugins Enable/Disable`` y ``Enable Simple Reload`` debemos descargar la extensión en el Chrome activarla y posteriormente abrir en el navegador desde el Sublime con el botón derecho del ratón.
+
+---
+
 Continue with CSS3 [positioning property](https://skylabcoders.github.io/bootcamp-abril2017/?full#85), we have so the [position property](http://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/). By default, position has the relative.
 When I put the **position** at `relative`, we have available more possibilities, for example move where you want and the rest of elements mantein your original position.
 Position `absolute`, the point of the reference put the diferents objects follow the father with relative position property, if no there, the position will by reference with the body. 
@@ -62,6 +66,8 @@ Un contenedor flex los expande para que ocupen el espacio disponible o los encog
 
 ### [CSS3 MediaQuery](https://skylabcoders.github.io/bootcamp-abril2017/?full#87)
 
+    + Example: [example_media-query.html](example_media-query.html)
+
 MediaQuery establecer reglas en el css cuando cumpla una condición se active con la propiedad @media
 Por ejemplo:
 
@@ -85,7 +91,7 @@ Aquí se activará cuando el máximo de la pantalla sea 600px. Tambien se puede 
 Aquí se activará dentro de ese rango.
 Si añadimos la propiedad flex se adaptará todo el contenido al cumplir la condición.
 
-```css
+```
 @media (min-width: 600px)
   .facet_sidebar {
     display: flex;
@@ -93,3 +99,6 @@ Si añadimos la propiedad flex se adaptará todo el contenido al cumplir la cond
 }
 ```
 
+***Note***: Para resetear los `.css` de alguna página web, recomendable utilizar este:
+    [https://cdnjs.com/libraries/normalize](https://cdnjs.com/libraries/normalize)
+Lo cargamos en nuestro **HTML**.
