@@ -38,4 +38,4 @@ Progression resume:
         *   [Media Query](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#css3-mediaquery)
     *   Bootstrap
     +   Bootstrap   
-
+text
