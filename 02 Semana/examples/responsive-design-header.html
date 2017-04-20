@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Demo Project</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <style type="text/css">
+    * { border: 1px solid red; }
+    header {
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      background: #CCC;
+    }
+    header img {
+      height: 90%;
+      margin:1%;
+    }
+    header ul {
+      padding:0;
+      font-size: 26px;
+      position: absolute;
+      bottom: 0; right:0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    header ul li {
+      display: inline-block;
+    }
+    header nav {
+      position: relative;
+      width: 50%;
+    }
+    header ul li a {
+      text-decoration: none;
+    }
+    header ul li a:hover {
+      background: black;
+      color: white;
+    }
+    .container {
+      max-width: 1000px;
+      background: red;
+      height: 100vh;
+      margin:0 auto;
+    }
+    @media (max-width: 600px) {
+      header {
+        display: block;
+        height: auto;
+      }
+      header img {
+        display: block;
+        height: 100px;
+        margin: 0 auto;
+      }
+      header nav { width: 100%;}
+      header nav ul {
+        position: static;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <img src="img/logo.png">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  </div>
+</body>
+</html>
