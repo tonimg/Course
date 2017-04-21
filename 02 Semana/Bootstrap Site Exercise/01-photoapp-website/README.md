@@ -5,15 +5,15 @@ The images you'll need are available at `/material/img.zip`
 
 ### Home Page 
 
-![img/home-1400](img/home-1400.png)
+![img/home-1400](material/reference/home-1400.png)
 
 ### About Page 
 
-![img/about-1400](img/about-1400.png)
+![img/about-1400](material/reference/about-1400.png)
 
 ### Contact Page 
 
-![img/contact-1400](img/contact-1400.png)
+![img/contact-1400](material/reference/contact-1400.png)
 
 You have more images of different versions (different resolutions) of these designs at the `img` folder
 
