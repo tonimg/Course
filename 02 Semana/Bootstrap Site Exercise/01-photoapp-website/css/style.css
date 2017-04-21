@@ -1,0 +1,57 @@
+ body {
+    margin-top: 50px;
+  }
+  
+  .cover {
+    background: url('../img/site_showcase_bg.jpg')
+  }
+  
+  .cover .jumbotron {
+    background: none;
+    padding-left: 0;
+  }
+  
+  .cover {
+    color: white;
+  }
+  
+  .cover h1 strong {
+    color: #1caa98;
+  }
+  
+  .col-md-6 {
+    margin-top: 2em;
+  }
+  
+  .col-md-4 {
+    margin-top: 2em;
+  }
+  
+  .gamma {
+    background: #1CAA98;
+    color: white;
+    font-size: 22px;
+  }
+  .fix-border .thumbnail {
+    border: none;
+  }
+  
+  .fix-border .thumbnail img {
+    border: 1px solid #ddd;
+  }
+  
+  .glyphicon {
+    display: block;
+
+  }
+  
+  li,
+  a {
+    display: inline-block;
+    color: white;
+  }
+  
+  .copyright {
+    color: white;
+    background: #333333
+  }
