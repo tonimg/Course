@@ -40,3 +40,4 @@ Progression resume:
     *   [Sass](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2021.04.md#sass)
 -   Resume [third week and exercices](https://github.com/tonimg/Course/tree/master/03%20Semana) - 24/04/2017.
     -  [JQuery](https://github.com/tonimg/Course/blob/master/03%20Semana/Readme%2024.04.md#jquery)
+

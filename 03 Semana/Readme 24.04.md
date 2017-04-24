@@ -85,10 +85,136 @@ A parte de los selectores nuestros y HTML, tambien tiene unos [selectores  prede
 - ``.eq()`` - Movemos los elementos (``$( "#myList li:first" ).eq(2)``).
 - ``.remove()`` - Eliminar elementos. 
 
+--------------------------------------------------------------------------------------------------
+
+-   Example JQuery dinamic list:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul class="list-group" id="myList"></ul>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    var beatles = ['john','paul','george','ringo']
+    var htmlList = ''
+    beatles.forEach( function(name, i) {
+      htmlList += '<li class="list-group-item">' + name + '</li>'
+      console.log(htmlList)
+    })
+    console.log( typeof htmlList )
+    $('#myList').html(htmlList)
+  </script>
+</body>
+</html>
+```
+Output: [jquery_dynamic_list](examples/jquery_dynamic_list.html)
+
+-   Example list elements several ways:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <style type="text/css">
+    .highlight { background: black; color: white; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul class="list-group" id="myList"></ul>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    // *** Way 1 ***
+    // var liItems = []
+    // for (var i=1; i<=20; i++) {
+    //   liItems.push('<li class="list-group-item">' + i + '</li>')
+    // }
+    // $("#myList").html( liItems.join('') )
+    // *** Way 2 ***
+    // for (var i=1; i<=20; i++) {
+    //   $('#myList').append( $('<li class="list-group-item">item ' + i + '</li>') )
+    // }
+    // *** Way 3 ***
+    // for (var i=1; i<=20; i++) {
+    //   var $item = $('<li class="list-group-item">row ' + i + '</li>')
+    //   $item.appendTo('#myList')
+    // }
+    // *** Way 4 ***
+    // var listHtml = ''
+    // for (var i=1; i<=20; i++) {
+    //   listHtml += '<li class="list-group-item">elem ' + i + '</li>'
+    // }
+    // $("#myList").html(listHtml )
+    // *** Way 5 ***
+    var listHtml = new Array(20).fill(0).map(function(_,i) { return '<li class="list-group-item">elem ' + (i+1) + '</li>'})
+    $("#myList").html(listHtml )
+    var $listElemes = $("#myList li");
+    $listElemes.filter(':even').addClass('highlight')
+  </script>
+</body>
+</html>
+```
+
+Output: [List elements several ways](examples/list_elems_several_ways.html)
+
+---
+
+### [Parents](http://learn.jquery.com/using-jquery-core/traversing/#parents)
+
+Para acceder al padre de un elemento.
+
+-   ``.parent()``
+-   ``.parents()``
+-   ``.parentsUntil()``
+-   ``.closest()``
+
+### [Children](http://learn.jquery.com/using-jquery-core/traversing/#children)
+
+Para acceder al hijo de un elemento.
+
+- .``children()``
+- ``.find()``
+
+### [Siblings](http://learn.jquery.com/using-jquery-core/traversing/#siblings)
+
+Para acceder al hermano de un elemento.
+
+- ``.prev()``
+- ``.next()``
+- ``.siblings()``
+- ``.nextAll()``
+- ``.nextUntil()``
+- ``.prevAll()``
+- ``.prevUntil()``
 
 
+### U[tility Methods](http://learn.jquery.com/using-jquery-core/utility-methods/)
+
+- [$.trim()](http://learn.jquery.com/using-jquery-core/utility-methods/#trim-)
+- [$.each()](http://learn.jquery.com/using-jquery-core/utility-methods/#each-)
+- [$.inArray()](http://learn.jquery.com/using-jquery-core/utility-methods/#inarray-)
+- [$.extend()](http://learn.jquery.com/using-jquery-core/utility-methods/#extend-)
+- [$.proxy()](http://learn.jquery.com/using-jquery-core/utility-methods/#proxy-)
+- [$.type()](http://learn.jquery.com/using-jquery-core/utility-methods/#testing-type)
 
 
+[Exercices](https://skylabcoders.github.io/bootcamp-abril2017/?full#117) and [next slide](https://skylabcoders.github.io/bootcamp-abril2017/?full#118).
 
 
 
