@@ -204,7 +204,7 @@ Para acceder al hermano de un elemento.
 - ``.prevUntil()``
 
 
-### U[tility Methods](http://learn.jquery.com/using-jquery-core/utility-methods/)
+### [Utility Methods](http://learn.jquery.com/using-jquery-core/utility-methods/)
 
 - [$.trim()](http://learn.jquery.com/using-jquery-core/utility-methods/#trim-)
 - [$.each()](http://learn.jquery.com/using-jquery-core/utility-methods/#each-)
