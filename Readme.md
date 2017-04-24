@@ -19,7 +19,7 @@ Progression resume:
     +   JavaScript Power
         *   [Methods of regulars expresions objets](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#methods-of-the-regexp-objects)
         *   [Syntax regular expressions](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#syntax-regular-expression)
--   Resume [second weed and exercices](https://github.com/tonimg/Course/tree/master/02%20Semana) - 17/04/2017.
+-   Resume [second week and exercices](https://github.com/tonimg/Course/tree/master/02%20Semana) - 17/04/2017.
     +   [HTML](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#html)
         *   [Bacis tags](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)
         *   [Forms](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2017.04.md#creación-formularios)
@@ -38,5 +38,5 @@ Progression resume:
         *   [Media Query](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2019.04.md#css3-mediaquery)
     *   [Bootstrap](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2020.04.md)
     *   [Sass](https://github.com/tonimg/Course/blob/master/02%20Semana/Readme%2021.04.md#sass)
--   Resume [third weed and exercices](https://github.com/tonimg/Course/tree/master/03%20Semana) - 24/04/2017.
+-   Resume [third week and exercices](https://github.com/tonimg/Course/tree/master/03%20Semana) - 24/04/2017.
     -  [JQuery](https://github.com/tonimg/Course/blob/master/03%20Semana/Readme%2024.04.md#jquery)
