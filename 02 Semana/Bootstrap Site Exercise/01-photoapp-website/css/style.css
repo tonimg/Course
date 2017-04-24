@@ -7,6 +7,10 @@ body {
     background: url('../img/site_showcase_bg.jpg')
   }
   
+.container .navbar-brand {
+  color: #1CAA98;
+  font-size: 24px;
+}
   .cover .jumbotron {
     background: none;
     padding-left: 0;
