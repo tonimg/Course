@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <style type="text/css">
+    .my-container {
+      border: 1px solid black;
+      background: yellow;
+      width: 300px; height: 300px;
+      margin:0 auto;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .active {
+      background: red;
+    }
+    button {
+      transition: all 1s linear;
+    }
+    .active button {
+      transform: scale(2)
+    }
+  </style>
+
+</head>
+<body>
+  <div class="my-container">
+    <button type="button" class="btn btn-primary">button</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript">
+
+    $('.my-container')
+      .on('mouseenter', function() {
+        $(this).addClass("active")
+        console.log("user has entered in .my-container!")
+      })
+      .on('mouseleave', function() {
+        $(this).removeClass("active")
+        console.log("user has left .my-container!")
+      })
+
+    $("button").on('click', function() {
+      console.log("the button has been clicked!")
+    })
+
+  </script>
+</body>
+</html>

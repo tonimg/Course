@@ -182,7 +182,7 @@ Para acceder al padre de un elemento.
 -   ``.parent()``
 -   ``.parents()``
 -   ``.parentsUntil()``
--   ``.closest()``
+-   [``.closest()``](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest): returns the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter.
 
 ### [Children](http://learn.jquery.com/using-jquery-core/traversing/#children)
 

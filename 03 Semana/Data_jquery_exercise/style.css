@@ -1,0 +1,28 @@
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul li {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  ul li i {
+    margin-right: 5px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+  
+  ul li:hover {
+    background: black;
+    color: white;
+  }
+  
+  ul li:hover a {
+    color: white;
+  }
