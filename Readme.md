@@ -39,14 +39,25 @@ Progression resume:
     *   [Sass](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2021.04.md#sass)
 -   Resume [third week and exercices](https://github.com/tonimg/Course/tree/master/Frontend/03%20Semana) - 24/04/2017.
     -  [JQuery](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#jquery)
-    -  JSON
-    -  AJAX
-    -  API
+        +  [BOM](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#bom)
+        +  [Window Methods](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#window-methods)
+        +  [DOM](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#dom)
+        +  [Manipulating Elements](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#manipulating-elements)
+        +  [Moving, Copying, and Removing Elements](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#moving-copying-and-removing-elements)
+        +  [Parents - Children - Siblings](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#parents)
+        +  [jQuery Events](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2025.04.md#jquery-events)
+        +  [More explanation about Event](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#today-2604)
+    -  [JSON](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#json)
+    -  [AJAX](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#ajax)
+    -  [API](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#api)
         +  Window properties
         +  Window methods
-    -   Angular
+    -   [Angular](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2027.04.md#today-2704)
+        +  [Model view controller](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2027.04.md#model-view-controller)
         +  $scope, controllers, templates, factory, service.
         +  Routing, API calls | Services
+        +  [**S**ingle **P**age **A**pplication](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2028.04.md#spa)
+
 ----------------------------------------
 
 -   Fourth week - ¡¡¡Proyects!!! - 
