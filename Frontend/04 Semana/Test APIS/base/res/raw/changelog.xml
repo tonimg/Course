@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Quadbits SLU. All rights reserved.
+  -->
+<changelog bulletedList="true">
+    <changelogversion versionName="2.9.1" changeDate="2017/04/17">
+        <changelogtext>Improved dialogs to solve issues with location configuration.</changelogtext>
+        <changelogtext>Added support for devices with high aspect ratio.</changelogtext>
+        <changelogtext>Other minor fixes and improvements.</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="2.9.0" changeDate="2017/03/11">
+        <changelogtext>Filling stations with the same price are now shown on alphabetical order on the list when choosing sorting by price.</changelogtext>
+        <changelogtext>Updated Google Play Services for location and maps.</changelogtext>
+        <changelogtext>Other minor fixes and improvements.</changelogtext>
+    </changelogversion>
+</changelog>

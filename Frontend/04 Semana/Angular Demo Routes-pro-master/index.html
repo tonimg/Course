@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <div ng-hide="section === 'home'" ng-include src="'/templates/includes/header.html'"></div>
+  <ng-view></ng-view>
+  <div ng-hide="section === 'home'" ng-include src="'/templates/includes/footer.html'"></div>
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/services/dataService.js"></script>
+  <script type="text/javascript" src="js/controllers/SearchFormController.js"></script>
+  <script type="text/javascript" src="js/controllers/ResultsController.js"></script>
+  <script type="text/javascript" src="js/controllers/DetailsController.js"></script>
+</body>
+</html>

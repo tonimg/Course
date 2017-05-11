@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Arco de Triunfo",
+    "latitude" : "41.3901026",
+    "longitude": "2.1745089"
+
+  },
+  {
+    "id": 2,
+    "name": "Skylab Coders Academy",
+    "latitude" : "41.379795",
+    "longitude": "2.1729903"
+  },
+  {
+    "id": 3,
+    "name": "BIG BANG BAR",
+    "latitude" : "41.3775757",
+    "longitude": "2.1631248"
+  }
+]

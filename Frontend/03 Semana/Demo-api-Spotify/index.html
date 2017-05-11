@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SpotiFinder</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h3 class="miText">SpotiFinder 😎</h3>
+    <div class="jumbotron">
+      <h1>Search</h1>
+      <form action="" method="POST" class="form-inline" role="form">
+        <div class="form-group">
+          <label class="sr-only" for="">label</label>
+          <input type="text" class="form-control" id="artist-name" placeholder="Enter an artist name...">
+        </div>
+        <button id="search-artist" type="submit" class="btn btn-primary">Search this artist</button>
+      </form>
+    </div>
+    <div class="jumbotron hidden" id="artist-container-show">
+      <h1 >Artists</h1>
+      <select id="artists-selection"></select>
+    </div>
+    <div class="jumbotron hidden" id="album-container-show">
+      <h1>Albums</h1>
+      <select id="album-selection"></select>
+    </div>
+    <div class="jumbotron hidden" id="song-container-show">
+      <h1>Songs</h1>
+      <img class="img-responsive img-thumbnail" id="album-image" src="">
+      <ul id="song-selection" class="list-group"></ul>
+    </div>
+  </div>
+  </div>
+  <!-- /container -->
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

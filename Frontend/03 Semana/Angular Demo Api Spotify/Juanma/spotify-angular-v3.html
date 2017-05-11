@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spotifyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container" ng-controller="spotifyController">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form role="form">
+                    <h1 class="text-center">Search Title</h1>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="search" placeholder="Search" required ng-model="artistQuery" />
+                            <div class="input-group-btn">
+                                <button class="btn btn-success" type="submit" ng-click="searchArtist()">
+                                    <i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+                                    <span>Search</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>Artists</h1>
+                    <select class="input-lg" ng-model="idArtistSelected" ng-change="artistSelection()">
+                        <option ng-repeat="artist in artists" value="{{artist.id}}">{{ artist.name }}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>Albums</h1>
+                    <select class="input-lg" ng-model="idAlbumSelected" ng-change="albumSelection()">
+                        <option ng-repeat="album in albums" value="{{album.id}}">{{album.name}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>Songs</h1>
+                    <ul>
+                      <li ng-repeat="song in songs">
+                        <a href="{{song.preview_url}}">{{song.name}}</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://opensource.keycdn.com/angularjs/1.6.2/angular.min.js "></script>
+    <script type="text/javascript">
+    // https://api.spotify.com/v1/search?type=artist&query=<ARTIST-NAME>
+    // https://api.spotify.com/v1/artists/<ID-ARTIST>/albums
+    // https://api.spotify.com/v1/albums/<ID-ALBUM>/tracks
+
+    angular.module('spotifyApp', [])
+        .controller('spotifyController', function($scope, spotifyService) {
+
+
+            $scope.artistQuery = 'the beatles'
+
+            $scope.searchArtist = function() {
+                var query = $scope.artistQuery
+                spotifyService.searchArtist(query)
+                    .then(function(response) {
+                        $scope.artists = response.data.artists.items
+                    })
+            }
+
+            $scope.artistSelection = function() {
+                var idArtist = $scope.idArtistSelected
+                spotifyService.getAlbums(idArtist)
+                    .then(function(response) {
+                        $scope.albums = response.data.items
+                    })
+            }
+
+            $scope.albumSelection = function() {
+              var idAlbum = $scope.idAlbumSelected
+              spotifyService.getSongs(idAlbum)
+                .then( function(response) {
+                  $scope.songs = response.data.items
+                })
+
+
+            }
+
+        })
+        .factory('spotifyService', function($http) {
+
+            function searchArtist(query) {
+                var urlSearchArtists = 'https://api.spotify.com/v1/search?type=artist&query=' + query
+                return $http.get(urlSearchArtists)
+            }
+
+            function getAlbums(idArtist) {
+                var urlAlbumsArtist = 'https://api.spotify.com/v1/artists/' + idArtist + '/albums'
+                return $http.get(urlAlbumsArtist)
+            }
+
+            function getSongs(idAlbum) {
+              var urlSongs = 'https://api.spotify.com/v1/albums/' + idAlbum + '/tracks'
+              return $http.get(urlSongs)
+            }
+
+            return {
+                searchArtist: searchArtist,
+                getAlbums: getAlbums,
+                getSongs: getSongs
+            }
+
+        })
+    </script>
+</body>
+
+</html>

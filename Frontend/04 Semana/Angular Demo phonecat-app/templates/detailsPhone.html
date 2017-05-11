@@ -1,0 +1,30 @@
+<style type="text/css">
+  .gallery-phone {
+    list-style: none;
+    display: flex;
+  }
+  .gallery-phone li {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin:5px;
+    cursor: pointer;
+    transition: all .3s linear;
+  }
+  .gallery-phone li:hover {
+    transform: scale(1.2);
+  }
+  .gallery-phone li img {
+    width: 100%;
+  }
+
+</style>
+
+
+<h2>{{ detailsPhone.name }}</h2>
+<p>{{ detailsPhone.description }}</p>
+<ul class="gallery-phone">
+  <li ng-repeat="image in detailsPhone.images">
+    <img ng-src="{{ image }}">
+  </li>
+</ul>
+

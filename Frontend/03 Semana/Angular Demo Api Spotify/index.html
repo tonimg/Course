@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spotifyApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Spotify App</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container" ng-controller="searchArtist">
+    <div class="col-md-6 col-md-offset-3">
+      <form role="form">
+        <div class="row">
+          <h1 class="text-center">Search Title</h1>
+          <div class="form-group">
+            <div class="input-group">
+              <input class="form-control" type="text" name="search" placeholder="Search" required ng-model="artistName"/>
+              <span class="input-group-btn">
+                            <button ng-click="searchArtist()" class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search" aria-hidden="true"></i> <span>Search</span></button>
+              </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Artists</h1>
+          <select ng-model="artistSelected" ng-change="artistSelection()">
+            <option ng-repeat="artist in artists" value="{{ artist.id }}">{{ artist.name }}</option>
+          </select>
+        </div>
+      </div>
+            <div class="jumbotron">
+        <div class="container">
+          <h1>Albums</h1>
+          <select ng-model="artistSelected" ng-change="artistSelection()">
+            <option ng-repeat="artist in artists" value="{{ artist.id }}">{{ idAlbum }}</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://opensource.keycdn.com/angularjs/1.6.2/angular.min.js "></script>
+  <script type="text/javascript">
+  angular.module('spotifyApp', [])
+    .controller('searchArtist', function($scope, apiSpotifyService) {
+
+      $scope.searchArtist = function() {
+        var artistName = $scope.artistName
+        apiSpotifyService.searchArtists(artistName)
+          .then(function(response) { // sucess $.ajax
+            $scope.artists = response.data.artists.items
+          })
+      }
+
+      $scope.artistSelection = function() {
+        var idArtist = $scope.artistSelected
+        apiSpotifyService.getAlbums(idArtist)
+          .then(function(response) { // sucess $.ajax
+            console.log(response.data.items)
+              //$scope.artists = response.data.artists.items
+          })
+      }
+    })
+    .factory('apiSpotifyService', function($http) {
+
+      // https://api.spotify.com/v1/artists/<ID-ARTIST>/albums
+      // https://api.spotify.com/v1/albums/<ID-ALBUM>/tracks
+
+      function _searchArtists(artistName) {
+        var urlSearchArtist = 'https://api.spotify.com/v1/search?type=artist&query=' + artistName
+        return $http.get(urlSearchArtist)
+      }
+
+      function _getAlbums(idAlbum) {
+        var urlAlbums = 'https://api.spotify.com/v1/artists/' + idAlbum + '/albums'
+        return $http.get(urlAlbums)
+      }
+
+      return {
+        searchArtists: _searchArtists,
+        getAlbums: _getAlbums
+      }
+
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="well well-sm">
+                    <div class="row">
+                        <div class="col-sm-12 selection-box">
+                            <h1>Details Employees</h1>
+                            <select id="employee-selection"></select>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                        </div>
+                        <div class="col-sm-6 col-md-8">
+                            <h4 id="full_name">Bhaumik Patel</h4>
+                            <p>
+                                <i class="glyphicon glyphicon-envelope"></i><span id="mail">email@example.com</span>
+                                <br />
+                                <i class="glyphicon glyphicon-globe"></i><a id="ip" href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-user"></i><span id="gender">Male</span>
+                            </p>
+                            <!-- Split button -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript">
+      var htmlSelect = ''
+      $.each(data, function(index, employeeData) {
+          htmlSelect += '<option value=' + index + '>' + employeeData.first_name + '</option>'
+      })
+
+      $('#employee-selection').html(htmlSelect)
+      $('#employee-selection').on('change', function() {
+          var position = $(this).val()
+          var dataEmployee = data[position];
+          $('#full_name').text( dataEmployee.first_name + ' ' + dataEmployee.last_name )
+          $('#mail').text( dataEmployee.email )
+          $('#ip').text( dataEmployee.ip_address )
+          $('#gender').text( dataEmployee.gender )
+      })
+    </script>
+</body>
+
+</html>

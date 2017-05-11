@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Beers App</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="col-md-10 blogShort">
+    <h1>Demo Beers App</h1>
+    <!-- Start the search box -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Search you beer Favorite</h2>
+          <div id="custom-search-input">
+            <div class="input-group col-md-12">
+              <input type="text" id='nameBeer' class="form-control input-lg" placeholder="search you favorite beer here..." value="estrella" />
+              <span class="input-group-btn">
+                        <button id="prevent" class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End search box -->
+    <div class="jumbotron">
+      <h1 >Select you beer</h1>
+      <select id="beers-selection"></select>
+
+    <img src="" alt="post img" id="imageBeer" class="pull-left img-responsive postImg img-thumbnail margin10">
+    <article>
+      <p>
+        <span id="nameBeer"></span>
+      </p>
+      <p id="descriptionBeer">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </article>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="frontEndApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project FrontEnd</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <style type="text/css">
+  /*  * {
+    border: 2px solid red;
+  } */
+  
+  iframe {
+    width: 100%;
+    height: 450px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  </style>
+</head>
+<header>
+  <!-- este header estará arriba del buscador y se ocultará con el click en la lupa -->
+  <!-- <div class="container">
+<div class="row">
+<div class="col-xs-6 col-xs-offset-3">
+    <h1>Gas Station finder</h1>
+</div>
+    
+</div>
+    
+</div> -->
+</header>
+
+<body>
+  <p>\\ {{ 4 + 4}} //</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3" ng-controller="searchController">
+        <form role="form">
+          <div class="form-group">
+            <div class="input-group">
+              <input ng-model="locationName" class="form-control" type="text" placeholder="put you location..." required/>
+              <div class="input-group-btn">
+                <button class="btn btn-success" type="submit" ng-click="searchLocation()">
+                  <i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+                  <span>Get Stations</span>
+                </button>
+                <select ng-repeat="location in listLocation | filter:locationName">
+                  <option >{{locationName}}</option>
+                </select>
+                <!-- <h1 ng-repeat="location in listLocation ">{{locationName}}</h1> -->
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <iframe src="https://www.google.es/maps/place/Barcelona/@41.3947688,2.0787279,12z/data=!3m1!4b1!4m5!3m4!1s0x12a49816718e30e5:0x44b0fb3d4f47660a!8m2!3d41.3850639!4d2.1734035" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <nav>
+      <ul class="row">
+        <li class="col-xs-4"><i class="fa fa-map-o fa-5x" aria-hidden="true"></i></li>
+        <li class="col-xs-4"><i class="fa fa-list fa-5x" aria-hidden="true"></i></li>
+        <li class="col-xs-4"><i class="fa fa-filter fa-5x" aria-hidden="true"></i></li>
+      </ul>
+    </nav>
+  </div>
+  <script type="text/javascript" src="https://opensource.keycdn.com/angularjs/1.6.2/angular.min.js "></script>
+  <script type="text/javascript">
+  angular.module('frontEndApp', [])
+    .controller('searchController', function($scope, apiService) {
+      $scope.searchLocation = function() {
+        var userLocation = $scope.locationName;
+        apiService.getLocation()
+          .then(function(response) {
+            // console.log(userLocation)
+            // console.log(response.data.ListaEESSPrecio[0])
+
+            $scope.listLocation = response.data.ListaEESSPrecio // nuestro objeto
+            // var test = $scope.listLocation.filter(function(province) {
+             
+            //   return province.Provincia
+
+            // })
+
+          })
+      }
+    })
+
+
+
+
+
+  .factory('apiService', function($http) {
+    function getLocation() {
+      // var urlGas = 'https://serene-falls-80386.herokuapp.com/carburantes'
+      var urlGas = 'carburantes.json' // ruta local para trabajar con ella
+      return $http.get(urlGas)
+    }
+    return {
+      getLocation: getLocation
+    }
+  })
+  </script>
+</body>
+
+</html>

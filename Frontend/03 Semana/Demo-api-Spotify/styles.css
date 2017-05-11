@@ -1,0 +1,15 @@
+  .jumbotron {
+    padding-top: 20px;
+  }
+    body{
+    background-image: url("http://www.freeliquidtemplates.com/free-headers-for-websites/header11.jpg");
+  }
+.miText{
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.hidden{
+    display: none ;
+}

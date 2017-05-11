@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <input type="" name="" id="username">
+  <button>Get Data!</button>
+  <ul></ul>
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript">
+
+    $('button').on('click', function() {
+      var username = $('#username').val()
+      var htmlList = ''
+      $.ajax({
+        url: 'https://api.github.com/users/' + username + '/repos',
+        success: function(data) {
+          data.forEach( function(repo) {
+            htmlList += '<li>' + repo.name + '</li>'
+          })
+          $('ul').html(htmlList)
+        }
+      })
+
+    })
+
+  </script>
+</body>
+</html>

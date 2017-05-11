@@ -1,0 +1,51 @@
+
+  <style type="text/css">
+/*     *{
+      border: 2px solid red;
+    } */
+    body {
+    background-image: url('http://www.aprendemas.com/images/blog/2016/10/cerveza_fria.jpg');
+    background-size: cover ;
+  }
+  </style>
+ 
+<div class="container">
+  <h1>{{ title }}</h1>
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Search you beer Favorite</h2>
+          <div id="custom-search-input">
+            <div class="input-group col-md-12">
+              <input ng-model="nameBeer" type="text" id='nameBeer' class="form-control" placeholder="search you favorite beer here..." />
+              <span class="input-group-btn">
+                        <button ng-click="searchBeer()" id="prevent" class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End search box -->
+    <div class="jumbotron" ng-show="nameBeer">
+      <select ng-change="selectedBeer()" ng-model="myBeer">
+        <option ng-repeat="beer in beers" value="{{$index}}">{{beer.name}}</option>
+      </select>
+      <div ng-show="myBeer !== -1">
+        <img ng-show="showBeer.image" ng-src="{{showBeer.image}}" id="imageBeer" class="pull-left img-responsive postImg img-thumbnail margin30">
+        <article>
+          <p>
+            <span id="nameBeer">{{showBeer.name}}</span>
+          </p>
+          <p id="descriptionBeer" ng-show="showBeer.description">
+            {{showBeer.description}}
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

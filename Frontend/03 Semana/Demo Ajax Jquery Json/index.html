@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>My Ajax Project</h1>
+  <input id="letter" type="text">
+  <button>Get Data!</button>
+  <ul></ul>
+
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript">
+
+    $('button').on('click', function() {
+
+      var htmlList = ''
+
+      $.ajax({
+        url: 'employees.json',
+        success: function(data) {
+          var pieceName = $('#letter').val();
+
+          data
+            .filter( function(oEmployee) {
+              if (pieceName) {
+                return  oEmployee.first_name.includes(pieceName)
+              }
+              else {
+                return true;
+              }
+
+            })
+            .forEach( function( oEmployee ) {
+              var regExp = new RegExp(pieceName)
+              var name = oEmployee.first_name.replace(regExp,'<mark>$&</mark>')
+              htmlList += '<li>' + name + '</li>'
+            })
+
+          $('ul').html(htmlList)
+
+        }
+      });
+
+
+    })
+
+  </script>
+</body>

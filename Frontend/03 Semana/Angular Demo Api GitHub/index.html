@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="githubApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div ng-controller="githubController">
+    <input type="text" ng-model="username">
+    <button ng-click="getReposUser()">Get Repos</button>
+
+    <h2>Repos of {{ profile.name }}</h2>
+    <ul>
+      <li ng-repeat="repo in repos">{{ repo.full_name }}</li>
+    </ul>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+
+  <script type="text/javascript">
+
+    angular.module('githubApp', [])
+      .controller('githubController', function( $scope, githubService ) {
+
+        $scope.getReposUser = function() {
+
+          var userName = $scope.username
+
+          githubService.getInfoProfile(userName)
+            .then( function(response) {
+              console.log(response.data)
+              $scope.profile = response.data
+            })
+
+          githubService.getRepos(userName)
+            .then( function(response) {
+              $scope.repos = response.data
+            })
+
+        }
+
+      })
+      .factory('githubService', function($http) {
+
+        function _getRepos( username ) {
+          var url = "https://api.github.com/users/" + username + "/repos"
+          return $http.get(url)
+        }
+
+        function _getInfoProfile( username ) {
+          var url = "https://api.github.com/users/" + username
+          return $http.get(url)
+        }
+
+        return {
+          getRepos: _getRepos,
+          getInfoProfile: _getInfoProfile
+        }
+
+      })
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div ng-controller="todoController">
+    <h2>{{ title }}</h2>
+    <form ng-submit="addTask()">
+      <input type="text" ng-model="newTask">
+      <button>Add Task</button>
+    </form>
+    <h4>{{ listTasks.length }} tasks</h4>
+    <ul>
+      <li ng-repeat="task in listTasks"">{{ task }} <a href="#" ng-click="removeTask($index)">[X]</a></li>
+    </ul>
+  </div>
+
+  <!--  <p> {{4 + 4}} </p> -->
+  <!-- Una manera sencilla de comprobar que Angular se ha cargado -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+
+  <script type="text/javascript">
+    angular.module('todoApp', [])
+      .controller('todoController', function( $scope ) {
+        $scope.title = "TODO List 📝"
+        $scope.listTasks = ['Buy Milk', 'Fix Bike']
+        $scope.addTask = function() {
+          $scope.listTasks.push( $scope.newTask )
+          $scope.newTask = ''
+        }
+        $scope.removeTask = function(indexToRemove) {
+          $scope.listTasks.splice(indexToRemove,1)
+        }
+      })
+  </script>
+
+</body>
+</html>

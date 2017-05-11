@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Quadbits SLU. All rights reserved.
+  -->
+<notices>
+    <!--<notice>-->
+    <!--<name>Quadbits App Templates</name>-->
+    <!--<url>http://www.quadbits.com</url>-->
+    <!--<copyright>Copyright (C) 2017 Quadbits SLU</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <!--<notice>-->
+    <!--<name>Quadbits Commons Android Libraries</name>-->
+    <!--<url>http://www.quadbits.com</url>-->
+    <!--<copyright>Copyright (C) 2017 Quadbits SLU</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <!--<notice>-->
+    <!--<name>Quadbits Commons Libraries</name>-->
+    <!--<url>http://www.quadbits.com</url>-->
+    <!--<copyright>Copyright (C) 2017 Quadbits SLU</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>android-checkout</name>
+        <url>https://github.com/serso/android-checkout</url>
+        <copyright>Copyright 2014 serso aka se.solovyev</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>android-floating-action-button</name>-->
+    <!--<url>https://github.com/futuresimple/android-floating-action-button</url>-->
+    <!--<copyright>Copyright 2014 Jerzy Chalupski</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>android-iconify</name>
+        <url>https://github.com/JoanZapata/android-iconify</url>
+        <copyright>Copyright 2015 Joan Zapata</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Android Open Source Project</name>
+        <url>http://source.android.com</url>
+        <copyright>Copyright 2010, The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Android Saripaar</name>
+        <url>https://github.com/ragunathjawahar/android-saripaar</url>
+        <copyright>Copyright 2012 Mobs and Geeks</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Android Support Library</name>
+        <url>http://developer.android.com/tools/support-library/index.html</url>
+        <copyright>Copyright 2005-2008, The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Android ViewPagerIndicator</name>-->
+    <!--<url>http://viewpagerindicator.com/</url>-->
+    <!--<copyright>Copyright 2011 The Android Open Source Project&lt;br/&gt;Copyright 2012 Jake Wharton</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Apache Commons Compress</name>
+        <url>http://commons.apache.org/compress/</url>
+        <copyright>Copyright 2002-2014 The Apache Software Foundation</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Apache Commons IO</name>-->
+    <!--<url>http://commons.apache.org/io/</url>-->
+    <!--<copyright>Copyright 2002-2014 The Apache Software Foundation</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Apache Commons Lang</name>
+        <url>http://commons.apache.org/lang/</url>
+        <copyright>Copyright 2001-2014 The Apache Software Foundation</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Apache Commons Math</name>
+        <url>http://commons.apache.org/math/</url>
+        <copyright>Copyright 2001-2014 The Apache Software Foundation</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>AppIntro</name>
+        <url>https://github.com/PaoloRotolo/AppIntro</url>
+        <copyright>Copyright 2015 Paolo Rotolo&lt;br/&gt;Copyright 2016 Maximilian Narr</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Bunyan</name>
+        <url>https://github.com/oriley-me/bunyan</url>
+        <copyright>Copyright 2016 Kane O'Riley</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Butter Knife</name>
+        <url>http://jakewharton.github.io/butterknife/</url>
+        <copyright>Copyright 2013 Jake Wharton</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ChangeLog Library</name>
+        <url>https://github.com/gabrielemariotti/changeloglib</url>
+        <copyright>Copyright 2013 Gabriele Mariotti</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Dagger</name>
+        <url>http://square.github.io/dagger/</url>
+        <copyright>Copyright 2012 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>EdgeEffectOverride</name>
+        <url>https://github.com/AndroidAlliance/EdgeEffectOverride</url>
+        <copyright>Copyright 2013 Android Alliance Ltd</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Entypo Font</name>-->
+    <!--<url>http://www.entypo.com/</url>-->
+    <!--<copyright>Copyright 2015 Daniel Bruce</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>EventBus</name>
+        <url>https://github.com/greenrobot/EventBus</url>
+        <copyright>Copyright 2012 Markus Junginger, greenrobot (http://greenrobot.de)</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Facebook SDK for Android</name>
+        <url>https://github.com/facebook/facebook-android-sdk</url>
+        <copyright>Copyright 2014-present Facebook, Inc.</copyright>
+        <license>Facebook Platform License</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Floating Action Button</name>-->
+    <!--<url>https://github.com/makovkastar/FloatingActionButton</url>-->
+    <!--<copyright>Copyright 2014 Oleksandr Melnykov</copyright>-->
+    <!--<license>MIT License</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>FontAwesome</name>
+        <url>https://github.com/FortAwesome/Font-Awesome</url>
+        <copyright>Copyright 2015 Dave Gandy</copyright>
+        <license>SIL Open Font License (OFL)</license>
+    </notice>
+    <notice>
+        <name>Google I/O Android App</name>
+        <url>https://github.com/google/iosched</url>
+        <copyright>Copyright 2014 Google Inc. All rights reserved.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Gson</name>
+        <url>https://github.com/google/gson</url>
+        <copyright>Copyright 2013 Google Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Ionicons</name>-->
+    <!--<url>https://github.com/driftyco/ionicons</url>-->
+    <!--<copyright>Copyright 2014 Drifty (http://drifty.com/)</copyright>-->
+    <!--<license>MIT License</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Joda-Time-Android</name>
+        <url>https://github.com/dlew/joda-time-android</url>
+        <copyright>Copyright 2015 Daniel Lew&lt;br/&gt;Copyright 2015 Joda.org</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>LeakCanary</name>
+        <url>https://github.com/square/leakcanary</url>
+        <copyright>Copyright 2015 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>LicensesDialog</name>
+        <url>http://psdev.de/LicensesDialog</url>
+        <copyright>Copyright 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ListViewAnimations</name>
+        <url>https://github.com/nhaarman/ListViewAnimations</url>
+        <copyright>Copyright 2013 Niek Haarman</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Material Design Icons</name>
+        <url>https://github.com/google/material-design-icons</url>
+        <copyright>Copyright 2014 Google Inc.</copyright>
+        <license>Creative Commons - Attribution 4.0 International - CC BY 4.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Material Design Icons</name>-->
+    <!--<url>https://materialdesignicons.com/</url>-->
+    <!--<copyright>Copyright 2014 Austin Andrews</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Material Dialogs</name>
+        <url>https://github.com/afollestad/material-dialogs</url>
+        <copyright>Copyright 2014 Aidan Michael Follestad</copyright>
+        <license>MIT License</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Meteocons</name>-->
+    <!--<url>http://www.alessioatzeni.com/meteocons/</url>-->
+    <!--<copyright>Copyright 2015 Alessio Atzeni</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>MPAndroidChart</name>
+        <url>https://github.com/PhilJay/MPAndroidChart</url>
+        <copyright>Copyright 2014 Philipp Jahoda</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Nine Old Androids</name>
+        <url>http://nineoldandroids.com/</url>
+        <copyright>Copyright 2012 Jake Wharton</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Octicons</name>-->
+    <!--<url>https://github.com/github/octicons</url>-->
+    <!--<copyright>Copyright 2012-2015 GitHub</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>OkHttp</name>
+        <url>http://square.github.io/okhttp/</url>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Otto</name>-->
+    <!--<url>http://square.github.io/otto/</url>-->
+    <!--<copyright>Copyright 2013 Square, Inc.</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Protocol Buffers - Google's data interchange format</name>
+        <url>https://developers.google.com/protocol-buffers/</url>
+        <copyright>Copyright 2014 Google Inc. All rights reserved.</copyright>
+        <license>Protocol Buffers License</license>
+    </notice>
+    <notice>
+        <name>RecyclerViewFastScroller</name>
+        <url>https://github.com/danoz73/RecyclerViewFastScroller</url>
+        <copyright>Copyright 2015 Daniel Smith</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Retrofit</name>
+        <url>http://square.github.io/retrofit/</url>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>RxAndroid</name>
+        <url>https://github.com/ReactiveX/RxAndroid</url>
+        <copyright>Copyright 2015 The RxAndroid authors</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>RxJava</name>
+        <url>https://github.com/ReactiveX/RxJava</url>
+        <copyright>Copyright 2013 Netflix, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>RxRelay</name>
+        <url>https://github.com/JakeWharton/RxRelay</url>
+        <copyright>Copyright 2014 Netflix, Inc.&lt;br/&gt;Copyright 2015 Jake Wharton</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>ShowcaseView</name>
+        <url>https://github.com/amlcurran/ShowcaseView</url>
+        <copyright>Copyright Alex Curran (+Alex) 2012. All rights reserved.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Simple Line Icons</name>-->
+    <!--<url>https://github.com/thesabbir/simple-line-icons</url>-->
+    <!--<copyright>Copyright 2015 Sabbir Ahmed, Jamal Jama &amp; Ahmad Firoz</copyright>-->
+    <!--<license>MIT License</license>-->
+    <!--</notice>-->
+    <!--<notice>-->
+    <!--<name>SLF4J - Simple Logging Facade for Java</name>-->
+    <!--<url>http://www.slf4j.org/</url>-->
+    <!--<copyright>Copyright 2004-2013 QOS.ch</copyright>-->
+    <!--<license>MIT License</license>-->
+    <!--</notice>-->
+    <!--<notice>-->
+    <!--<name>SLF4J Android binding</name>-->
+    <!--<url>http://psdev.de/slf4j-android-logger</url>-->
+    <!--<copyright>Copyright 2013 Philip Schiffer</copyright>-->
+    <!--<license>Apache Software License 2.0</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Twitter Kit for Android</name>
+        <url>https://github.com/twitter/twitter-kit-android</url>
+        <copyright>Copyright 2015 Twitter, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <!--<notice>-->
+    <!--<name>Typicons Font</name>-->
+    <!--<url>http://www.typicons.com/</url>-->
+    <!--<copyright>Copyright 2015 Stephen Hutchings</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <!--<notice>-->
+    <!--<name>Weather Icons</name>-->
+    <!--<url>https://github.com/erikflowers/weather-icons</url>-->
+    <!--<copyright>Copyright 2015 Erik Flowers</copyright>-->
+    <!--<license>SIL Open Font License (OFL)</license>-->
+    <!--</notice>-->
+    <notice>
+        <name>Google Play Services</name>
+        <url>http://developer.android.com/google/play-services/index.html</url>
+        <!--<copyright></copyright>-->
+        <license>Google Play Services</license>
+    </notice>
+</notices>

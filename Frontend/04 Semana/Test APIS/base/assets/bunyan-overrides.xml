@@ -1,0 +1,8 @@
+<!--
+  ~ Copyright (C) 2017 Quadbits SLU. All rights reserved.
+  -->
+
+<!-- TODO: This file can be removed once bunyan-plugin stops showing errors during compilation -->
+<bunyan>
+
+</bunyan>

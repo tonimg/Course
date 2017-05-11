@@ -1,0 +1,40 @@
+  footer {
+    background: #3B5975;
+    color: white;
+  }
+
+  li{
+
+
+  }
+  
+  .main-background {
+    padding-top: 40px;
+    background: #EDEDED;
+  }
+  
+  .container-fluid {
+    background: #A5A5A5;
+  }
+  
+  .container {
+    background: white;
+  }
+  
+  .myfontcolor {
+    color: #337AB7;
+  }
+  
+  .fix-picture {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .divisor {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+/* *{
+	border: 2px solid red;
+} */

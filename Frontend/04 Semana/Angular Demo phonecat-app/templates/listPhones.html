@@ -1,0 +1,8 @@
+<input type="" name="" ng-model="query">
+<ul>
+  <li ng-repeat="phone in listPhones | filter: query">
+    <h2><a ng-href="#/phone/{{ phone.id }}">{{ phone.name }}</a></h2>
+    <p>{{ phone.snippet }}</p>
+    <img ng-src="{{ phone.imageUrl }}">
+  </li>
+</ul>

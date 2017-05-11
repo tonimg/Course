@@ -1,0 +1,10 @@
+<!--
+  ~ Copyright (C) 2017 Quadbits SLU. All rights reserved.
+  -->
+<bunyan>
+    <!-- global threshold and tag pattern -->
+    <global level="ERROR" tagPattern="%S"/> <!-- These are the default values -->
+
+    <!-- Simple logcat appender, explained below -->
+    <appender class="me.oriley.bunyan.BunyanLogcatAppender"/>
+</bunyan>

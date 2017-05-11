@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>My Phones Catalog</h1>
+
+  <ng-view></ng-view>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+  <script type="text/javascript">
+    angular.module('mainApp',['ngRoute'])
+      .config( function( $routeProvider ) {
+
+        $routeProvider
+          .when('/',{
+            templateUrl: 'templates/listPhones.html',
+            controller: 'listController'
+          })
+          .when('/phone/:model',{
+            templateUrl: 'templates/detailsPhone.html',
+            controller: 'detailsController'
+          })
+
+      })
+      .controller('detailsController', function($scope, $routeParams, dataFactory) {
+          var idPhone = $routeParams.model
+
+           dataFactory.getDetailsPhones(idPhone)
+            .then( function(response) {
+              $scope.detailsPhone = response.data
+              console.log( $scope.detailsPhone  )
+            })
+
+      })
+      .controller('listController', function($scope, dataFactory) {
+
+        dataFactory.getListPhones()
+          .then( function(response) {
+            $scope.listPhones = response.data
+            console.log( $scope.listPhones )
+          })
+
+      })
+      .factory('dataFactory', function($http) {
+
+        function getListPhones() {
+          return $http.get('/data/phones.json')
+        }
+
+        function getDetailsPhones( idPhone ) {
+          return $http.get('/data/' + idPhone + '.json')
+        }
+
+        return {
+          getListPhones: getListPhones,
+          getDetailsPhones: getDetailsPhones
+        }
+
+      })
+  </script>
+</body>
+</html>

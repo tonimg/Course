@@ -1,0 +1,19 @@
+.cover {
+      background-image: url('http://68.media.tumblr.com/b7355206f8ad142d3a50d722baa1c11d/tumblr_o8pudm4Y0S1st5lhmo1_1280.jpg');
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .search-form {
+      width: 40%;
+    }
+    .form-group, .search-form input{
+      width: 85% !important;
+    }
+
+footer {
+  background: #eee;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Document</title>
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#/">Home</a></li>
+          <li role="presentation"><a href="#/about">About</a></li>
+          <li role="presentation"><a href="#/contact">Contact</a></li>
+          <li role="presentation"><a href="#/beers">Beers</a></li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Project name</h3>
+    </div>
+
+    <ng-view></ng-view>
+    
+    <footer class="footer">
+      <p>&copy; 2016 Company, Inc.</p>
+    </footer>
+  </div>
+  <!-- /container -->
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+  
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/config.js"></script>
+  
+  <script type="text/javascript" src="js/controllers/homeController.js"></script>
+  <script type="text/javascript" src="js/controllers/aboutController.js"></script>
+  <script type="text/javascript" src="js/controllers/contactController.js"></script>
+  <script type="text/javascript" src="js/controllers/beersController.js"></script>
+</body>
+
+</html>

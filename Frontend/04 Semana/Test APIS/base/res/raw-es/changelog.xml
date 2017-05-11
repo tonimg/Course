@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Quadbits SLU. All rights reserved.
+  -->
+<changelog bulletedList="true">
+    <changelogversion versionName="2.9.1" changeDate="17/04/2017">
+        <changelogtext>Mejorados los diálogos para solucionar la configuración de la ubicación.</changelogtext>
+        <changelogtext>Añadido soporte de dispositivos con alto ratio de aspecto.</changelogtext>
+        <changelogtext>Otras mejoras y correcciones menores.</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="2.9.0" changeDate="11/03/2017">
+        <changelogtext>Las gasolineras con el mismo precio ahora se muestran en orden alfabético en la lista al elegir ordenación por precio.</changelogtext>
+        <changelogtext>Actualizados los servicios de Google para ubicación y mapas.</changelogtext>
+        <changelogtext>Otras mejoras y correcciones menores.</changelogtext>
+    </changelogversion>
+</changelog>

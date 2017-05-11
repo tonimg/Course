@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div>
+                  <form action="" method="POST" class="form-inline" role="form">
+
+                    <div class="form-group">
+                      <label class="sr-only" for="">label</label>
+                      <input type="text" class="form-control" id="username" placeholder="Input field">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
+                </div>
+                <div class="card hovercard">
+                    <div class="avatar">
+                        <img id="avatar_user" alt="" src="http://lorempixel.com/100/100/people/9/">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <a id="name_owner" target="_blank" href="#">User Name</a>
+                        </div>
+                        <ul id="list_repos" class="list-unstyled"></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript">
+
+      $('button').on('click', function(e) {
+
+          e.preventDefault();
+
+          var username = $('#username').val()
+          var htmlList = ''
+          $.ajax({
+              url: 'https://api.github.com/users/' + username + '/repos',
+              success: function(data) {
+                  data.forEach(function(repo) {
+                      htmlList += '<li>' + repo.name + '</li>'
+                  })
+                  $('#list_repos').html(htmlList)
+              }
+          })
+
+          $.ajax({
+              url: 'https://api.github.com/users/' + username,
+              success: function(userData) {
+                console.log(userData)
+                  $('#avatar_user').attr('src', userData.avatar_url)
+                  $('#name_owner')
+                      .text(userData.name)
+                      .attr('href', userData.html_url )
+              }
+          })
+
+      })
+
+
+    </script>
+</body>
+
+</html>
