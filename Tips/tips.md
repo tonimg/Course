@@ -1,4 +1,4 @@
-#Tips 
+# Tips 
 
 ## Plugins Sublime:
 
@@ -82,6 +82,3 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 -   ``rm -rf`` delete folder and files
 -   ``mv 'filename1' 'C:\folder\filename2'`` move files or foldes
 
-
-
-## [Arrow functions](https://hackernoon.com/javascript-arrow-functions-for-beginners-926947fc0cdc)
