@@ -46,13 +46,13 @@ request('http://www.google.com', function (error, response, body) {
 
 ### Exercices
 
-**Exercises**: [Node Exercises Folder](Node Exercises)
-**Exercises**: [Connection to the server](Node Exercises/01 - Connection to the server)
-**Exercises**: [Show Content](Node Exercises/02 - Show Content)
-**Exercises**: [HTML Code](Node Exercises/03 - HTML Code)
-**Exercises**: [File list](Node Exercises/04 - File list)
-**Exercises**: [Writing on txt](Node Exercises/05 - Writing on txt)
-**Exercises**: [Demo Async examples](Demo Async examples)
+**Exercises** : [Node Exercises Folder](Node Exercises)
+**Exercises** : [Connection to the server](Node Exercises/01 - Connection to the server)
+**Exercises** : [Show Content](Node Exercises/02 - Show Content)
+**Exercises** : [HTML Code](Node Exercises/03 - HTML Code)
+**Exercises** : [File list](Node Exercises/04 - File list)
+**Exercises** : [Writing on txt](Node Exercises/05 - Writing on txt)
+**Exercises** : [Demo Async examples](Demo Async examples)
 
 [Request - Simplified HTTP client](https://github.com/request/request)
 
