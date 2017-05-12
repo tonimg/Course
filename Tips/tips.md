@@ -82,3 +82,6 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 -   ``rm -rf`` delete folder and files
 -   ``mv 'filename1' 'C:\folder\filename2'`` move files or foldes
 
+
+
+- Parsear webs [here](..\Backend\05 Semana\parsing_web.js) 

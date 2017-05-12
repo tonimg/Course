@@ -110,5 +110,7 @@ Online: https://marioterron.github.io/eat-out/#/
         *   Destructuring
         *   Rest operator
         *   Spread operator
+        *   Promises
+        *   
 
 
