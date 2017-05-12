@@ -77,3 +77,28 @@ fs.readdir(source, function (err, files) {
 
 ```
 
+Reject a promise:
+```javascript
+var promise = new Promise( (fulfill, reject) => {
+    setTimeout( () => {
+        reject( new Error("REJECTED!") )
+    },300 );
+});
+
+function onReject (error) {
+    console.log(error.message)
+}
+     
+promise
+    .then(null, onReject )
+```
+
+
+Demos Promises [here](Demos%20Promises)
+
+### [Clases](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+- Basic support
+- ``class`` and [extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) keywords
+- [constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) definition
+- [static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) method definitions

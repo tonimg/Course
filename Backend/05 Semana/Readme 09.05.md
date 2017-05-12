@@ -44,26 +44,26 @@ request('http://www.google.com', function (error, response, body) {
 })
 ```
 
-### Exercices
+### Exercices:
 
-**Exercises** : [Node Exercises Folder](Node Exercises)
-**Exercises** : [Connection to the server](Node Exercises/01 - Connection to the server)
-**Exercises** : [Show Content](Node Exercises/02 - Show Content)
-**Exercises** : [HTML Code](Node Exercises/03 - HTML Code)
-**Exercises** : [File list](Node Exercises/04 - File list)
-**Exercises** : [Writing on txt](Node Exercises/05 - Writing on txt)
-**Exercises** : [Demo Async examples](Demo Async examples)
+- [Node Exercises Folder](Node%20Exercises)
+- [Connection to the server](Node%20Exercises01%20-%20Connection%20to%20the%20server)
+- [Show Content](Node%20Exercises/02%20-%20Show%20Content)
+- [HTML Code](Node%20Exercises/03%20-%20HTML%20Code)
+- [File list](Node%20Exercises/04%20-%20File%20list)
+- [Writing on txt](Node%20Exercises/05%20-%20Writing%20on%20txt)
+- [Demo Async examples](Demo%20Async%20examples)
 
-[Request - Simplified HTTP client](https://github.com/request/request)
+### [Request - Simplified HTTP client](https://github.com/request/request)
 
-**Exercises**: [Demo Get Url Request](Demo Get Url Request)
+**Exercises**: [Demo Get Url Request](Demo%20Get%20Url%20Request)
 
 
 Practice with node [https://nodeschool.io/](https://nodeschool.io/)
 
 ``npm install learyounode``
 
-[Learn You Node](Learn You Node)
+[Learn You Node](Learn%20You%20Node)
 
 ## Asynchronous programming in Node
 
