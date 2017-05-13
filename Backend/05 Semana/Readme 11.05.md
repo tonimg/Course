@@ -164,7 +164,7 @@ Page slide [165](https://skylabcoders.github.io/bootcamp-abril2017/?full#165) wi
 - Shorthand methods names
 - Dynamic property names
 - [getter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) and [setter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/set)
-- [Examples](https://gist.github.com/juanmaguitar/fa284ba904992a4ece44e6e42ec81498)
+- Examples
 
 [Exercices for practice](https://skylabcoders.github.io/bootcamp-abril2017/?full#168)
 
