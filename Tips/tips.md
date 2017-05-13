@@ -67,7 +67,7 @@ Portable console emulator for Windows [cmder](http://cmder.net/)
 A neat way integrate [Cmder and Sublime](https://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly) text seamlessly.
 
 Change directory by default ([here](https://www.youtube.com/watch?v=3bBSVXAdeXg)
-Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and we will create a **new** "Reg_Expand_SZ" (*valor cadena expandible*) with the name ``Autorun`` with the value ``CD/d C:\Users\tonim\OneDrive\Documentos\SkyLab Coders\Course\Backend``
+Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and we will create a **new** "Reg_Expand_SZ" (*valor cadena expandible*) with the name ``Autorun`` with the value ``CD/d C:\Users\username\your\path\route``
 
 ![changedirectory.png](img/changedirectory.png)
 
@@ -84,4 +84,4 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 
 
 
-- Parsear webs [here](./Backend/0520%Semana/parsing_web.js) 
+- Parsear webs [here](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/parsing_web.js) 
