@@ -55,10 +55,33 @@ Bower can manage components that contain HTML, CSS, JavaScript, fonts or even im
 
 Steps:
 
-1. ``npm install bower -g`` install manage package 
+1. Creamos directorio vacio para el proyecto. 
+1. ``npm install bower -g`` install manage package (sino lo tienes ya instalado)
+1. ``npm init`` --> para generar el archivo package.json ``--y`` para que no te pregunte.
+1. ``npm install express`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
+1. ``bower init`` --> para generar el archivo package.json ``--y`` para que no te pregunte.
+1. ``bower install pug`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
+1. ``bower install boostrap`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
+1. ``touch .gitingnore``
+1. ``npm install pug --save`` 
 
-1. ``bower init`` --> para generar el archivo package.json
-1. ``bower install <package>`` --> Install packages
+código de ejemplo para empezar un nuevo proyecto:
+
+```javascript
+const express = require('express')
+const app = express()
+const PORT = 3000
+
+app.set('view engine', 'pug')
+app.use(express.static('public'))
+
+app.get('', (req, res) => {
+  res.render('index')
+})
+
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}`))
+```
+
 
 ### Exercices
 
