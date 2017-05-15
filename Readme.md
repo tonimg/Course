@@ -50,8 +50,6 @@ Progression resume:
     -  [JSON](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#json)
     -  [AJAX](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#ajax)
     -  [API](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2026.04.md#api)
-        +  Window properties
-        +  Window methods
     -   [Angular](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2027.04.md#today-2704)
         +  [Model view controller](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2027.04.md#model-view-controller)
         +  $scope, [controllers](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2027.04.md#controler), templates, factory, service.
@@ -119,7 +117,7 @@ Online: https://marioterron.github.io/eat-out/#/
 
 -   Resume [Sixth week and exercices](https://github.com/tonimg/Course/tree/master/Backend/06%20Semana) - 15/05/2017.
     +   [Express.js](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#today-1505)
-    +   [CURL](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#curl)
-    +   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
-    +   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
+        +   [CURL](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#curl)
+        +   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
+        +   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
 
