@@ -4,9 +4,11 @@
 
 Paste the above into your command line prompt and this will make the **subl** command available to you.
 
-If you are using Sublime Text 3, use the following instead:
+If you are using Sublime Text 3 with a shortcut, use the following instead from Cmder:
 
 ``doskey subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*``
+
+My package installs of Sublime:
 
 -   Bootstrap 3 Snippet.
 -   A File Icon
@@ -23,6 +25,7 @@ If you are using Sublime Text 3, use the following instead:
 -   SulimeLinter
 -   Unsplash
 -   JavaScript Snippets
+-   Pug
 
 ## Extension for Chrome:
 
@@ -31,6 +34,8 @@ If you are using Sublime Text 3, use the following instead:
 - ColorZilla
 - BootstrapGrip
 - Clear Cache
+- Angular Chrome
+- PostMan
 
 ## Git & GitHub
 

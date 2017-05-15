@@ -96,5 +96,14 @@ For practice TDD in slide [63](https://skylabcoders.github.io/bootcamp-abril2017
 
 [Grade Book](Grade20%Book)
 
+For practice TDD in slide [64](https://skylabcoders.github.io/bootcamp-abril2017/?full#64)
+
+[Fizz Buzz](Fizz20%Buzz)
+
+Practice online [here](http://cyber-dojo.org/)
+
+This web for practice [http://cyber-dojo.org/setup_default_start_point/show_exercises/?language=Javascript&test=jasmine](http://cyber-dojo.org/setup_default_start_point/show_exercises/?language=Javascript&test=jasmine)
+
+
 
 
