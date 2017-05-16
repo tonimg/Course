@@ -135,3 +135,10 @@ Online: https://marioterron.github.io/eat-out/#/
         +   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
         +   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
 
+
+
+
+
+
+
+Copyright (c) 2017 Toni.

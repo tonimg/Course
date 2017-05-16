@@ -9,5 +9,11 @@
 - [Tour into PUG](http://learnjade.com/tour/intro/)
 - [Documentation](https://github.com/pugjs/pug)
 
+---
+
 -   Example exercise [demo_pug](demo-pug)
 -   Example exercise [demo-pug-bootstrap](demo-pug-bootstrap)
+
+---
+
+
