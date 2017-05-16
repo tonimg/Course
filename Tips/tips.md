@@ -91,7 +91,7 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
 
-### Basics Commands [Cmder](Commands http://bliker.github.io/cmder)
+### Basics Commands [Cmder](http://bliker.github.io/cmder)
 
 Portable console emulator for Windows [cmder](http://cmder.net/)
 
