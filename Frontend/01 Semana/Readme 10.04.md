@@ -6,7 +6,7 @@
 
 know Sublime, open, new file, close, save and packs
 
-### Basics Commands [Cmender](http://bliker.github.io/cmder)
+### Basics Commands [cmder](http://bliker.github.io/cmder)
 
 -   ``cd`` for change directory
 -   ``cd..`` up level directory

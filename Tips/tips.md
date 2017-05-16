@@ -60,7 +60,7 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 - PostMan
 
 ## Git & GitHub
-### [Basic commands](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmendercommands-httpblikergithubiocmder)
+### [Basic commands](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmdercommands-httpblikergithubiocmder)
 
 Después de generar el directorio y archivo a trabajar:
 
@@ -91,7 +91,7 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
 
-### Basics Commands Cmder [Cmender](Commands http://bliker.github.io/cmder.)
+### Basics Commands Cmder [cmder](Commands http://bliker.github.io/cmder.)
 Portable console emulator for Windows [cmder](http://cmder.net/)
 
 ### Sublime shortcut desde el terminal Cmder

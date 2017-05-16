@@ -13,7 +13,11 @@
 
 -   Example exercise [demo_pug](demo-pug)
 -   Example exercise [demo-pug-bootstrap](demo-pug-bootstrap)
+-   Example exercise [demo-pug-data](demo-pug-data)
 
 ---
+
+ ### [Express NodeSchool Kata](https://skylabcoders.github.io/bootcamp-abril2017/?full#243)
+ 
 
 

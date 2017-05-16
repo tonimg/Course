@@ -1,0 +1,20 @@
+{
+  "name": "demo-pug-data",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "JuanMa Garrido <JuanMa.Garrido@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

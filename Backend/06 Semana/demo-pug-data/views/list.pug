@@ -1,0 +1,8 @@
+h1 Hello World!
+input#query(type="text")
+button Search!
+ul
+  each employee in employees
+    li: a(href=`/employee/${employee.id}`) #{employee.first_name} #{employee.last_name}
+script(src='bower_components/jquery/dist/jquery.js')
+script(src='js/main.js')

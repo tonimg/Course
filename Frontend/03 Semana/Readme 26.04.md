@@ -61,7 +61,7 @@ $.ajax({
 
 For do the test, install our small server with this command into console 'CEMENDER': **npm install http-server -g**
 
-In console 'CMENDER' go to the path of our project.
+In console 'cmder' go to the path of our project.
 For up our local server put in console (``http-server``)
 In the browser we put ``localhost:8080`` or ``http://127.0.0.1:8080/``
 

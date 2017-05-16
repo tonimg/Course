@@ -15,7 +15,7 @@ Progression resume:
 
 -   [Tips](https://github.com/tonimg/Course/blob/master/Tips/tips.md#tips) resume folder.
 -   Resume [first week and exercices](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
-    +   [Basics Commands Cmender](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmendercommands-httpblikergithubiocmder)
+    +   [Basics Commands cmder](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmdercommands-httpblikergithubiocmder)
     +   [Bacis Commands Markdown](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#bacis-commands-markdown)
     +   [Repositorios y trabajar con GIT local](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#repositorios-y-trabajar-con-git-local)
     +   [Comandos utilies Git](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#comandos-utilies-git)

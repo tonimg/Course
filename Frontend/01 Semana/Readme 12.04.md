@@ -2,19 +2,19 @@
 
 ### Terminal Cmder
 
-Configurado para que el terminal Cmender, que nada más abrirlo se abra en la ruta del proyecto. 
+Configurado para que el terminal cmder, que nada más abrirlo se abra en la ruta del proyecto. 
 Para realizarlo, nos vamos al registro y creamos una nueva key (*valor de cadena expandible*) en la siguiente ruta: ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor]```
 Ponemos el nombre de "*Autorun*" y escribimos la ruta de la siguiente manera: ```CD/d C:\Users\tonim\OneDrive\Documentos\SkyLab Coders\Course```
 
 ### Sublime acceso desde el terminal Cmder
 
-En la carpeta donde tenemos el Cmender, buscamos en archivo *user-aliases.cmd* localizado en ```\cmder\config```.
+En la carpeta donde tenemos el cmder, buscamos en archivo *user-aliases.cmd* localizado en ```\cmder\config```.
 Añadimos al final del documento una nueva linea:
 *subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $1 -new_console:s75V*
 
 Donde subl es la palabra clave para poder llamarla desde el terminal y el último valor ```-new_console:s75V``` es el tamaño de la ventana y la ```V``` corresponde a si lo queremos vertical y lo podemos cambiar por "H" para disposición horizontal. 
 
-Despues en los ajustes del Cmender, Main\Apparance\ desactivamos la casilla "Multiple consoles in one ConEmu windows", para poder verlo en ventanas separadas. :)
+Despues en los ajustes del cmder, Main\Apparance\ desactivamos la casilla "Multiple consoles in one ConEmu windows", para poder verlo en ventanas separadas. :)
 
 ### [Funciones y funciones anónimas](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope).
 
