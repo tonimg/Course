@@ -65,7 +65,7 @@ Steps:
 1. ``touch .gitingnore``
 1. ``npm install pug --save`` 
 
-código de ejemplo para empezar un nuevo proyecto:
+código de ejemplo para empezar un nuevo proyecto app.js:
 
 ```javascript
 const express = require('express')
@@ -75,11 +75,24 @@ const PORT = 3000
 app.set('view engine', 'pug')
 app.use(express.static('public'))
 
-app.get('', (req, res) => {
+app.get('/', (req, res) => {
   res.render('index')
 })
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}`))
+```
+
+Y dentro de la carpeta (sino lo tenemos la creamos) **views** ponemos el index.pug
+Quedando la estructura de la siguiente manera.
+
+![capture](img/captura.png)
+
+Si lo queremos customizar el directorio de instalación de bower components, debemos de crear un archivo ``.bower.rc`` y dentro ponemos el nuevo directorio siguiendo este patrón.
+
+```javascript
+{
+    "directory": "public"
+}
 ```
 
 

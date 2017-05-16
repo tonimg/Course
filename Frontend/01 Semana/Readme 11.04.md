@@ -1,7 +1,7 @@
 
 #11/04
 
-##Acabando con Git & GitHub
+### Acabando con Git & GitHub
 
 
 ***Notes***:
@@ -35,11 +35,11 @@ subirlo:
 `git push -u origin master`
 
 
-##Social Media
+### Social Media
 
 Creación de blog, y estar presentes en redes sociales.
 
-##Programación JS web development
+### Programación JS web development
 
 Se puede resumir en tres principales [capas](http://jeffcroft.com/blog/2007/sep/26/new-layers-web-development/):
 
@@ -69,7 +69,7 @@ Para miminizar este comportamiento diferente entre diferentes navegadores, surgi
 
 ---
 
-##Definiciones:
+### Definiciones:
 
 - variables = un contenedor de datos.
 - se define una variable indicando ``var = "x"``;
@@ -85,7 +85,7 @@ Para miminizar este comportamiento diferente entre diferentes navegadores, surgi
     * Cero
     * Cadena vacia
 
-##Tipos de variables:
+### Tipos de variables:
 
 *   Number: 5
 *   Strings: "cualquiercadenacaracteres"

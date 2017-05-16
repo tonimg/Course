@@ -1,6 +1,6 @@
 # Tips 
 
-## Plugins Sublime:
+### Plugins Sublime:
 
 Paste the above into your command line prompt and this will make the **subl** command available to you.
 
@@ -8,7 +8,27 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 
 ``doskey subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*``
 
-My package installs of Sublime:
+### Sublime Text 3 add console
+
+ **Como poner la consola integrada en Sublime Text 3**
+
+ ya tenia Node.js instalado por lo que seguí estás instrucciones, si no lo tienes instalado, tarde o temprano te hará falta, instalalo de la siguiente url: *[https://nodejs.org/es/](https://nodejs.org/es/)*.
+ Continuando como que ya lo tenemos instalado hacemos lo siguiente:
+   - Vamos a **Tools --> Build system --> New Build System** del menú superior.
+   - Se nos abrirá una ventana nueva donde debemos de escribir esto:
+
+ {
+"cmd": ["node", "$file"],
+"selector": "source.js"
+}
+    - Después le damos a guardar como en **File --> Save As...** y nos aseguramos de guardarlo en la carpeta user por defecto, que suele parecerse a: **C:\Users\tunombre\AppData\Roaming\Sublime Text 3\Packages\User** con el nombre que queramos, yo por ejemplo he puesto "*Console*". Ya tienes creado tu primer "*build system*".
+    - Ahora, para usarlo, abrimos nuestro archivo .js vamos a **Tools --> Build system --> Console**.
+    - También puedes utilizar la combinación de teclas **Ctrl+B** en windows os **Command + B** en Mac.
+
+***Información extraida de [http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text](http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text)***
+
+
+### My package installs of Sublime:
 
 -   Bootstrap 3 Snippet.
 -   A File Icon
@@ -66,8 +86,12 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
 
-## Basics Commands Cmder [Cmender](##Commands http://bliker.github.io/cmder.)
+### Basics Commands Cmder [Cmender](##Commands http://bliker.github.io/cmder.)
 Portable console emulator for Windows [cmder](http://cmder.net/)
+
+### Sublime shortcut desde el terminal Cmder
+
+### Terminal Cmder path default
 
 A neat way integrate [Cmder and Sublime](https://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly) text seamlessly.
 

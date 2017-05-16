@@ -1,8 +1,8 @@
-#Today 10.04
+# Today 10.04
 
 know Sublime, open, new file, close, save and packs
 
-##Basics Commands [Cmender](##Commands http://bliker.github.io/cmder.)
+### Basics Commands [Cmender](##Commands http://bliker.github.io/cmder.)
 
 -   ``cd`` for change directory
 -   ``cd..`` up level directory
@@ -15,11 +15,11 @@ know Sublime, open, new file, close, save and packs
 -   ``rm -rf`` delete folder and files
 -   ``mv 'filename1' 'C:\folder\filename2'`` move files or foldes
 
-#Bacis Commands [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## Bacis Commands [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## otro título de prueba
-###otro titulo
-###otro titulo más
+### otro titulo
+#### otro titulo más
 
 *esto es en cursiva*
 **negrita **
@@ -89,7 +89,7 @@ Después de generar el directorio y archivo a trabajar:
 
 Al inicializar repositorio con el comando  ```git init``` este genera una carpeta git oculta. Nunca borrarla!.
 
-# Comandos utilies Git.
+### Comandos utilies Git.
 
 ```
  git
@@ -137,7 +137,7 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ```
 
-# Repositorio remoto, GitHub (en la nube)
+### Repositorio remoto, GitHub (en la nube)
 
 Para sincronizar con el local GitHub
 
@@ -148,38 +148,3 @@ Usaremos el comando ``git remote add``
 Usaremos el comando ```git remote add```
 
 Para poner todos los cambios en el repositorio remoto ```git push origin master```
-
-# 11/04
-
-### Acabando con Git & GitHub
-
-
-***Notes***:
-
-Si no introduces ningún comentario cuando haces commit (gi commit -m "mensaje")
-Hay que hacer esto: (ya que estamos en un editor que se maneja con linea de comandos.)
-`Esc + :
-q!` --> A veces con dar solo a la 'q' ya es válido.
-
-Para volver a un estado anterior se usa el comando `git checkout` el hash
-y para volver al archivo inicial es `git checkout master`
-Para renombrar ficheros usamos el comando `mv` :
-
-`mv gitbasics.md git_basics_command.md`
-
-`git add --all`
-
-`git commit -m "file name change"`
-
-# Para subirlo online:
-
-Creamos el repositorio en github.com
-Después en linea de comandos:
-
-`git remote add origin https://github.com/tonimg/git_notes.git`
-
-revisar estado
-`git remote -v`
-
-subirlo:
-`git push -u origin master`

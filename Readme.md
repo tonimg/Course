@@ -15,7 +15,18 @@ Progression resume:
 
 -   [Tips](https://github.com/tonimg/Course/blob/master/Tips/tips.md#tips) resume folder.
 -   Resume [first week and exercices](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
-    +   JavaScript Power
+    +   Basics Commands Cmender
+    +   Bacis Commands Markdown
+    +   Repositorios y trabajar con GIT local
+    +   Comandos utilies Git
+    +   Social Media
+    +   Programación JavaScript web development
+        *   Definiciones
+        *   Tipos de variables
+        *   Funciones y funciones anónimas
+        *   Arrays & Objects
+        *   Metodos de array
+        *   Prototype
         *   [Methods of regulars expresions objets](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/Frontend/02%20Semana/Readme%2017.04.md#methods-of-the-regexp-objects)
         *   [Syntax regular expressions](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/Frontend/02%20Semana/Readme%2017.04.md#syntax-regular-expression)
 -   Resume [second week and exercices](https://github.com/tonimg/Course/tree/master/Frontend/02%20Semana) - 17/04/2017.

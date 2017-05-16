@@ -1,11 +1,13 @@
 # Today 12.04
 
-### terminal Cmender
+### Terminal Cmder
+
 Configurado para que el terminal Cmender, que nada más abrirlo se abra en la ruta del proyecto. 
 Para realizarlo, nos vamos al registro y creamos una nueva key (*valor de cadena expandible*) en la siguiente ruta: ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor]```
 Ponemos el nombre de "*Autorun*" y escribimos la ruta de la siguiente manera: ```CD/d C:\Users\tonim\OneDrive\Documentos\SkyLab Coders\Course```
 
-### Sublime acceso desde el terminal Cmender
+### Sublime acceso desde el terminal Cmder
+
 En la carpeta donde tenemos el Cmender, buscamos en archivo *user-aliases.cmd* localizado en ```\cmder\config```.
 Añadimos al final del documento una nueva linea:
 *subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $1 -new_console:s75V*
@@ -14,7 +16,7 @@ Donde subl es la palabra clave para poder llamarla desde el terminal y el últim
 
 Despues en los ajustes del Cmender, Main\Apparance\ desactivamos la casilla "Multiple consoles in one ConEmu windows", para poder verlo en ventanas separadas. :)
 
-## Funciones y funciones anónmas.
+### Funciones y funciones anónimas.
 
 [https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope)
 
@@ -90,7 +92,7 @@ function timesCallFn() {
 var m = timesCallFn();
 ```
 
-# Arrays & Objects
+### Arrays & Objects
 
 ```javascript
 var hero= {

@@ -1,8 +1,10 @@
-Today 13.04
-#Practice
+# Today 13.04
+
+### Practice
 *Practicas con los ejercicios proporcionados sobre JavaScript*
 
 ---
+
 **Recordar tipos de datos primitivos de JavaScript:**
 1.  undefined
 2.  NaN
@@ -110,7 +112,7 @@ helloTokyoGreeter('friend')('Yuki')
 //'Hello, Yuki! Welcome to Tokyo, friend.'
 ```
 
-Metodos de array podemos hacer...
+### Metodos de array podemos hacer...
 
 -   con pop podemos quitar el ultimo elemento
 -   con shift podemos quitar el primer elemento
@@ -251,6 +253,7 @@ var students = [
 ```
 
 *otro ejemplo*
+
 ```javascript
 function addOneToScore( student ) {
   student.score++;
@@ -267,7 +270,7 @@ typeof addOneToScore === "function"
 
 ---
 
-#Prototype
+### Prototype
 
 * [https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/09-prototype](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/09-prototype)*
 
@@ -279,21 +282,5 @@ prototype chain (similar a las scope chain)
 
 ---
 
-#Tip
- **Como poner la consola integrada en Sublime Text 3**
 
- ya tenia Node.js instalado por lo que seguí estás instrucciones, si no lo tienes instalado, tarde o temprano te hará falta, instalalo de la siguiente url: *[https://nodejs.org/es/](https://nodejs.org/es/)*.
- Continuando como que ya lo tenemos instalado hacemos lo siguiente:
-   - Vamos a **Tools --> Build system --> New Build System** del menú superior.
-   - Se nos abrirá una ventana nueva donde debemos de escribir esto:
-
- {
-"cmd": ["node", "$file"],
-"selector": "source.js"
-}
-    - Después le damos a guardar como en **File --> Save As...** y nos aseguramos de guardarlo en la carpeta user por defecto, que suele parecerse a: **C:\Users\tunombre\AppData\Roaming\Sublime Text 3\Packages\User** con el nombre que queramos, yo por ejemplo he puesto "*Console*". Ya tienes creado tu primer "*build system*".
-    - Ahora, para usarlo, abrimos nuestro archivo .js vamos a **Tools --> Build system --> Console**.
-    - También puedes utilizar la combinación de teclas **Ctrl+B** en windows os **Command + B** en Mac.
-
-***Información extraida de [http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text](http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text)***
 
