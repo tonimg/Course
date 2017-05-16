@@ -131,7 +131,7 @@ helloTokyoGreeter('friend')('Yuki')
 
 *Ejemplo*:
 
-![image](https://files.slack.com/files-tmb/T0SJKHBFZ-F4ZDXNH39-b638bd4fe5/img_20170413_120448_720.jpg)
+![image](img/example.png)
 
 *Otro ejemplos correspondientes a las notas de unos alumnos*:
 
@@ -270,9 +270,7 @@ typeof addOneToScore === "function"
 
 ---
 
-### Prototype
-
-* [https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/09-prototype](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/09-prototype)*
+### [Prototype](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/09-prototype)
 
 Las funciones como objetos que son, tienen una propiedad prototype (new) y se puede acceder a el como si una propiedad se tratara.
 prototype chain (similar a las scope chain)

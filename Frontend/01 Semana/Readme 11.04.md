@@ -1,5 +1,5 @@
 
-#11/04
+# 11/04
 
 ### Acabando con Git & GitHub
 
@@ -21,7 +21,7 @@ Para renombrar ficheros usamos el comando `mv` :
 
 `git commit -m "file name change"`
 
-##Para subirlo online:
+### Para subirlo online:
 
 Creamos el repositorio en github.com
 Después en linea de comandos:
@@ -40,6 +40,8 @@ subirlo:
 Creación de blog, y estar presentes en redes sociales.
 
 ### Programación JS web development
+
+![javascriptjs.png](img/javascriptjs.png)
 
 Se puede resumir en tres principales [capas](http://jeffcroft.com/blog/2007/sep/26/new-layers-web-development/):
 
@@ -99,7 +101,8 @@ Para miminizar este comportamiento diferente entre diferentes navegadores, surgi
 ---
 
 Example, we have this simple multiplication table:
-```
+
+```javascript
 var res = '\n'; 
 for(var i =1 ; i <= 10; i++) { 
   for(var j =1 ; j <= 10; j++) { 
@@ -108,6 +111,8 @@ for(var i =1 ; i <= 10; i++) {
   res+= '\n';
 }
 ```
+
 And like result is this:
+
 ![image](https://cl.ly/2v3j3H1h0p13/Image%202017-04-11%20at%202.39.15%20PM.png)
 

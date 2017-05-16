@@ -16,12 +16,9 @@ Donde subl es la palabra clave para poder llamarla desde el terminal y el últim
 
 Despues en los ajustes del Cmender, Main\Apparance\ desactivamos la casilla "Multiple consoles in one ConEmu windows", para poder verlo en ventanas separadas. :)
 
-### Funciones y funciones anónimas.
-
-[https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope)
+### [Funciones y funciones anónimas](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope).
 
 Funciones anónimas son ejecutadas al instante, inicializadas mediante la variables.
-
 
 Las funciones son datos
 
@@ -56,6 +53,7 @@ El scope (alcance) de las variables y  funciones.
 Las funciones pueden ver sus variables locales, variables globales y el resto de funciones. Recorrido de "hijos a padres" serán reconocidos.
 
 Esto se llama *scope chain*.
+
 ```javascript
  var a = 1;
 function f(){
@@ -65,7 +63,9 @@ function f(){
   }
 }
 ```
+
 *La variable C se podrá ver la b y la a. La var b podrá ver a y la var a colo verá la suya*
+
 ---
 
 [argument](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/arguments)
@@ -117,20 +117,23 @@ for in para poder recorrer las propiedades de un objeto y no suele utilizarse.
 Una propiedad dentro de un objeto que contiene una función, se llama método.
 
 Algunas de las distintas maneras de crear objetos:
-1-
+
+1. example:
 ```javascript
 var hero = {
   breed: 'Turtle',
   occupation: 'Ninja'
 };
 ```
-2-
+
+1. example:
 ```javascript
 var hero = {};
 hero.breed = 'turtle';
 hero.name = 'Leonardo';
 ```
-3-
+
+1. example:
 ```javascript
 function createHero(){
     return{
@@ -140,7 +143,8 @@ function createHero(){
 }
 var hero= createHero();
 ```
-4-
+
+1. example:
 ```javascript
 function Hero(name) {
   this.name = name;
@@ -150,7 +154,8 @@ function Hero(name) {
   }
 }
 ```
-5-
+
+1. example:
 ```javascript
 var h1 = new Hero('Michelangelo');
 var h2 = new Hero('Donatello');
