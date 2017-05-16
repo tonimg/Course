@@ -1,0 +1,25 @@
+- var title = "This is my Super Page!"
+- var adminName = "sdfsdfsd"
+- var htmlContent = "Hello <em>World</em>"
+doctype html
+html
+  head
+    title= title
+  body
+    block first-part
+      p BLOCK "first-part" → No content here
+
+    ul
+      for book in books
+        li= book
+      else
+        li sorry, no books!
+    h1 Hello #{adminName}
+    input(type="text", placeholder="your name")
+    input(type=type, value=`Hello ${adminName}`)
+    input(checked=true, disabled=false)
+    // single line comment
+
+    block content
+      p BLOCK "content" → No content here
+

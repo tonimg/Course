@@ -55,14 +55,15 @@ Bower can manage components that contain HTML, CSS, JavaScript, fonts or even im
 
 Steps:
 
-1. Creamos directorio vacio para el proyecto. 
-1. ``npm install bower -g`` install manage package (sino lo tienes ya instalado)
+1. Creamos directorio vacio para el proyecto ``mkdir new_project``. 
+1. ``npm install bower -g`` install manage package (sino lo tienes ya instalado en el pc, **solo una vez**.)
 1. ``npm init`` --> para generar el archivo package.json ``--y`` para que no te pregunte.
 1. ``npm install express`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
+1. ``touch .bowerrc`` e indicamos las rutas donde vamos a instalar las dependencias de bower
+1. ``touch .gitignore``
 1. ``bower init`` --> para generar el archivo package.json ``--y`` para que no te pregunte.
 1. ``bower install pug`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
 1. ``bower install boostrap`` --> Install packages con ``--save`` lo escribe ademas en el archivo json.
-1. ``touch .gitingnore``
 1. ``npm install pug --save`` 
 
 código de ejemplo para empezar un nuevo proyecto app.js:
@@ -73,10 +74,10 @@ const app = express()
 const PORT = 3000
 
 app.set('view engine', 'pug')
-app.use(express.static('public'))
+app.use(express.static('public')) // solo cuando necesitemos servir archivos estaticos
 
 app.get('/', (req, res) => {
-  res.render('index')
+  res.render('index') // siempre buscará en carpeta views/index.pug  
 })
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}`))
@@ -103,6 +104,7 @@ Si lo queremos customizar el directorio de instalación de bower components, deb
 - [Express_Boostrap_local_content](Express_Boostrap_local_content)
 - [Express_dinamic_content](Express_dinamic_content)
 - [First_Express_Project](First_Express_Project)
+- [bower_team/](bower_team)
 
 
 

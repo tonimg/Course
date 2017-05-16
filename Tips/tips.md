@@ -46,6 +46,8 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 -   Unsplash
 -   JavaScript Snippets
 -   Pug
+-   Console Wrap
+-   [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme)
 
 ## Extension for Chrome:
 

@@ -1,0 +1,37 @@
+extends layout
+
+block first-part
+  mixin book(name, price)
+    li #{name} for #{price} €
+
+  if featuredBooks
+    ul#books
+      each book, i in featuredBooks
+        +book(book.title, book.price)
+  if books
+    select
+      each book, i in books
+        option(value=i) Book #{book}
+        
+block content
+  ul
+    li Hello <em>World</em>
+    li= htmlContent
+    li!= htmlContent
+  if adminName == "juanma"
+    h1 Hello #{adminName}, You're the boss!!
+  else
+    h1 Hello #{adminName} (you're NOT the boss, sorry)
+  #content
+    .block
+      input#bar.foo1.foo2
+  h1 foo
+    h2= book.name
+    h3 "#{book.name}" for #{book.price} €
+  p
+    | foo bar
+    | hello world
+  p.
+    foo bar
+    hello world
+  h1= foo
