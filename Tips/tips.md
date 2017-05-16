@@ -75,7 +75,7 @@ Después de generar el directorio y archivo a trabajar:
 
  **Trabajar con proyectos en grupo con GitHub**
 
- https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2011.04.md#acabando-con-git--github
+Algunas notas más sobre [GitHub](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2011.04.md#acabando-con-git--github)
 
 - ``git clone`` <- clonas repositorio remoto en local
 - ``git push`` -> subes los cambios locales a remoto
@@ -91,7 +91,8 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
 
-### Basics Commands Cmder [cmder](Commands http://bliker.github.io/cmder.)
+### Basics Commands [Cmder](Commands http://bliker.github.io/cmder)
+
 Portable console emulator for Windows [cmder](http://cmder.net/)
 
 ### Sublime shortcut desde el terminal Cmder
