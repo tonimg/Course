@@ -4,10 +4,16 @@
 
 ![pug.png](img/pug.png)
 
+
 - Lets star with [Pug](http://jade-lang.com/) 
 - [Syntax PUG](https://naltatis.github.io/jade-syntax-docs/)
 - [Tour into PUG](http://learnjade.com/tour/intro/)
 - [Documentation](https://github.com/pugjs/pug)
+
+Conversor HTML to PUG [here](http://html2jade.org/).
+
+![jadeconverter](img/jadeconverter.png)
+
 
 ---
 
