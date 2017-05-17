@@ -131,12 +131,12 @@ Online: https://marioterron.github.io/eat-out/#/
 
 -   Resume [Sixth week and exercices](https://github.com/tonimg/Course/tree/master/Backend/06%20Semana) - 15/05/2017.
     +   [Express.js](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#today-1505)
-        +   [CURL](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#curl)
-        +   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
-        +   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
-        +   [JADE/PUG](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2016.05.md#jade-or-pug-actually-name)
-        +   [Middlewares](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#middlewares)
-        +   [Sessions & Cookies w/ Express](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#sessions--cookies-w-express)
+        *   [CURL](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#curl)
+        *   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
+        *   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
+        *   [JADE/PUG](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2016.05.md#jade-or-pug-actually-name)
+        *   [Middlewares](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#middlewares)
+        *   [Sessions & Cookies w/ Express](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#sessions--cookies-w-express)
 
 
 
