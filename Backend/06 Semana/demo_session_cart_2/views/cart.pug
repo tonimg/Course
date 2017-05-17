@@ -1,0 +1,8 @@
+form(action='/cart', method='POST')
+  input(type='text', name='item')
+  input(type='number', name='quantity')
+  button Add to Cart!
+
+ul
+  each item in cart
+    li #{item.item} ➡ #{item.quantity}

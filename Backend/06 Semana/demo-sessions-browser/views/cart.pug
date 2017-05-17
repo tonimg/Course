@@ -1,0 +1,13 @@
+form(action='/cart', method='POST')
+  input(type='text', name='item')
+  input(type='number', name='quantity')
+  button Add to Cart!
+
+ul
+  each itemCart in cart
+    li #{itemCart.item} → #{itemCart.quantity} &nbsp;
+      a(href=`/cart/${itemCart.id}`) [X]
+
+script(src="https://code.jquery.com/jquery-2.x-git.js")
+script(src="js/main.js")
+
