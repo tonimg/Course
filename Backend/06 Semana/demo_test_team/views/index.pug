@@ -1,0 +1,296 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+  html.no-js.lt-ie9  
+// [if gt IE 8] <!
+html.no-js
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width')
+    link(rel='stylesheet', href='css/bootstrap.css')
+    link(rel='stylesheet', href='css/bootstrap-responsive.css')
+    link(rel='stylesheet', href='css/custom-styles.css')
+    link(rel='stylesheet', href='css/component.css')
+    link(rel='stylesheet', href='css/font-awesome.css')
+    link(rel='stylesheet', href='css/font-awesome-ie7.css')
+    script(src='js/modernizr-2.6.2-respond-1.1.0.min.js')
+  body
+    //if lt IE 7
+      p.chromeframe
+        | You are using an 
+        strong outdated
+        |  browser. Please 
+        a(href='http://browsehappy.com/') upgrade your browser
+        |  or 
+        a(href='http://www.google.com/chromeframe/?redirect=true') activate Google Chrome Frame
+        |  to improve your experience.
+    // This code is taken from http://twitter.github.com/bootstrap/examples/hero.html
+    .wrap-bg
+      .site-header
+        .logo
+          h1 sitename
+      .container
+        .banner
+          #myCarousel.carousel.slide
+            // Carousel items
+            .carousel-inner
+              .item
+                img(src='img/banner-image.jpg', alt='')
+                .carousel-caption
+                  h1 putate olut
+                  h2 Sed egestas ante et vulputate olutpat eros pede
+                  .social-icons
+                    ul
+                      li
+                        a(href='#')
+                          i.fw-icon-facebook.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-twitter.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-google-plus.icon
+              .item.active
+                img(src='img/banner-image.jpg', alt='')
+                .carousel-caption
+                  h1 putate olut
+                  h2 Sed egestas ante et vulputate olutpat eros pede
+                  .social-icons
+                    ul
+                      li
+                        a(href='#')
+                          i.fw-icon-facebook.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-twitter.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-google-plus.icon
+              .item
+                img(src='img/banner-image.jpg', alt='')
+                .carousel-caption
+                  h1 putate olut
+                  h2 Sed egestas ante et vulputate olutpat eros pede
+                  .social-icons
+                    ul
+                      li
+                        a(href='#')
+                          i.fw-icon-facebook.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-twitter.icon
+                      li
+                        a(href='#')
+                          i.fw-icon-google-plus.icon
+            // Carousel nav
+            a.carousel-control.left(data-slide='prev', href='#myCarousel')
+              i.fw-icon-chevron-left
+            a.carousel-control.right(data-slide='next', href='#myCarousel')
+              i.fw-icon-chevron-right
+    .menu
+      .navbar
+        a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+          i.fw-icon-th-list
+        .nav-collapse.collapse
+          ul.nav
+            li.active.border-left
+              a(href='#') Home
+            li
+              a(href='about.html') About
+            li
+              a(href='work.html') Work
+            li
+              a(href='contact.html') Contact
+        // /.nav-collapse
+      .mini-menu
+        label
+          select.selectnav
+            option(value='#', selected='') Home
+            option(value='#') About
+            option(value='#') → Another action
+            option(value='#') → Something else here
+            option(value='#') → Another action
+            option(value='#') → Something else here
+            option(value='#') Work
+            option(value='#') Contact
+    .container.bg-light-gray
+      .main-content
+        .featured-heading
+          h1 Sed egestas ante et vulputate
+          h2 semper est vitae luctus metus libero eu augue Morbi purus libero
+        .ruler
+        .featured-blocks
+          .row-fluid
+            .span4
+              .media
+                i.fw-icon-refresh.icon
+                .media-body
+                  h1.media-heading Morbi interdum
+                  p
+                    | Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem.
+                  .readmore
+                    a(href='#')
+                      | Read more 
+                      i.fw-icon-chevron-right
+            .span4
+              .media
+                i.fw-icon-headphones.icon
+                .media-body
+                  h1.media-heading Vivamus molestie
+                  p
+                    | Cinspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem
+                  .readmore
+                    a(href='#')
+                      | Read more 
+                      i.fw-icon-chevron-right
+            .span4
+              .media
+                i.fw-icon-repeat.icon
+                .media-body
+                  h1.media-heading Fusce lobortis 
+                  p
+                    | Jovispendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem
+                  .readmore
+                    a(href='#')
+                      | Read more 
+                      i.fw-icon-chevron-right
+        .ruler
+        .tabs
+          ul#myTabContent.nav.nav-tabs
+            li.active
+              a(href='#vestibuluco', data-toggle='tab') Vestibu luco
+            li
+              a(href='#fuscelobin', data-toggle='tab') Fusce lobin
+            li
+              a(href='#praesentplac', data-toggle='tab') Praesent plac
+          #myTabContent.tab-content
+            #vestibuluco.tab-pane.fade.active.in
+              .media
+                img.spacing-r(src='img/img1.jpg', alt='')
+                .media-body
+                  h1.media-heading.ruler-bottom Integer vitae libero ac risus
+                  p
+                    | Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede
+                  .readmore
+                    a(href='#')
+                      | Read more 
+                      i.fw-icon-chevron-right
+            #fuscelobin.tab-pane.fade
+              .media
+                img.spacing-r(src='img/img1.jpg', alt='')
+                .media-body
+                  h1.media-heading.ruler-bottom Nunc tellus ante mattis eget
+                  p
+                    | Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede
+                  .readmore
+                    a(href='#')
+                      | Readmore 
+                      i.fw-icon-chevron-right
+            #praesentplac.tab-pane.fade
+              .media
+                img.spacing-r(src='img/img1.jpg', alt='')
+                .media-body
+                  h1.media-heading.ruler-bottom Etiam pellentesque mauris ut lectus
+                  p
+                    | Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede
+                  .readmore
+                    a(href='#')
+                      | Read more 
+                      i.fw-icon-chevron-right
+        .featured-content
+          .row-fluid
+            .span4
+              .block
+                .block-title
+                  h1 Morbi interdum 
+                .block-content
+                  p
+                    | Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper ehicula. Integer adipiscing risus a sem
+                  ul
+                    li
+                      i.fw-icon-check
+                      | Fusce accumsan mollis eros lorem
+                    li
+                      i.fw-icon-check
+                      | Pellentesque a diam sit amet mi ullam
+                    li
+                      i.fw-icon-check
+                      | Vehicula teger adipiscing risus a sem
+                    li
+                      i.fw-icon-check
+                      | Nunc tellus mattis eget gravida vitad
+                  a(href='#')
+                    | read more 
+                    i.fw-icon-chevron-right
+            .span4
+              .block
+                .block-title
+                  h1 Morbi interdum 
+                .block-content
+                  p
+                    | Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis.
+                  p
+                    | Libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in.
+                  p
+                    | Acinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante.
+                  a(href='#')
+                    | read more 
+                    i.fw-icon-chevron-right
+            .span4
+              .block
+                .block-title
+                  h1 Morbi interdum 
+                .block-content
+                  p Morbi interdum mollis sapien. Sed ac risus
+                  .row-fluid
+                    ul.gallery
+                      li
+                        a(href='#')
+                          img(src='img/img2.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img3.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img4.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img5.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img6.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img7.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img8.jpg', alt='')
+                      li
+                        a(href='#')
+                          img(src='img/img9.jpg', alt='')
+                  a(href='#')
+                    | read more 
+                    i.fw-icon-chevron-right
+    .site-footer
+      .container
+        .row-fluid
+          .span8.offset2
+            .copy-rights
+              | Copyright (c) websitename. All rights reserved.
+      .site-content
+        p.last
+          | Designed By: 
+          a(href='http://www.alltemplateneeds.com') www.alltemplateneeds.com
+        |                 Images from: 
+        a(href='http://www.wallcoo.net') www.wallcoo.net
+    // /container
+    script(src='js/jquery-1.9.1.js')
+    script(src='js/bootstrap.js')
+

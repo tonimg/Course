@@ -1,0 +1,19 @@
+{
+  "name": "demo_test_team",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "n"
+  ],
+  "license": "me",
+  "homepage": "n",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ]
+}

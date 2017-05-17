@@ -1,0 +1,22 @@
+{
+  "name": "bower_team",
+  "description": "",
+  "main": "y",
+  "authors": [
+    "ahhhh"
+  ],
+  "license": "ISC",
+  "homepage": "no",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}

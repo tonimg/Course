@@ -33,27 +33,16 @@ Expres es un Framework de los más extendidos de Node.js.
 
 ### CURL
 
-With [CURL](http://stackoverflow.com/questions/9507353/how-do-i-install-set-up-and-use-curl-on-windows#16216825) you can simulate petitions from the command line
-With [PostMan](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop), you can simulate petitions from visual environment 
-
-- Pasos para crear un nuevo proyecto node.
-
-    1. creamos carpeta proyecto
-    2. generamos npm init -y (package json vacio)
-    3. npm install name_package --save (para install and add al package json)
-
-Conversor HTML to PUG [here](http://html2jade.org/).
-
-
-![jadeconverter](img/jadeconverter.png)
+With [CURL](http://stackoverflow.com/questions/9507353/how-do-i-install-set-up-and-use-curl-on-windows#16216825) you can simulate petitions from the command line.
+With [PostMan](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop), you can simulate petitions from visual environment.
 
 ### [bower](https://bower.io/)
 
 ![bower](img/bower.png)
 
-Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Frontend dependicies.
+Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Front-end dependencies.
 
-Steps:
+**Steps** for start the new project:
 
 1. Creamos directorio vacio para el proyecto ``mkdir new_project``. 
 1. ``npm install bower -g`` install manage package (sino lo tienes ya instalado en el pc, **solo una vez**.)
@@ -70,7 +59,7 @@ código de ejemplo para empezar un nuevo proyecto app.js:
 
 ```javascript
 const express = require('express')
-const app = express()
+const app = express() // creamos la instancia
 const PORT = 3000
 
 app.set('view engine', 'pug')
