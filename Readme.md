@@ -14,9 +14,9 @@ Progression resume:
 ![timeline](img/timeline.png)
 
 -   [Tips](https://github.com/tonimg/Course/blob/master/Tips/tips.md#tips) resume folder.
--   Resume [first week and exercices](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
+-   Resume [first week and exercises](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
     +   [Basics Commands cmder](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmdercommands-httpblikergithubiocmder)
-    +   [Bacis Commands Markdown](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#bacis-commands-markdown)
+    +   [Basics Commands Markdown](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#bacis-commands-markdown)
     +   [Repositorios y trabajar con GIT local](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#repositorios-y-trabajar-con-git-local)
     +   [Comandos utilies Git](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#comandos-utilies-git)
     +   [Repositorio remoto GitHub(Cloud)](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#repositorio-remoto-github-en-la-nube) 
@@ -27,14 +27,14 @@ Progression resume:
         *   [Funciones y funciones anónimas](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2012.04.md#funciones-y-funciones-anónimas)
         *   [Arguments](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2012.04.md#argument)
         *   [Arrays & Objects](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2012.04.md#arrays--objects)
-            -   [Exercices](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2013.04.md#practice)
+            -   [Exercises](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2013.04.md#practice)
         *   [Metodos de array](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2013.04.md#metodos-de-array-podemos-hacer)
         *   [Prototype](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2013.04.md#prototype)
-        *   [Methods of regulars expresions objets](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/Frontend/02%20Semana/Readme%2017.04.md#methods-of-the-regexp-objects)
+        *   [Methods of regulars expressions objects](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/Frontend/02%20Semana/Readme%2017.04.md#methods-of-the-regexp-objects)
         *   [Syntax regular expressions](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/Frontend/02%20Semana/Readme%2017.04.md#syntax-regular-expression)
--   Resume [second week and exercices](https://github.com/tonimg/Course/tree/master/Frontend/02%20Semana) - 17/04/2017.
+-   Resume [second week and exercises](https://github.com/tonimg/Course/tree/master/Frontend/02%20Semana) - 17/04/2017.
     +   [HTML](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2017.04.md#html)
-        *   [Bacis tags](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)
+        *   [Basics tags](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2017.04.md#diferentes-tags-de-un-html-5)
         *   [Forms](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2017.04.md#creación-formularios)
         *   Layouts
     +   [CSS3](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2018.04.md#css3)
@@ -51,7 +51,7 @@ Progression resume:
         *   [Media Query](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2019.04.md#css3-mediaquery)
     *   [Bootstrap](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2020.04.md)
     *   [Sass](https://github.com/tonimg/Course/blob/master/Frontend/02%20Semana/Readme%2021.04.md#sass)
--   Resume [third week and exercices](https://github.com/tonimg/Course/tree/master/Frontend/03%20Semana) - 24/04/2017.
+-   Resume [third week and exercises](https://github.com/tonimg/Course/tree/master/Frontend/03%20Semana) - 24/04/2017.
     -  [JQuery](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#jquery)
         +  [BOM](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#bom)
         +  [Window Methods](https://github.com/tonimg/Course/blob/master/Frontend/03%20Semana/Readme%2024.04.md#window-methods)
@@ -73,7 +73,7 @@ Progression resume:
 ----------------------------------------
 
 -   [Fourth week](https://github.com/tonimg/Course/tree/master/Frontend/04%20Semana) - ¡¡¡Proyects!!! - 
-    +   **List proyects team**: 
+    +   **List projects team**: 
     
         +   League of Comics
             *   Members : Yair, Jose Angel & Sergio
@@ -102,18 +102,18 @@ Online: https://marioterron.github.io/eat-out/#/
 
 **Star the Backend**
 
--   Resume [five week and exercices](https://github.com/tonimg/Course/tree/master/Backend/05%20Semana) - 07/05/2017.
+-   Resume [five week and exercises](https://github.com/tonimg/Course/tree/master/Backend/05%20Semana) - 07/05/2017.
     +   [NodeJS](https://skylabcoders.github.io/bootcamp-abril2017/?full#207)
         *   [NPM](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2008.05.md#npm)
         *   [Exercises](https://skylabcoders.github.io/bootcamp-abril2017/?full#213)
         *   [Modulos node](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2009.05.md#modulos-node-require) (require)
         *   [HTML Code](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2009.05.md#html-code)
-        *   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2009.05.md#exercices)
+        *   [Exercises](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2009.05.md#exercices)
         *   Request - Simplified HTTP client  
         *   Asynchronous programming in Node
         *   [Asynchronous programming in NodeJS](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2009.05.md#asynchronous-programming-in-node)
         *   Streams
-        *   Exercices
+        *   Exercises
     +   [ECMAScript 2015](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2011.05.md#ecmascript-2015)
         *   [Arrow Functions](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2011.05.md#arrow-functions)
         *   [Block Scope](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2011.05.md#block-scope) (Let - Const)
@@ -133,7 +133,7 @@ Online: https://marioterron.github.io/eat-out/#/
     +   [Express.js](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#today-1505)
         *   [CURL](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#curl)
         *   [Bower](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#bower)
-        *   [Exercices](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
+        *   [Exercises](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2015.05.md#exercices)
         *   [JADE/PUG](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2016.05.md#jade-or-pug-actually-name)
         *   [Middlewares](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#middlewares)
         *   [Sessions & Cookies w/ Express](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#sessions--cookies-w-express)
