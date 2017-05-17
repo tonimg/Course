@@ -106,7 +106,7 @@ An Express application can use the following types of middleware:
 Exercises:
 
 - [Session Cookies](demo_session_cookies)
-- [Session Cart](demo_session_cart_compra)
+- [Session Cart](demo_session_cart)
 - [Session Cart 2](demo_session_cart_2)
 - [Sessions browser With Remove option](demo-sessions-browser)
 - [Demo TodoList cookies](demo_TodoList_cookies)

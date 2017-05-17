@@ -1,0 +1,19 @@
+.jumbotron {
+      background-image: url(http://68.media.tumblr.com/7831dfdd7f37a0467e5077769d5daa40/tumblr_o8pueoWqJk1st5lhmo1_1280.jpg);
+      background-size:cover;
+      background-repeat:no-repeat
+}
+.jumbotron h1 {
+      font-weight: bold;
+}
+.bigger {
+      margin-top: -4px;
+      font-size: 150%; 
+}
+.blue2 {
+      color: #8C84BF;
+}
+.green2 {
+      color: #02A10F;
+        
+}
