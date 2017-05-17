@@ -103,7 +103,7 @@ An Express application can use the following types of middleware:
 
 [Demo sessions](https://github.com/juanmaguitar/demo-sessions)
 
-npm install session --save
-npm express session --save
-npm session-file-store
-
+Exercises:
+- [Session Cart](demo_session_cart_compra)
+- [Session Cookie](demo_session_cookie)
+- 

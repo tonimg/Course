@@ -3,11 +3,8 @@
 
 ![express.js](img/express.js.png)
 
-
 Expres es un Framework de los más extendidos de Node.js.
 [Here](http://www.nodehispano.com/2012/01/express-el-framework-web-para-nodejs/) more information:
-
-
 
 ### First Steps
 
@@ -84,7 +81,6 @@ Si lo queremos customizar el directorio de instalación de bower components, deb
     "directory": "public"
 }
 ```
-
 
 ### Exercices
 
