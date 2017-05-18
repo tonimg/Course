@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  form(action='/cart', method='POST')
+    input(type='text', name='item')
+    input(type='number', name='quantity')
+    button Add to Cart!
+
+  .container
+    .row
+      .col-md-8
+        include shipping-order.pug
+      .col-md-4
+        // REVIEW ORDER
+        include review-order.pug

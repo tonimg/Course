@@ -1,5 +1,7 @@
 # Tips 
 
+## Sublime Text 3
+
 ### Plugins Sublime:
 
 Paste the above into your command line prompt and this will make the **subl** command available to you.
@@ -8,7 +10,7 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 
 ``doskey subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*``
 
-### Sublime Text 3 add console
+### Add console
 
  **Como poner la consola integrada en Sublime Text 3**
 
@@ -17,16 +19,21 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
    - Vamos a **Tools --> Build system --> New Build System** del menú superior.
    - Se nos abrirá una ventana nueva donde debemos de escribir esto:
 
- {
+```
+{
 "cmd": ["node", "$file"],
 "selector": "source.js"
 }
-    - Después le damos a guardar como en **File --> Save As...** y nos aseguramos de guardarlo en la carpeta user por defecto, que suele parecerse a: **C:\Users\tunombre\AppData\Roaming\Sublime Text 3\Packages\User** con el nombre que queramos, yo por ejemplo he puesto "*Console*". Ya tienes creado tu primer "*build system*".
-    - Ahora, para usarlo, abrimos nuestro archivo .js vamos a **Tools --> Build system --> Console**.
-    - También puedes utilizar la combinación de teclas **Ctrl+B** en windows os **Command + B** en Mac.
+
+```
+
+- Después le damos a guardar como en **File --> Save As...** y nos aseguramos de guardarlo en la carpeta user por defecto, que suele parecerse a: **C:\Users\tunombre\AppData\Roaming\Sublime Text 3\Packages\User** con el nombre que queramos, yo por ejemplo he puesto "*Console*". Ya tienes creado tu primer "*build system*".
+- Ahora, para usarlo, abrimos nuestro archivo .js vamos a **Tools --> Build system --> Console**.
+- También puedes utilizar la combinación de teclas **Ctrl+B** en windows os **Command + B** en Mac.
 
 ***Información extraida de [http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text](http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text)***
 
+**Sublime shortcut from to the Cmder terminal**
 
 ### My package installs of Sublime:
 
@@ -49,7 +56,9 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 -   Console Wrap
 -   [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme)
 
-## Extension for Chrome:
+## Chrome
+
+### Extension I'm use for Chrome:
 
 - [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es)
 - LiveReload
@@ -60,9 +69,10 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 - PostMan
 
 ## Git & GitHub
+
 ### [Basic commands](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmdercommands-httpblikergithubiocmder)
 
-Después de generar el directorio y archivo a trabajar:
+- Steps to follow after generate the folder to work:
 
 1.  *git init* (inicializamos proyecto git).
 2.  *git add* (añadimos archivos).
@@ -75,11 +85,11 @@ Después de generar el directorio y archivo a trabajar:
 
  **Trabajar con proyectos en grupo con GitHub**
 
-Algunas notas más sobre [GitHub](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2011.04.md#acabando-con-git--github)
+More information about [GitHub](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2011.04.md#acabando-con-git--github)
 
 - ``git clone`` <- clonas repositorio remoto en local
 - ``git push`` -> subes los cambios locales a remoto
-- ``git pull`` <- actualiza las tablas locales y actualiza los archivos. Realiza esás dos opciones. (``git Feth`` (actualiza tablas) + ``git Merge``(añade cambios))
+- ``git pull`` <- actualiza las tablas locales y actualiza los archivos. *Realiza esás dos opciones. (``git Feth`` (actualiza tablas) + ``git Merge``(añade cambios))*
 
 - ``git branch new_name`` (para crear ramas y ver ramas que hay creadas)
 - ``git checkout new_name`` (para cambiar de rama y trabajar en ella.)
@@ -90,12 +100,13 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - ``git branch -d new_name`` -> (para borrar la rama)
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
+## [Cmder](http://bliker.github.io/cmder)
 
-### Basics Commands [Cmder](http://bliker.github.io/cmder)
+### Basics Commands
 
-Portable console emulator for Windows [cmder](http://cmder.net/)
+*Portable console emulator for Windows **[cmder](http://cmder.net/)***
 
-### Sublime shortcut desde el terminal Cmder
+### 
 
 ### Terminal Cmder path default
 
@@ -120,3 +131,12 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 
 
 - Parsear webs [here](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/parsing_web.js) 
+
+
+## Web Tools
+
+- https://mockaroo.com/
+    + Useful for created items and generated a .json file.
+
+- http://www.jsoneditoronline.org/
+    + Useful for check our .json file. 

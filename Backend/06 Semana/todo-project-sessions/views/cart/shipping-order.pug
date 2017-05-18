@@ -1,0 +1,29 @@
+.panel.panel-default
+  .panel-heading.text-center
+    h4 Current Cart
+  .panel-body
+    table.table.borderless
+      thead
+        tr
+          td
+            strong Your Cart: # item
+          td
+          td
+          td
+          td
+      tbody
+        // foreach ($order->lineItems as $line) or some such thing here
+        each itemCart in cart
+          tr
+            td.col-md-3
+              .media
+                a.thumbnail.pull-left(href='#')
+                  img.media-object(src='http://lorempixel.com/460/250/', style='width: 72px; height: 72px;')
+                .media-body
+                  h5.media-heading  #{itemCart.item}
+                  h5.media-heading  #{itemCart.id}
+            td.text-center $10.99
+            td.text-center #{itemCart.quantity}
+            td.text-right $32.99
+            td.text-right
+              a.btn.btn-danger.remove(href=`/cart/${itemCart.id}`) Remove

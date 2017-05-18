@@ -1,0 +1,24 @@
+h1 {
+    font-family:arial;
+}
+
+body{
+    color: white;
+    /* background-color: #FF9; */
+    background: url(/img/chalkboard.png);
+}
+
+form {
+    display: inline-block;
+}
+input {
+    background: black;
+    color: white;
+    font-size: 24px;
+}
+.list {
+  font-family:"Trebuchet MS";
+    font-size:40px;
+    color:white;
+    cursor:pointer;
+}

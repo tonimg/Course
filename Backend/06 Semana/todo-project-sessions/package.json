@@ -1,0 +1,20 @@
+{
+  "name": "demo-sessions-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "pug": "^2.0.0-rc.1",
+    "session-file-store": "^1.0.0"
+  }
+}

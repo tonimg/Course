@@ -1,26 +1,23 @@
-link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css')
-.jumbotron
-  .container
-    h1
-      | Welcome to 
-      br
-      | my ToDo List!
-      p
-      a.btn.btn-primary.btn-lg Todo-List
-  .clear
-.container
-  .col-md-4
-    .list-group
-      li.list-group-item.active To Do List
-      li.list-group-item
-        | Shopping
-        span.pull-right.bigger.blue2.glyphicon.glyphicon-question-sign
-      li.list-group-item
-        | Washing
-        span.pull-right.bigger.blue2.glyphicon.glyphicon-question-sign
-      li.list-group-item
-        | Cleaning
-        span.pull-right.bigger.blue2.glyphicon.glyphicon-question-sign
-      li.list-group-item
-        | Gardening
-        span.pull-right.bigger.blue2.glyphicon.glyphicon-question-sign
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title MyToDoList
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", rel="stylesheet")
+    link(href='css/style.css',rel='stylesheet')
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+    script(src='js/main.js', type='text/javascript')
+  body
+    .container
+      .row
+        .col-md-4
+        .col-md-4
+          h1 My ToDo List
+          form(name='checkListForm' action ='/list', method='POST')
+            input(type='text', name='item', placeholder='Add Item...')
+          button#add.btn.btn-info(type='button') Add
+          button#clear.btn.btn-default(type='button', title='Clear checked items') clear
+          br
+          br
+          .list
+        .col-md-4
