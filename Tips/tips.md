@@ -33,7 +33,7 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 
 ***Información extraida de [http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text](http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text)***
 
-**Sublime shortcut from to the Cmder terminal**
+**[Sublime keybind from to the Cmder terminal](https://github.com/tonimg/Course/blob/master/Tips/tips.md#terminal-cmder-path-default)**
 
 ### My package installs of Sublime:
 
