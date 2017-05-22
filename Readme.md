@@ -137,6 +137,13 @@ Online: https://marioterron.github.io/eat-out/#/
         *   [JADE/PUG](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2016.05.md#jade-or-pug-actually-name)
         *   [Middlewares](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#middlewares)
         *   [Sessions & Cookies w/ Express](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#sessions--cookies-w-express)
+-  Resume [Seven week and exercices](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md) - 22/05/2017.
+    +  MongoDB
+        *  [Structure MongoDB](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#structure-mongodb)
+        *  [MongoDB CRUD Operations](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongodb-crud-operations-create-read-update-and-delete) (create, read, update, and delete)
+        *  [MongoDB & Node](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongo--node)
+        *  [Import data into the collection](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#import-data-into-the-collection)
+        *  Queries
 
 
 

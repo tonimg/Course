@@ -12,7 +12,7 @@
 
 [![mogo_structure.png](img/mogo_structure.png)](https://docs.mongodb.com/manual/core/document/)
 
-For start to work with mongodb, we have install mongo.
+For start to work with MongoDB, we have install mongo.
 On windows OS --> https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 
 After to install add into environment this new path ``C:\Program Files\MongoDB\Server\3.4\bin``
@@ -53,9 +53,9 @@ Resume:
     + [db.collection.deleteMany()](https://docs.mongodb.com/manual/reference/method/db.collection.deleteMany/#db.collection.deleteMany)
 
 
-### [Mongo & Node](https://skylabcoders.github.io/bootcamp-abril2017/?full#259)
+### [MongoDB & Node](https://skylabcoders.github.io/bootcamp-abril2017/?full#259)
 
-For start the new project with [mongodb](https://www.npmjs.com/package/mongodb) is necessary install the correspondent package with the ``npm install mongodb`` command line.
+For start the new project with [MongoDB](https://www.npmjs.com/package/mongodb) is necessary install the correspondent package with the ``npm install mongodb`` command line.
 
 first step:
 
@@ -94,6 +94,8 @@ MongoClient.connect(url, (err, db) => {
 
 **Commands from Shell**
 
+### Queries
+
 Examples Queries on db restaurant
 
 ``mongoimport --db test --collection restaurants --drop --file "c:\Users\your_path\rest_data.json``
@@ -122,6 +124,20 @@ Examples Queries on db restaurant
 
 ``db.collection('restaurants').find( { $or: [{ "cuisine": "Italian" },{ "address.zipcode": "10075" }]})`` :arrow_right: OR
 
-``db.collection('restaurants').find().sort( { "borough": 1, "address.zipcode": 1 } );``
+``db.collection('restaurants').find().sort( { "borough": 1, "address.zipcode": 1 } );`` :arrow_right: sort results by...
+
+``db.collection('restaurants').find().sort( { "borough": 1, "address.zipcode": 1 } ).limit(3);`` :arrow_right: sort results by... with the quantity limit
+
+### [Projections](https://docs.mongodb.com/manual/tutorial/project-fields-from-query-results/)
+
+By default, queries in MongoDB return all fields in matching documents. By default always show the id
+
+
+``db.collection('restaurants').find( { status: "A" }, { name: 1, status: 1, _id: 0 } )`` :arrow_right: "1" for show and "2" for not show
+
+
+### Practice
+
+[MongoDB NodeSchool Kata](https://skylabcoders.github.io/bootcamp-abril2017/?full#266)
 
 
