@@ -39,9 +39,9 @@ subirlo:
 
 Creación de blog, y estar presentes en redes sociales.
 
-### Programación JS web development
+## Programación JS web development
 
-![javascriptjs.png](img/javascriptjs.png)
+[![javascriptjs.png](img/javascriptjs.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#javascript)
 
 Se puede resumir en tres principales [capas](http://jeffcroft.com/blog/2007/sep/26/new-layers-web-development/):
 

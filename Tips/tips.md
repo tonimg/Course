@@ -50,7 +50,7 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 -   MarkdownEditing
 -   Sass
 -   SulimeLinter
--   Unsplash
+-   [Unsplash](https://unsplash.com/)
 -   JavaScript Snippets
 -   Pug
 -   Console Wrap

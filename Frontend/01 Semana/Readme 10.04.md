@@ -2,7 +2,7 @@
 
 ### Basic Tools
 
-![basictools.png](img/basictools.png)
+[![basictools.png](img/basictools.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#git)
 
 know Sublime, open, new file, close, save and packs
 

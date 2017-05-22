@@ -9,6 +9,7 @@ podemos crearlas de diferentes maneras.
 Con funciones constructuras
 Con RegExp podemos crera expresiones regulares.
 definimos esta expresion regular como ejemplo:
+
 ```javascript
 var myRegExp = new RegExp('j.*t') // encuentra que cumpla la condición que empieza por 'j' y termina en 't', aquí dará true
 ```
@@ -19,6 +20,7 @@ myRegExp.test('JavaScript') // false (es case sensitive)
 ```
 
 ### Otra manera es con la expresion literal
+
 ```javascript
 var myRegExp = /.*t/
 // o este ejmplo entre corchetes que cumpla criterios de busqueda.
@@ -93,10 +95,13 @@ s.search(/j.*a/i);// output 5
 
 ---
 
-# HTML
+## HTML
+
+[![hmtl5](img/html5.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#html5)
+
 Es un lenguaje de marcados. Es la capa que se encarga de darle contenido a una página web.
 
-## *txt vs HTML*:
+*txt vs HTML*:
 
 En **HTML** puedes indicar y darle significado semantico al texto.
 **H**yper **T**ext **M**ark **L**anguage

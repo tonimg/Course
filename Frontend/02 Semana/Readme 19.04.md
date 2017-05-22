@@ -1,6 +1,6 @@
 # Today 19.04
 
-## [CSS3](https://skylabcoders.github.io/bootcamp-abril2017/?full#css3)
+## [![css3](img/css3.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#css3)
 
 **Resumen dia de antes**
 

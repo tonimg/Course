@@ -2,10 +2,10 @@ const express = require('express')
 
 const router = express.Router()
 
-router.get('/list', (req, res) => {
-  const list = req.session.list
-  res.render('list', { list })
-})
+// router.get('/list', (req, res) => {
+//   const list = req.session.list
+//   res.render('list', { list })
+// })
 
 router.post('/list', (req, res) => {
   const { item } = req.body

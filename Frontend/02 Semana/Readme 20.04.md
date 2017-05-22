@@ -1,13 +1,8 @@
 # Today 20.04
 
-
-[Slide 94](https://skylabcoders.github.io/bootcamp-abril2017/?full#94), plugins recomended for sublime
-Also the https://unsplash.com/ plugin
-
-
-![Bootstrap.png](img/Bootstrap.png)
-
 # [Bootstrap](https://skylabcoders.github.io/bootcamp-abril2017/?full#bootstrap) 
+
+[![Bootstrap.png](img/Bootstrap.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#bootstrap)
 
 First all [downloaded](https://skylabcoders.github.io/bootcamp-abril2017/?full#98):
 

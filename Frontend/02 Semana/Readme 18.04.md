@@ -3,6 +3,8 @@
 # [CSS3](https://skylabcoders.github.io/bootcamp-abril2017/?full#css3)
 ## CSS3 Basics & Selectors
 
+[![css3](img/css3.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#css3)
+
 Is the layer of the presentation and design.
 
 El css se construye con una serie de reglas donde definimos
