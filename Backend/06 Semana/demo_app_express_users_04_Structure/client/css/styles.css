@@ -1,0 +1,14 @@
+.list-users li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-users .content p {
+  font-size: 20px;
+}
+
+.list-users .edition {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "demo-app-express",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "JuanMa Garrido <JuanMa.Garrido@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SkylabCoders/demo-app-express-basic",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

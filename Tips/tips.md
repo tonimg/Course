@@ -61,12 +61,13 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 ### Extension I'm use for Chrome:
 
 - [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es)
-- LiveReload
-- ColorZilla
+- [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 - BootstrapGrip
 - Clear Cache
-- Angular Chrome
+- [Angular Chrome](https://chrome.google.com/webstore/detail/angular-chrome/fobloefinmdlpnanffefbpkkgflocmlp)
 - PostMan
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?hl=en-US)
 
 ## Git & GitHub
 
@@ -130,6 +131,9 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 
 
 
+## Extras
+
+- [Documentar código](https://jashkenas.github.io/docco/)
 - Parsear webs [here](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/parsing_web.js) 
 
 

@@ -1,0 +1,17 @@
+{
+  "name": "demo_app_express",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "n"
+  ],
+  "license": "ISC",
+  "homepage": "n",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

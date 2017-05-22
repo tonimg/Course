@@ -1,0 +1,68 @@
+# Today 19.05
+
+review:
+
+Also calling **endpoints**
+
+1. **[GET](http://expressjs.com/en/4x/api.html#app.get.method)** "/" render --> HTML // *get things* 
+1. **[POST](http://expressjs.com/en/4x/api.html#app.post.method)** "/cart" --> AJAX --> Status | msg // *send things*
+1. **[DELETE](http://expressjs.com/en/4x/api.html#app.delete.method)** "/cart/:id" --> AJAX --> Status | msg  // *delete things*
+1. **[PUT](http://expressjs.com/en/4x/api.html#app.put.method)** "/cart/:id" --> AJAX --> Status / msg // *modify things*
+
+AJAX only for Put and Delete, for make server petitions.
+Post always we have the information on ``req.body``
+
+Example code ***made by Sergio***:
+
+```javascript
+// npm ini
+// npm install express body-parser pug --save
+const express = require('express')
+const bodyParser = require('body-parser') // Permite recoger info de formularios
+const fs = require('fs') // Para usar writeFile en app.post
+
+const PORT = 3000
+const app = express()
+const OUTPUT_FILENAME = 'data.json'
+
+let aNames = require('./data.json')
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
+app.use(express.static('public')) // busca archivos estáticos en carpeta 'public'
+
+app.set('view engine', 'pug') // aquí residen los .pug
+
+app.get('/hello', (req, res) => { // en /hello enviamos mensaje en forma de html estática. SOLO SE ENVÍA UN MENSAJE, NO RENDERIZA NADA
+  res.send('Hello')
+})
+
+app.get('/add-users', (req, res) => { // Renderiza contact.pug
+  res.render('add-users')
+})
+
+app.post('/users', (req, res) => {
+  const userName = req.body.username // Ruta:'contact.pug input name'. Esto necesita body-parser (primer paso de body-parser). body representa los inputs del formulario, un objeto; y body.username un string en este caso.
+  aNames.push(userName)
+  const jsonListNames = JSON.stringify(aNames)
+  fs.writeFile(OUTPUT_FILENAME, jsonListNames, err => {
+    if (err) throw err
+    res.send(`${userName} has been captured`) // res.send termina la conexión
+  })
+})
+
+app.listen(PORT, () => console.log(`Listening on PORT ${PORT}`))
+```
+
+[Generated file](demo_app_express_01)
+[User List](demo_app_express_users_02)
+[Users list edit & remove](demo_app_express_users_03_ edit_remove)
+[Users list edit & remove with simple Structure](demo_app_express_users_04_Structure)
+[Users list edit & remove with pro Structure](demo_app_express_users_05_Structure_plus)
+[Project toDoList App](Project_toDoList_App)
+
+
+### Router Express
+
+chunk of our projects
