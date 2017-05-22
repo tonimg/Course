@@ -143,7 +143,8 @@ Online: https://marioterron.github.io/eat-out/#/
         *  [MongoDB CRUD Operations](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongodb-crud-operations-create-read-update-and-delete) (create, read, update, and delete)
         *  [MongoDB & Node](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongo--node)
         *  [Import data into the collection](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#import-data-into-the-collection)
-        *  Queries
+        *  [Queries](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#queries)
+        *  [Projections](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#projections)
 
 
 

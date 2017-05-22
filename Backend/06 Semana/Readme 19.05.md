@@ -60,9 +60,13 @@ app.listen(PORT, () => console.log(`Listening on PORT ${PORT}`))
 [Users list edit & remove](demo_app_express_users_03_ edit_remove)
 [Users list edit & remove with simple Structure](demo_app_express_users_04_Structure)
 [Users list edit & remove with pro Structure](demo_app_express_users_05_Structure_plus)
+
+[Exercises To-Do app](https://github.com/juanmaguitar/node-exercises/tree/master/01-todo-app)
 [Project toDoList App](Project_toDoList_App)
 
 
-### Router Express
+### [Express Router](https://expressjs.com/en/guide/routing.html)
 
-chunk of our projects
+Use the express.Router class to create modular, mountable route handlers. A Router instance is a complete middleware and routing system; for this reason, it is often referred to as a “mini-app”.
+
+What exactly is the Express Router? It is a mini express application without all the bells and whistles of an express application, just the routing stuff. Let's take a look at exactly what this means. We'll go through each section of our site and use different features of the Router.

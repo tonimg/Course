@@ -133,10 +133,11 @@ Examples Queries on db restaurant
 By default, queries in MongoDB return all fields in matching documents. By default always show the id
 
 
-``db.collection('restaurants').find( { status: "A" }, { name: 1, status: 1, _id: 0 } )`` :arrow_right: "1" for show and "2" for not show
+``db.collection('restaurants').find( { status: "A" }, { name: 1, status: 1, _id: 0 } )`` :arrow_right: "1" for show and "0" for not show
 
 
 ### Practice
+exercises :arrow_right [MongoDB - JS exercises](https://github.com/juanmaguitar/node-exercises/tree/master/03-mongo-exercises)
 
 [MongoDB NodeSchool Kata](https://skylabcoders.github.io/bootcamp-abril2017/?full#266)
 
