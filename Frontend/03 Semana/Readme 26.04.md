@@ -26,6 +26,8 @@ Excercise: [jQuery Percentage Calculator](Percentage_Calculator/index.html)
 
 ### [JSON](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/13-JSON)
 
+More information in Spanish ([here](https://geekytheory.com/json-i-que-es-y-para-que-sirve-json?utm_content=buffera8984&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer))
+
 (**J**avascript **O**bject **N**otation)
 
 ```javascript

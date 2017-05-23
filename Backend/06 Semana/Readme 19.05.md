@@ -56,15 +56,14 @@ app.listen(PORT, () => console.log(`Listening on PORT ${PORT}`))
 ```
 
 
-Demo app express from Juanma [here](https://github.com/SkylabCoders/demo-app-express-basic).
-[Generated file](demo_app_express_01)
-[User List](demo_app_express_users_02)
-[Users list edit & remove](demo_app_express_users_03_ edit_remove)
-[Users list edit & remove with simple Structure](demo_app_express_users_04_Structure)
-[Users list edit & remove with pro Structure](demo_app_express_users_05_Structure_plus)
-
-[Exercises To-Do app](https://github.com/juanmaguitar/node-exercises/tree/master/01-todo-app)
-[Project toDoList App](Project_toDoList_App)
+- Demo app express from Juanma [here](https://github.com/SkylabCoders/demo-app-express-basic).
+- [Generated file](demo_app_express_01)
+- [User List](demo_app_express_users_02)
+- [Users list edit & remove](demo_app_express_users_03_edit_remove)
+- [...with simple Structure](demo_app_express_users_04_Structure)
+- [... with pro Structure](demo_app_express_users_05_Structure_plus)
+- [Exercises To-Do app](https://github.com/juanmaguitar/node-exercises/tree/master/01-todo-app)
+- [Project toDoList App](Project_toDoList_App)
 
 
 ### [Express Router](https://expressjs.com/en/guide/routing.html)

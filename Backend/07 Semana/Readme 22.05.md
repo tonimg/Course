@@ -139,6 +139,10 @@ By default, queries in MongoDB return all fields in matching documents. By defau
 ### Practice
 exercises :arrow_right [MongoDB - JS exercises](https://github.com/juanmaguitar/node-exercises/tree/master/03-mongo-exercises)
 
-[MongoDB NodeSchool Kata](https://skylabcoders.github.io/bootcamp-abril2017/?full#266)
+### Exercises:
+
+[demo mongo](demo_mongo)
+[mongodb node](demo-mongodb-node)
+[restaurants mongo api](demo-restaurants-api)
 
 
