@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+          h1 List Users
+          form(action='/users', method='POST')
+            .input-group
+              input.form-control.add-todo(name="username", type='text', placeholder='Add user', autofocus)
+              span.input-group-btn
+                button#checkAll.btn.btn-primary Add User
+          hr
+          ul#sortable.list-unstyled.list-group.list-users
+            each user in users
+              li.list-group-item
+                .content
+                  p #{user.username}&nbsp;
+                  form.edit-form(action=`/user/${user.id}`)
+                    input.input-lg.hidden(name='edited-name', value=user.username)
+                .edition
+                  a.btn.btn-primary.edit
+                    i.glyphicon.glyphicon-edit
+                  a.btn.btn-danger.remove(href=`/user/${user.id}`)
+                    i.glyphicon.glyphicon-remove

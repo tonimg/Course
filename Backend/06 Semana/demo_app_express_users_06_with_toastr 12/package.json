@@ -1,0 +1,27 @@
+{
+  "name": "demo-app-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1",
+    "express-session": "^1.15.2",
+    "session-file-store": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkylabCoders/demo-app-express-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SkylabCoders/demo-app-express-basic/issues"
+  },
+  "homepage": "https://github.com/SkylabCoders/demo-app-express-basic#readme",
+  "description": ""
+}

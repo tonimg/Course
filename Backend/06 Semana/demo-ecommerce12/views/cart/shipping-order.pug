@@ -1,0 +1,33 @@
+.panel.panel-default
+  .panel-heading.text-center
+    h4 Current Cart
+  .panel-body
+    table.table.borderless.list-cart
+      thead
+        tr
+          td
+            strong Your Cart: # item
+          td
+          td
+          td
+          td
+      tbody
+        each itemCart in cart
+          tr
+            td
+              h5.item-name  #{itemCart.productName}
+              .col-md-6
+                .media
+                  a.thumbnail(href='#')
+                    img.media-object(src=itemCart.image, style='width: 72px; height: 72px;')
+                  .media-body
+              .col-md-2
+                span Price: #{itemCart.price}€
+              .col-md-2
+                span Quantity:
+                  input(value=itemCart.id, name="id", hidden )
+                  input.quantity(type="number", style="width:50px", value=itemCart.quantity, min="1")
+                  span Total Price: #{itemCart.price * itemCart.quantity}€
+              .col-md-2
+                a.btn.btn-danger.remove(href=`/cart/${itemCart.id}`) Remove Item
+                a.btn.btn-success.reload Update Price

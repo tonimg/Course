@@ -1,0 +1,22 @@
+{
+  "name": "demo-sessions-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "pug": "^2.0.0-rc.1",
+    "session-file-store": "^1.0.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
