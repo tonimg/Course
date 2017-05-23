@@ -145,6 +145,7 @@ Online: https://marioterron.github.io/eat-out/#/
         *  [Import data into the collection](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#import-data-into-the-collection)
         *  [Queries](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#queries)
         *  [Projections](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#projections)
+    +   [Mongoose](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2023.05.md#monogoose)
 
 
 
