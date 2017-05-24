@@ -22,9 +22,14 @@ After to install add into environment this new path ``C:\Program Files\MongoDB\S
 Run with this command ``mongod --dbpath c:\Users\username\data\db\``, in this moment the daemon is listening.
 In other tab of our terminal, write ``mongo`` y after ``show dbs`` 
 
-``use test`` for created the text db
+``use test`` for created the text db or change the database.
 
-and ``show collections``
+With the command ``show collections`` we can view all the collections available into our database. One time that know the name of the database, we can do this steps:
+
+1.  ``mongo`` - for start the shell.
+2.  ``db.tasks`` - for work with the database named tasks.
+3.  ``db.tasks.find()`` - for show all the elements (documents).
+4.  ``db.tasks.find().pretty()`` - for view in JSON format.
 
 **[Methods and Commands](https://docs.mongodb.com/manual/reference/mongo-shell/)** 
 

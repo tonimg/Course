@@ -4,7 +4,7 @@
 [![mongoose](img/mongoose.png)](http://mongoosejs.com/)
 
 
-### [Monogoose](http://mongoosejs.com/)
+### [Mongoose](http://mongoosejs.com/)
 
 
 Continuing with mongoose, today review the structure folders for a project.
@@ -23,3 +23,4 @@ Here you can see the exercises the example that do you can see.
 
 1. [Before structure, all in one file.](01mongoose-cats_full_file)
 1. [After with structure organization.](02mongoose-cats_structured_organization)
+
