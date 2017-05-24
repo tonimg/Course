@@ -24,3 +24,18 @@ Here you can see the exercises the example that do you can see.
 1. [Before structure, all in one file.](01mongoose-cats_full_file)
 1. [After with structure organization.](02mongoose-cats_structured_organization)
 
+## Practice with CURL
+
+### List all tasks
+``curl localhost:3000/tasks ``
+
+### Add task
+``curl -X POST --data "name=Paul" localhost:3000/tasks``
+
+### Update data by Id
+``curl -X PUT --data "name=Libros1&completedAd=true" localhost:3000/task/59258356c0398a2630710ae1``
+
+### Remove by Id.
+
+``curl -X DELETE localhost:3000/task/59259032f3acaa3db019f1a8``
+

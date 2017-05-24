@@ -53,7 +53,7 @@ If you are using Sublime Text 3 with a shortcut, use the following instead from 
 -   [Unsplash](https://unsplash.com/)
 -   JavaScript Snippets
 -   Pug
--   Console Wrap
+-   [Console Wrap](https://packagecontrol.io/packages/Console%20Wrap) *(The default key binding is ``ctrl+shift+q`` (insert before selection).)*
 -   [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme)
 
 ## Chrome

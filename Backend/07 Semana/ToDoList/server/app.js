@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 
 const routerTasks = require('./routes/tasks')
 const routerTask = require('./routes/task')
+const path = require('path')
 
 const routerSecure = require('./routes/secure/secure')
 
@@ -15,12 +16,15 @@ const app = express()
 mongoose.Promise = Promise
 mongoose.connect(dbUrl)
 
+app.use(express.static(path.join(__dirname, '../client')))
+app.set('view engine', 'pug')
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-app.use(routerSecure)
+// app.use(routerSecure)
 app.use('/tasks', routerTasks)
 app.use('/task', routerTask)
 
 app.listen(PORT)
-console.log(`Listening on PORT ${PORT}`)
+console.log(` 👉 Listening on ${PORT} ✅`)

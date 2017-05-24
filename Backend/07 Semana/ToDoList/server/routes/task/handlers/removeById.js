@@ -1,11 +1,9 @@
 const Task = require('../../../models/Task')
 
-function addTask (req, res) {
-  const { name } = req.body
+function removeById (req, res) {
+  const { id } = req.params
 
-  const newTask = new Task({ name })
-
-  newTask.save()
+  Task.findByIdAndRemove(id)
     .then(msg => {
       res.json(msg)
     })
@@ -14,4 +12,4 @@ function addTask (req, res) {
     })
 }
 
-module.exports = addTask
+module.exports = removeById
