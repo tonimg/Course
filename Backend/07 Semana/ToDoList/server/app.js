@@ -16,7 +16,6 @@ const app = express()
 mongoose.Promise = Promise
 mongoose.connect(dbUrl)
 
-app.use(express.static(path.join(__dirname, '../client')))
 app.set('view engine', 'pug')
 
 app.use(bodyParser.urlencoded({ extended: false }))
