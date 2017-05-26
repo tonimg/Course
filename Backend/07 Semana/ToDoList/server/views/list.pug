@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    .container-fluid
+      .row
+        .col-md-8.col-mdoffset-2
+          h1 My ToDo List 📝
+          form(name='checkListForm' action ='/tasks', method='POST', role='form')
+            input.input-lg(type='text', name='name', placeholder='Add Item...', autofocus)
+            //- span.input-group-btn
+            //- button#add.btn.btn-primary(type='button') Add new task
+          br
+          br
+          ul.list.listgroup
+            each task in tasks
+              li.list-group.item 
+                p Name task 👉  #{task.name}
+                p Created at: #{moment(task.createdAt).format('YYYY/MM/DD HH:mm')}
+                //- p Modified #{moment(task.modifiedAdDate).format('YYYY/MM/DD HH:mm')}
+                //- p Internal id #{task.id}
+                //- p Task status #{task.completedAd}
+                //- p Delete task:
+                br
+                form.edit-form(action=`/task/${task.id}`)
+                  input.input-lg.hidden(name='name', placeholder='Edit the name...', type='text', autofocus)
+                button.btn.modify
+                  i.glyphicon.glyphicon-edit(type='button', href=`/task/${task.id}`) Edit Task
+                br
+                button.btn.done
+                  i.glyphicon.glyphicon-ok(href=`/done/${task.id}`) Task Done
+                br
+                button.btn.remove
+                  i.glyphicon.glyphicon-trash(type='button', href=`/task/${task.id}`) Task Remove
+

@@ -1,6 +1,6 @@
 const Task = require('../../../models/Task')
 
-function addTask (req, res) {
+function completedTask (req, res) {
   const { name } = req.body
 
   const newTask = new Task({ name })
@@ -8,11 +8,11 @@ function addTask (req, res) {
   newTask.save()
     .then(msg => {
       // res.json(msg)
-      res.redirect('/tasks')
+      res.render('/done')
     })
     .catch(err => {
       res.json(err)
     })
 }
 
-module.exports = addTask
+module.exports = completedTask

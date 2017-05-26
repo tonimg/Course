@@ -8,6 +8,7 @@ function removeById (req, res) {
       res.json(msg)
     })
     .catch(err => {
+      res.redirect('/tasks')
       res.json(err)
     })
 }

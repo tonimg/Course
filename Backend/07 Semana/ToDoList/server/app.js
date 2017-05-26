@@ -16,7 +16,11 @@ const app = express()
 mongoose.Promise = Promise
 mongoose.connect(dbUrl)
 
+app.use(express.static(path.join(__dirname, '../client')))
 app.set('view engine', 'pug')
+app.set('views', path.join(__dirname, '/views'))
+
+app.locals.moment = require('moment') // this makes moment available as a variable in every page
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())

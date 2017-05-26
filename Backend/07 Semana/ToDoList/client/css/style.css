@@ -4,29 +4,36 @@
 }
 
 h1 {
-  font-family: Eraser;
-  font-size: 4em;
-  color: lightgrey;
+    font-family: Eraser;
 }
 
-body {
-  /* background-color: #FF9; */
-  background: url(/img/chalkboard.png);
+body{
+    color: black;
+    /* background: url(/img/chalkboard.png); */
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: Eraser;
 }
 
 form {
-  display: inline-block;
+    display: inline-block;
 }
-
 input {
-  background: black;
-  color: white;
-  font-size: 24px;
+    background: ghostwhite;
+    color: green;
+    font-size: 24px;
+    border: 1px solid black;
+    opacity: 0.7;
 }
-
 .list {
-  font-family: "Eraser";
-  font-size: 5em;
-  color: ghostwhite;
-  cursor: pointer;
+    font-family: Eraser;
+    font-size:24px;
+    /* color: ghostwhite; */
+    cursor:pointer;
+    list-style:none;
 }

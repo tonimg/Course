@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+  if tasks.length !== 0
+    ul.list-group.list-tasks.list-task-done
+      each task in tasks
+        li.list-group-item
+          div
+            p
+              | #{index+1}. 
+              span=task.title
+            p Completed at: #{moment(task.updatedAt).format('YYYY/MM/DD HH:mm')}
+  else
+    p.info(ng-show='tasks.length === 0') No tasks.

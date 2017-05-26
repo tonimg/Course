@@ -1,6 +1,7 @@
 const Task = require('../../../models/Task')
 
 function updateById (req, res) {
+  console.log('req', req)
   const { id } = req.params
   const { name, completedAd, completedAdDate = +new Date(), modifiedAd = +new Date()} = req.body
 
