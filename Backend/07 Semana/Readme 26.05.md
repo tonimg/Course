@@ -1,16 +1,16 @@
 # Today 26/05
 
+## Create a New App
 
 ### Heroku
 
 ![heroku_logo](img/heroku_logo.png)
 
-once time installed in terminal put 
-heroku login
+Once installed in terminal put ``heroku login``
 
 ![heroku_login](img/heroku_login.png)
 
-- Check we have installed differents commponents
+- Check we have installed different components
 
 ``node -v`` 
 ``npm -v`` 
@@ -20,9 +20,11 @@ First steps - [Setup page](https://devcenter.heroku.com/articles/getting-started
 
 - With git ``remote -v`` we check the git server address
 
-after to check all is correct, put the next command
+after to check all is correct, put the next command for create a new app project:
 
 ``heroku create``
+
+When you create an app, a git remote (called heroku) is also created and associated with your local git repository. Heroku also generates a random name URL for your app.
 
 - after
 
@@ -42,7 +44,7 @@ For the look the logs our server this command
 ``npm install --save --save-exact cool-ascii-faces``
 
 
-- Now we can copy this code proporcionated by heroku
+- Now we can copy this code proportionated by heroku
 
 ```javascript
 
@@ -89,4 +91,90 @@ Schema Heroku with GitHub
 
 ![git-with-heroku.png](img/git-with-heroku.png)
 
+## MongoLab
+
+https://mlab.com/
+
+
+![mlab](img/mlab_logo.png)
+
+Use for upload our db.
+
+Register and verify you account.
+After,create new on MongoDB Deployments
+Single-node for free versions (Sandbox (shared, 0.5 GB) -- FREE)
+
+Database Name: test-skylab
+and next button **Create new MongoDB deployment**
+
+
+after in the command line we can put
+
+``mongo ds131510.mlab.com:31510/test-skylab -u <dbuser> -p <dbpassword>``
+
+
+For do one test, try to insert this in commando line.
+
+``curl -X POST --data "name=Test1" localhost:3000/cats``
+
+In our project we can put 
+
+``const dbUrl = 'mongodb://<dbuser>:<dbpassword>@ds131510.mlab.com:31510/test-skylab'``
+
+---
+
+express demo-express-struture
+
+for install the typical structure.
+
+---
+
+
+Cuando estamos en desarrollo, cargamos nuestras variables de entorno desde un fichero .env que previamente debemos generar.
+
+Para cargar estas variables de entorno nos hace falta instalar ``npm install dotenv --save-dev``
+
+Tenemos que poner este código justo antes de la conexion
+```
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
+```
+
+Quedando nuestro código de ejemplo así:
+
+```
+const express = require('express')
+const bodyParser = require('body-parser')
+const mongoose = require('mongoose')
+
+const routerCats = require('./routes/cats')
+const routerCat = require('./routes/cat')
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
+
+const dbUrl = 'mongodb://admin100:admin100@ds131510.mlab.com:31510/test-skylab'
+const PORT = 3000
+
+const app = express()
+
+mongoose.Promise = Promise
+mongoose.connect(dbUrl)
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
+app.use('/cats', routerCats)
+app.use('/cat', routerCat)
+
+app.listen(PORT)
+console.log(`Listening on PORT ${PORT}`)
+```
+
+
+For put our project in production we mus set this command in our terminal 
+
+``heroku config:set NODE_ENV=production``
 

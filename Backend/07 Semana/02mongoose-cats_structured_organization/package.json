@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/app",
-    "dev": "nodemon server/app"
+    "dev": "supervisor server/app"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mongoose": "^4.10.2"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
   }
 }

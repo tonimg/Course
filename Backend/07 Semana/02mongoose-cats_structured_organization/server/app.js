@@ -20,4 +20,4 @@ app.use('/cats', routerCats)
 app.use('/cat', routerCat)
 
 app.listen(PORT)
-console.log(`Listening on PORT ${PORT}`);
+console.log(`Listening on PORT ${PORT}`)
