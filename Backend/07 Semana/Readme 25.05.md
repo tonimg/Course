@@ -2,17 +2,21 @@
 
 ## Useful tools.
 
-### Robomongo
+### [Robomongo](https://robomongo.org/)
 
+MongoDB manager
 
 [![Robomongo](img/robomongo.png)](https://robomongo.org/)
 
 The Robomongo is for to show in interface graphic instead command line.
 
-### Devtools
+![robomongocapture.png](img/robomongocapture.png)
+
+### [Devtools](https://www.npmjs.com/package/devtool)
 
 [![img/devtools.gif](img/devtools.gif)](https://www.npmjs.com/package/devtool)
 
+Runs Node.js programs inside Chrome DevTools (using Electron).
 
 - In command line:
     + For install like any npm module
@@ -27,7 +31,7 @@ Run the command to open a new DevTools window.
   devtool [entry] [opts]
  
 
-### Debug npm
+### [Debug npm](https://www.npmjs.com/package/debug)
 
 Another tool only as part of the application is [debug](https://www.npmjs.com/package/debug):.
 

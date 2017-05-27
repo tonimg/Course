@@ -146,6 +146,12 @@ Online: https://marioterron.github.io/eat-out/#/
         *  [Queries](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#queries)
         *  [Projections](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#projections)
     +   [Mongoose](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2023.05.md#monogoose)
+        *   [Mongoose structure](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2024.05.md#mongoose)
+        *   [CURL](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2024.05.md#practice-with-curl)
+    +   [Useful tools](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#useful-tools):
+        *   [Robomongo](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#robomongo)
+        *   [DevoTools](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#devtools)
+        *   [Debug npm](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#debug-npm)
 
 
 
