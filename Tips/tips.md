@@ -101,6 +101,13 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 - ``git branch -d new_name`` -> (para borrar la rama)
 - If we want ignored any file for Git, must be create a file whit the name ``.gitignore`` and into put the name of the folders and files for ignore the Git, in the same way there this explanation [web](https://www.gitignore.io/)
 
+###  [Setting up password caching](https://help.github.com/articles/caching-your-github-password-in-git)
+
+**Running the following in the command line will store your credentials**:
+
+``git config --global credential.helper wincred``
+
+
 ## [Cmder](http://bliker.github.io/cmder)
 
 ### Basics Commands
