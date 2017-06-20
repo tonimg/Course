@@ -3,15 +3,18 @@
 
 ## Start at 10/04/2017 and finished 16/06/2017
 
-![Bootcamp_logo.png](img/Bootcamp_logo.png)
+<!-- ![Bootcamp_logo.png](img/Bootcamp_logo.png) -->
+<a href="https://skylabcoders.github.io/bootcamp-abril2017"><img src="img/Bootcamp_logo.png" width= "250px"></a>
 
 ### [Full Stack Web Development Bootcamp](https://skylabcoders.github.io/bootcamp-abril2017/)
 
-Progression resume:
+Summary progression:
 
 ---
 
-![timeline](img/timeline.png)
+<!-- ![timeline](img/timeline.png) -->
+
+<img src="img/timeline.png" width= "500px">
 
 -   [Tips](https://github.com/tonimg/Course/blob/master/Tips/tips.md#tips) resume folder.
 -   Resume [first week and exercises](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
