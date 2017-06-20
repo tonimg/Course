@@ -1,6 +1,6 @@
 # Today 29.05 
 
-## Mean Stack Project
+## Mean Stack
 
 ![meanstack.png](img/meanstack.png)
 
@@ -12,6 +12,12 @@
 
 
 ### How put your project in production
+
+## Create account Heroku
+
+Heroku site: https://www.heroku.com/
+Choose deploy in our case, with Node.js https://www.heroku.com/nodejs
+Follow the steps.
 
 For put our project in production we mus set this command in our terminal 
 

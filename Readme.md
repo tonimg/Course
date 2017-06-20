@@ -152,9 +152,10 @@ Online: https://marioterron.github.io/eat-out/#/
         *   [Robomongo](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#robomongo)
         *   [DevoTools](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#devtools)
         *   [Debug npm](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#debug-npm)
--  Resume [Eighth week and starting the las project](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md) - 29/05/2017.
-    +  Start Mean Stack Project
-    +  MEAN (**M**ongo - **E**xpress - **A**ngularJs - **N**ode)
+-  Resume [Eighth week and starting the las project](https://github.com/tonimg/Course/tree/master/Backend/08%20Semana) - 29/05/2017.
+    +  Final FullStack Project
+    +  What is MEAN Stack
+    +  [MEAN](https://github.com/tonimg/Course/blob/master/Backend/08%20Semana/Readme%2029.05.md#mean-stack-project) (**M**ongo - **E**xpress - **A**ngularJs - **N**ode)
     +  How put our project in production:
         *  Heroku
         *  .env file
