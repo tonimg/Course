@@ -50,7 +50,7 @@ if (process.env.NODE_ENV !== 'production') {
 Example by Juanma -> https://github.com/SkylabCoders/demo-heroku-website
 
 - [Example heroku website](example-heroku-website)
-- [Example Demo Login](demo login)
+- [Example Demo Login](demo-login)
 
 ### We started our personal project. **Go go go** ...
 
