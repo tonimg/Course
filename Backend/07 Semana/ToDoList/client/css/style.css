@@ -3,13 +3,8 @@
   src: url(/font/EraserRegular.ttf);
 }
 
-h1 {
+h1, p {
     font-family: Eraser;
-}
-
-body{
-    color: black;
-    /* background: url(/img/chalkboard.png); */
 }
 
 .btn{
@@ -33,7 +28,12 @@ input {
 .list {
     font-family: Eraser;
     font-size:24px;
-    /* color: ghostwhite; */
     cursor:pointer;
     list-style:none;
+}
+
+.list .glyphicon {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
 }

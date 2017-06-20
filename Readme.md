@@ -102,7 +102,7 @@ Online: https://marioterron.github.io/eat-out/#/
 
 **Star the Backend**
 
--   Resume [five week and exercises](https://github.com/tonimg/Course/tree/master/Backend/05%20Semana) - 07/05/2017.
+-   Resume [fifth week and exercises](https://github.com/tonimg/Course/tree/master/Backend/05%20Semana) - 07/05/2017.
     +   [NodeJS](https://skylabcoders.github.io/bootcamp-abril2017/?full#207)
         *   [NPM](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/Readme%2008.05.md#npm)
         *   [Exercises](https://skylabcoders.github.io/bootcamp-abril2017/?full#213)
@@ -137,10 +137,10 @@ Online: https://marioterron.github.io/eat-out/#/
         *   [JADE/PUG](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2016.05.md#jade-or-pug-actually-name)
         *   [Middlewares](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#middlewares)
         *   [Sessions & Cookies w/ Express](https://github.com/tonimg/Course/blob/master/Backend/06%20Semana/Readme%2017.05.md#sessions--cookies-w-express)
--  Resume [Seven week and exercices](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md) - 22/05/2017.
+-  Resume [Seventh week and exercices](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md) - 22/05/2017.
     +  [MongoDB](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongodb)
         *  [Structure MongoDB](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#structure-mongodb)
-        *  [MongoDB CRUD Operations](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongodb-crud-operations-create-read-update-and-delete) (create, read, update, and delete)
+        *  [MongoDB CRUD Operations](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongodb-crud-operations-create-read-update-and-delete) (**c**reate, **r**ead, **u**pdate, and **d**elete)
         *  [MongoDB & Node](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#mongo--node)
         *  [Import data into the collection](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#import-data-into-the-collection)
         *  [Queries](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md#queries)
@@ -152,11 +152,17 @@ Online: https://marioterron.github.io/eat-out/#/
         *   [Robomongo](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#robomongo)
         *   [DevoTools](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#devtools)
         *   [Debug npm](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2025.05.md#debug-npm)
+-  Resume [Eighth week and starting the las project](https://github.com/tonimg/Course/blob/master/Backend/07%20Semana/Readme%2022.05.md) - 29/05/2017.
+    +  Start Mean Stack Project
+    +  MEAN (**M**ongo - **E**xpress - **A**ngularJs - **N**ode)
+    +  How put our project in production:
+        *  Heroku
+        *  .env file
+-  We started our personal project
 
 
 
 
 
 
-
-Copyright © 2017 Toni.
+Copyright © 2017 Toni. Thanks very much to [SkylabCoders Academy](http://www.skylabcoders.com/es/)

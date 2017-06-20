@@ -6,17 +6,17 @@ const TaskSchema = new Schema({
     type: String,
     required: true
   },
-  createdAd: {
+  createdAt: {
     type: Number,
     default: +new Date()
   },
-  modifiedAd: {
+  modifiedAt: {
     type: Number
   },
   modifiedAdDate: {
     type: Number
   },
-  completedAd: {
+  completedAt: {
     type: Boolean,
     default: false
   }

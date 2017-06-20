@@ -4,7 +4,7 @@ function getAll (req, res) {
   Task.find()
     .then(tasks => {
       // res.json(tasks)
-      res.render('list', { tasks })
+      res.render('list.pug', { tasks })
     })
 }
 

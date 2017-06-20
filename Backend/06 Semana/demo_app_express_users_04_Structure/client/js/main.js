@@ -15,6 +15,7 @@ $('.list-users .edit').on('click', function(e) {
   e.preventDefault();
   const $thisElement = $(this)
   $thisElement
+  console.log("$thisElement", $thisElement);
     .parents('.list-group-item')
       .find("form input")
         .removeClass("hidden")

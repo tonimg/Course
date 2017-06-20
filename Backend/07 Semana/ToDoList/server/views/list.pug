@@ -3,23 +3,25 @@ extends layout
 block content
   .container
     .row
-      .col-md-5.col-mdoffset-2
+      .col-md-8.col-md-offset-2
         h1 My ToDo List 📝
-        form(name='checkListForm' action ='/task', method='POST')
-          input.input-lg(type='text', name='name', placeholder='Add New task...', autofocus)
-          button#add.btn.btn-primary(type='button') Add new task
+        form(action ='/tasks',name='checkListForm', method='POST')
+          .input-group
+            input.input-lg(type='text', name='name', placeholder='Add New task...', autofocus)
+            //- span.input-group-btn
+            //- button#add.btn.btn-primary(type='button') Add new task
         hr
         br
-        ul.list.listgroup
+        if (tasks.length === 0)
+          p No there tasks for today 👌
+        else
+         ul.list.listgroup
           each task in tasks
-            li.list-group.item
-              p Name Task 👉 #{task.name}&nbsp;
+            li.list-group-item.task
+              p.name-task  - #{task.name}&nbsp;
               p Created at: #{moment(task.createdAt).format('YYYY/MM/DD HH:mm')}
-                form.edit-form(action=`/task/${task.id}`)
-                  input.input-lg.hidden(name='name', placeholder='Edit the name...', type='text', autofocus)
-                  button.btn.modify
-                    i.glyphicon.glyphicon-edit(type='button', href=`/task/${task.id}`) Edit Task
-                  button.btn.done
-                    i.glyphicon.glyphicon-ok(href=`/done/${task.id}`) Task Done
-                  button.btn.remove
-                    i.glyphicon.glyphicon-trash(href=`/done/${task.id}`) Task Remove
+              form.edit-form(action=`/task/${task.id}`, name='checkListForm', method='PUT')
+                input.input-lg.hidden(name='name', placeholder='Edit the name...',autofocus, value=task.name)
+                i.glyphicon.glyphicon-pencil.modify(href=`/tasks/${task.id}`) Edit
+                i.glyphicon.glyphicon-trash.remove(href=`/task/${task.id}`) Trash
+                i.glyphicon.glyphicon-ok.done(href=`/tasks/${task.id}`) Done

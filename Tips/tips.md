@@ -114,11 +114,10 @@ Para realizar un merge con la rama master, primero debemos de ir a la rama maste
 
 *Portable console emulator for Windows **[cmder](http://cmder.net/)***
 
-### 
 
 ### Terminal Cmder path default
 
-A neat way integrate [Cmder and Sublime](https://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly) text seamlessly.
+A new way integrate [Cmder and Sublime](https://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly) text seamlessly.
 
 Change directory by default ([here](https://www.youtube.com/watch?v=3bBSVXAdeXg)
 Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and we will create a **new** "Reg_Expand_SZ" (*valor cadena expandible*) with the name ``Autorun`` with the value ``CD/d C:\Users\username\your\path\route``
@@ -136,18 +135,33 @@ Open Regedit --> *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor* and w
 -   ``rm -rf`` delete folder and files
 -   ``mv 'filename1' 'C:\folder\filename2'`` move files or foldes
 
+## Open sublime into Cmder terminal
 
+Search the file *user-aliases.cmd* into you Cmder\config.
+Open this file with the Sublime, and in the last line, put this command.
 
-## Extras
+``subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*``
+
+Reboot the terminal and open. Just now you could call the Sublime with the alias **subl** form command line.
+
+### Extras
 
 - [Documentar código](https://jashkenas.github.io/docco/)
 - Parsear webs [here](https://github.com/tonimg/Course/blob/master/Backend/05%20Semana/parsing_web.js) 
 
 
-## Web Tools
+### Web Tools
 
 - https://mockaroo.com/
     + Useful for created items and generated a .json file.
 
 - http://www.jsoneditoronline.org/
     + Useful for check our .json file. 
+
+### Heroku
+
+Change the name project url
+
+``git remote rm heroku``
+
+``heroku git:remote -a newname``

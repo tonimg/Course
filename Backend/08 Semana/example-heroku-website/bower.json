@@ -1,0 +1,21 @@
+{
+  "name": "demo-heroku-website",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "JuanMa Garrido <JuanMa.Garrido@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SkylabCoders/demo-heroku-website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

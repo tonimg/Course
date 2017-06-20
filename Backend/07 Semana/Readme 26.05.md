@@ -39,6 +39,8 @@ When you create an app, a git remote (called heroku) is also created and associa
 For the look the logs our server this command
 ``heroku logs``
 
+With the command ``heroku info``, we can see info about our server 
+
 - Now we installing one module for the test
 
 ``npm install --save --save-exact cool-ascii-faces``
@@ -117,7 +119,7 @@ For do one test, try to insert this in commando line.
 
 ``curl -X POST --data "name=Test1" localhost:3000/cats``
 
-In our project we can put 
+In our project we must put 
 
 ``const dbUrl = 'mongodb://<dbuser>:<dbpassword>@ds131510.mlab.com:31510/test-skylab'``
 
@@ -132,9 +134,18 @@ for install the typical structure.
 
 Cuando estamos en desarrollo, cargamos nuestras variables de entorno desde un fichero .env que previamente debemos generar.
 
-Para cargar estas variables de entorno nos hace falta instalar ``npm install dotenv --save-dev``
+Could be so:
 
-Tenemos que poner este código justo antes de la conexion
+```
+DB_URL=mongodb://localhost:27017/test
+PORT=3000
+
+```
+
+Para cargar estas variables de entorno en nuestro proyecto nos hace falta instalar ``npm install dotenv --save-dev``
+
+Tenemos que poner este código justo antes de la conexion. Variables de entorno
+
 ```
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
@@ -173,8 +184,4 @@ app.listen(PORT)
 console.log(`Listening on PORT ${PORT}`)
 ```
 
-
-For put our project in production we mus set this command in our terminal 
-
-``heroku config:set NODE_ENV=production``
-
+---

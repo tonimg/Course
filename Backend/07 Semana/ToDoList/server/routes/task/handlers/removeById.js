@@ -4,8 +4,10 @@ function removeById (req, res) {
   const { id } = req.params
 
   Task.findByIdAndRemove(id)
-    .then(msg => {
+    .then(task => {
       res.json(msg)
+      // res.redirect('list', { tasks })
+      // res.render('list', { tasks })
     })
     .catch(err => {
       res.json(err)

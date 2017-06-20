@@ -1,7 +1,6 @@
 const Task = require('../../../models/Task')
 
 function updateById (req, res) {
-  console.log('req', req)
   const { id } = req.params
   const { name, completedAd, completedAdDate = +new Date(), modifiedAd = +new Date()} = req.body
 
@@ -14,6 +13,7 @@ function updateById (req, res) {
   Task.findByIdAndUpdate(id, updateData)
     .then(msg => {
       res.json(msg)
+      // res.redirect('/tasks/')
     })
     .catch(err => {
       res.json(err)
