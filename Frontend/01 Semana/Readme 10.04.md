@@ -144,8 +144,40 @@ to read about a specific subcommand or concept.
 
 ### Repositorio remoto, GitHub (en la nube)
 
-Para sincronizar con el local GitHub
+Para sincronizar tu repo remoto con el local:
 
-Usaremos el comando ``git remote add``
+- Usaremos el comando ``git remote add``
 
-``git push origin master`` para poner todos los cambios en el repositorio remoto``
+- ``git push origin master`` para poner todos los cambios en el repositorio remoto``
+
+
+`git add --all`
+
+`git commit -m "file name change"`
+
+### Para subirlo online:
+
+1. Creamos el repositorio en github.com
+2. Después en linea de comandos:
+  - `git remote add origin https://github.com/username/nameremotefolde.git`
+
+3. revisar estado:
+  - `git remote -v`
+
+4. Subirlo:
+- `git push -u origin master`
+
+
+***Notes***:
+
+Si no introduces ningún comentario cuando haces commit (gi commit -m "mensaje")
+Hay que hacer esto: (ya que estamos en un editor que se maneja con linea de comandos.)
+`Esc + :
+q!`
+
+Para poder volver a un estado anterior, se usa el comando ``git checkout`` + el **hash** que nos devuelve el comando ``git log``
+
+Para volver al archivo inicial o rama master es `git checkout master`
+Para renombrar ficheros usamos el comando `mv` de la siguiente manera:
+
+- `mv gitbasics.md git_basics_command.md`
