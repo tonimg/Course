@@ -68,13 +68,14 @@ function sum(a,b){
 
 Hay tres estados.
 
-*	Working Copy (directorio de trabajo)
-*	Stage area (direcctorio previo commint)
+*	Working directory (directorio de trabajo)
+*	Stage area (previous directory, before to do commit)
 *	Repo "*git commit -m "mensaje descriptivo*" (Para añadir al repositorio)
 
 ![imagen](https://d3dr1ze7164817.cloudfront.net/items/1v3R441S3n2N2C351K2V/Image%202017-04-10%20at%204.25.33%20PM.png)
 
-Crear cuenta para git.
+Create Git account.
+
 ```
 $ git config --global user.name "John Doe"
 $ git config --global user.email "john@doe.org"
@@ -82,13 +83,13 @@ $ git config --global user.email "john@doe.org"
 
 Después de generar el directorio y archivo a trabajar:
 
-1. 	*git init* (inicializamos proyecto git).
-2. 	*git add* (añadimos archivos).
-3. 	*git commit -m "y comentario descriptivo"*
-4. 	*git status* (saber el estado en el cual esta o estan los archivos).
-5. 	*git --all* para añadir y commitear todo.
-6. 	*git diff* te indica los cambios realizados.
-7. 	*git log* para historial de los commits del repositorio.
+1. 	*``git init``* (inicializamos proyecto git).
+2. 	*``git add``* (añadimos archivos).
+3. 	*``git commit -m "your comment here"``*
+4. 	*``git status``* (saber el estado en el cual esta o estan los archivos).
+5. 	*``git --all``* para añadir y commitear todo.
+6. 	*``git diff``* te indica los cambios realizados.
+7. 	*``git log``* para historial de los commits del repositorio.
 8. 	Si tienes algún error al generar el git init (ejemplo, te equivocastes de directorio, usa este comando en el directorio erroneo ```rm -rf .git```)
 
 Al inicializar repositorio con el comando  ```git init``` este genera una carpeta git oculta. Nunca borrarla!.
@@ -147,8 +148,4 @@ Para sincronizar con el local GitHub
 
 Usaremos el comando ``git remote add``
 
-``git push origin master``` para poner todos los cambios en el repositorio remoto``
-
-Usaremos el comando ```git remote add```
-
-Para poner todos los cambios en el repositorio remoto ```git push origin master```
+``git push origin master`` para poner todos los cambios en el repositorio remoto``
