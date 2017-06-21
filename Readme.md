@@ -17,7 +17,7 @@ Summary progression:
 <img src="img/timeline.png" width= "500px">
 
 -   [Tips](https://github.com/tonimg/Course/blob/master/Tips/tips.md#tips) summary folder.
--   Summary [first week and exercises](https://github.com/tonimg/Course/blob/master/Frontend/Frontend/01%20Semana/Readme%2010.04.md) - 10/04/2017.
+-   Summary [first week and exercises](https://github.com/tonimg/Course/tree/master/Frontend/01%20Semana) - 10/04/2017.
     +   [Basics Commands cmder](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#basics-commands-cmdercommands-httpblikergithubiocmder)
     +   [Basics Commands Markdown](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#bacis-commands-markdown)
     +   [Repositorios y trabajar con GIT local](https://github.com/tonimg/Course/blob/master/Frontend/01%20Semana/Readme%2010.04.md#repositorios-y-trabajar-con-git-local)
