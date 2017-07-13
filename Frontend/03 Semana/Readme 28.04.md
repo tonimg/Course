@@ -16,13 +16,13 @@ ejemplo. $http.get(url)
 
 Ejemplos:
 
-[Angular Demo Api Spotify](Angular Demo Api Spotify/index.html)
-[Angular Demo Api GitHub_Estructura](Angular Demo Api GitHub_Estructura/index.html)
-[Angular ToDo-List App](Angular ToDo-List App/index.html)
+- [Angular Demo Api Spotify](Angular-Demo-Api-Spotify/index.html)
+- [Angular Demo Api GitHub_Estructura](Angular-Demo-Api-GitHub_Estructura/index.html)
+- [Angular ToDo-List App](Angular-ToDo-List-App/index.html)
 
 Distintos ejemplos / fases realizadas por Juanma:
 
-[Ejemplos Juanma](Angular Demo Api Spotify/Juanma)
+- [Ejemplos Juanma](Angular-Demo-Api-Spotify/Juanma)
 
 
 ## SPA 
@@ -42,11 +42,4 @@ PAra esto en el HTML, debemos de habilitar una zona para que sea dinamica y la s
 
 Ejemplo de lo que es un SPA utilizando el $route
 
-[Angular Bootstrap Routing](Angular Bootstrap Routing/index.html)
-
-
-
-
-
-Ejemplo projectos:
-iggy code in Git Hub book sotre
+[Angular Bootstrap Routing](Angular-Bootstrap-Routing/index.html)
