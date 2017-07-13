@@ -1,7 +1,7 @@
 ## Today 27.04 
 
 
-![Angular](img/angular.png)
+[![Angular](img/angular.png)](https://skylabcoders.github.io/bootcamp-abril2017/?full#angular)
 
 ## [Angular definition](https://skylabcoders.github.io/bootcamp-abril2017/?full#angular)
 
@@ -65,13 +65,7 @@ angular.module('myControllersContainer',[])
 - ng-show
 - ng-hide
 
-
-Ejemplos ejercicios Angular:
-
--  [Beatles.html](angular-demo-app/beatles.html)
--  [Beatles Angular Pro](angular-demo-app/beatles_angular_pro.html)
--  [Demo](angular-demo-app/index.html)
-  
+ 
 
 
 
