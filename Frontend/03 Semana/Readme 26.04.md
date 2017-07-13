@@ -74,6 +74,8 @@ This test is in the foloww path [Demo Ajax Jquery Json](Demo Ajax Jquery Json/in
 (**A**plication **P**rograming **I**nterface)
 
 Exercises:
-[Demo Api GitHub Plus](Demo API GitHub/index.html)
-[Demo Api GitHub Plus](Demo-api-github-plus/index.html)
-[Demo Api Spotify](Demo-api-Spotify/index.html)
+
+- [Demo Api GitHub Plus](Demo-API-GitHub/index.html)
+- [Demo Api GitHub Plus](Demo-api-github-plus/index.html)
+- [Demo Api Spotify](Demo-api-Spotify/index.html)
+- [Demo Beers App](Demo-Beers-App/index.html)

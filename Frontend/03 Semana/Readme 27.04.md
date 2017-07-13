@@ -1,13 +1,6 @@
 ## Today 27.04 
 
 
-Review of exercices of yestarday and today one more.
-
-Beers App :)
-
-[Demo Beers App](Demo Beers App/index.html)
-
-
 ![Angular](img/angular.png)
 
 ## [Angular definition](https://skylabcoders.github.io/bootcamp-abril2017/?full#angular)
