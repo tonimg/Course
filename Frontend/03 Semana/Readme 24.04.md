@@ -45,7 +45,7 @@ Document Objet Model, metodos y propiedades que podemos interactuar con el HTML.
 Para interactuar con el **DOM** usamos **JQuery**.
 The first all put the [JQuery](https://jquery.com/) in our web page or download or CDN. Better 2 up version.
 
-Para escribir en JQuery, va delante de un selector. el simbolo dolar ``$`` es un alias de JQuery, por lo tanto podremos llamarlo de las dos maneras, solo ue para escribir menos usamos el simbolo dolar ``$``.
+Para escribir en JQuery, siempre va delante de un selector el simbolo del dolar ``$`` que es un "alias" de JQuery, por lo tanto podremos llamarlo de las dos maneras, con el uso del "alias" y sin el. Solo que para escribir menos usamos el simbolo del dolar ``$``.
 
 Para acceder al selector podemos hacerlo de diferentes maneras:
 
@@ -179,29 +179,40 @@ Output: [List elements several ways](examples/list_elems_several_ways.html)
 
 Para acceder al padre de un elemento.
 
--   ``.parent()``
--   ``.parents()``
--   ``.parentsUntil()``
--   [``.closest()``](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest): returns the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter.
+-   [``.parent()``](http://api.jquery.com/parent/): Get the parent of each element in the current set of matched elements, optionally filtered by a selector.
+
+-   [``.parents()``](http://api.jquery.com/parents/): Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector.
+
+-   [``.parentsUntil()``](http://api.jquery.com/parentsUntil/): Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector, DOM node, or jQuery object.
+
+-   [``.closest()``](http://api.jquery.com/closest/): returns the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter.
 
 ### [Children](http://learn.jquery.com/using-jquery-core/traversing/#children)
 
 Para acceder al hijo de un elemento.
 
-- .``children()``
-- ``.find()``
+- [.``children()``](http://api.jquery.com/children/): Get the children of each element in the set of matched elements, optionally filtered by a selector.
+- [``.find()``](http://api.jquery.com/find/): Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
 
 ### [Siblings](http://learn.jquery.com/using-jquery-core/traversing/#siblings)
 
 Para acceder al hermano de un elemento.
 
-- ``.prev()``
-- ``.next()``
-- ``.siblings()``
-- ``.nextAll()``
-- ``.nextUntil()``
-- ``.prevAll()``
-- ``.prevUntil()``
+- [``.siblings()``](http://api.jquery.com/siblings/): Get the siblings of each element in the set of matched elements, optionally filtered by a selector.
+
+- [``.prev()``](http://api.jquery.com/prev/): Get the immediately preceding sibling of each element in the set of matched elements. If a selector is provided, it retrieves the previous sibling only if it matches that selector.
+
+- [``.prevAll()``](http://api.jquery.com/prevAll/): Get the immediately preceding sibling of each element in the set of matched elements. If a selector is provided, it retrieves the previous sibling only if it matches that selector.
+
+- [``.prevUntil()``](http://api.jquery.com/prevUntil/): Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector.
+
+
+- [``.next()``](http://api.jquery.com/next/): Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector.
+
+- [``.nextAll()``](http://api.jquery.com/nextAll/): Get all following siblings of each element in the set of matched elements, optionally filtered by a selector.
+
+- [``.nextUntil()``](http://api.jquery.com/nextUntil/): Get all following siblings of each element up to but not including the element matched by the selector, DOM node, or jQuery object passed.
+
 
 
 ### [Utility Methods](http://learn.jquery.com/using-jquery-core/utility-methods/)
