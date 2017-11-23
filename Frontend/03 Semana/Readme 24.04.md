@@ -194,7 +194,7 @@ Para acceder al hijo de un elemento.
 - [.``children()``](http://api.jquery.com/children/): Get the children of each element in the set of matched elements, optionally filtered by a selector.
 - [``.find()``](http://api.jquery.com/find/): Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
 
-### [Siblings](http://learn.jquery.com/using-jquery-core/traversing/#siblings)
+### [Siblings](http://api.jquery.com/category/traversing/)
 
 Para acceder al hermano de un elemento.
 
@@ -215,15 +215,19 @@ Para acceder al hermano de un elemento.
 
 
 
-### [Utility Methods](http://learn.jquery.com/using-jquery-core/utility-methods/)
+### [Utility Methods](http://api.jquery.com/category/utilities/)
 
-- [$.trim()](http://learn.jquery.com/using-jquery-core/utility-methods/#trim-)
-- [$.each()](http://learn.jquery.com/using-jquery-core/utility-methods/#each-)
-- [$.inArray()](http://learn.jquery.com/using-jquery-core/utility-methods/#inarray-)
-- [$.extend()](http://learn.jquery.com/using-jquery-core/utility-methods/#extend-)
-- [$.proxy()](http://learn.jquery.com/using-jquery-core/utility-methods/#proxy-)
-- [$.type()](http://learn.jquery.com/using-jquery-core/utility-methods/#testing-type)
+- [``$.trim()``](http://api.jquery.com/jQuery.trim/): Remove the whitespace from the beginning and end of a string.
 
+- [``$.each()``](http://api.jquery.com/jQuery.each/): A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function’s arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties.
+
+- [``$.inArray()``](http://api.jquery.com/jQuery.inArray/): Search for a specified value within an array and return its index (or -1 if not found).
+
+- [``$.extend()``](http://api.jquery.com/jQuery.extend/): Merge the contents of two or more objects together into the first object.
+
+- [``$.proxy()``](http://api.jquery.com/jQuery.proxy/): Takes a function and returns a new one that will always have a particular context.
+
+- [``$.type()``](http://api.jquery.com/jQuery.type/): Determine the internal JavaScript [[Class]] of an object.
 
 [Exercices](https://skylabcoders.github.io/bootcamp-abril2017/?full#117) and [next slide](https://skylabcoders.github.io/bootcamp-abril2017/?full#118).
 
